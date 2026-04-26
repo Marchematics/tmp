@@ -1,0 +1,12 @@
+# Exclude bulk outputs from GitHub Linguist language detection so the repo
+# is identified as Python rather than CSV/JSON.
+outputs/**            linguist-vendored
+outputs/**            linguist-generated
+outputs/**.csv        linguist-detectable=false
+outputs/**.json       linguist-detectable=false
+outputs/**.jsonl      linguist-detectable=false
+outputs/**.pdf        linguist-detectable=false
+outputs/**.png        linguist-detectable=false
+
+# Mark generated docs / notebooks as documentation
+*.ipynb               linguist-documentation
