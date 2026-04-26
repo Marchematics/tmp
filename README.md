@@ -1,105 +1,172 @@
+<div align="center">
+
 # OVD Hallucination FDR
 
-Anonymous code release accompanying the NeurIPS 2026 submission
-*Post-hoc Family-Level FDR Control for Open-Vocabulary Object Detection
-via Self-Normalized Conformal Betting e-Values*.
+**Post-hoc family-level FDR control for open-vocabulary object detection**
+*via self-normalized conformal betting e-values and dependence-robust e-BH*
 
-The method is a post-hoc reliability wrapper for frozen open-vocabulary
-detectors. It controls per-family false discovery rate for category-name
-or fixed-template prompts whose absence labels are auditable. The core
-ingredients are self-normalized conformal betting e-values (finite-sample
-valid under null-score exchangeability) and within-family e-BH (FDR
-control under arbitrary within-family dependence).
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-purple.svg)](#)
+
+</div>
+
+---
+
+## TL;DR
+
+Open-vocabulary detectors return high-confidence boxes for categories
+that are not present (in our COCO absent-query pilot, the top-decile
+detections are 100% hallucinations). This repository implements a
+**post-hoc reliability wrapper** that controls the per-family false
+discovery rate at a user-chosen level α on a frozen detector, for
+category-name or fixed-template prompts whose absence labels are
+auditable. The method is finite-sample valid, distribution-free,
+and tolerates arbitrary within-family dependence (NMS, shared
+proposals).
+
+A reviewer can reproduce every number in the paper from the bundled
+pre-computed outputs (≈1.6 GB) **without re-running any detector**.
+
+---
+
+## Key results (α = 0.10)
+
+| Configuration | Per-family FDP | Pooled FDP | Recall | Pooled precision |
+|---------------|---------------:|-----------:|-------:|-----------------:|
+| COCO/GDino (full)            | **0.78%** | 6.44% | 16.4% | **93.6%** (vs 72.9% for p-BH) |
+| COCO/GDino + adaptive floor  | 0.65%     | 4.0%  | 18.7% | 96.0% |
+| COCO/GDino + cluster e-BH    | —         | 4.1%  | **32.1%** (1.71×) | — |
+| COCO/RegionCLIP + cluster    | —         | —     | **21.6%** (5.8×)  | — |
+
+A non-vacuous Bernstein pooled-FDP certificate (ε = 0.074) holds on
+the K ≤ 5 stratum (57% of families).
+
+---
+
+## Quick start
+
+```bash
+git clone <repo-url> ovd_fdr && cd ovd_fdr
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# Reproduce the α = 0.10 row of Table 1 in <2 seconds
+OVD_PROJECT_ROOT=$PWD python scripts/demo_minimal.py
+```
+
+Expected output:
+
+```
+metric             demo (seed 0)    paper (20-seed mean)
+-------------    ---------------  ----------------------
+rejections                  133                   134.0
+pooled FDP                3.01%                   3.96%
+recall                   18.04%                  18.71%
+
+Demo OK
+```
+
+---
 
 ## Repository layout
 
 ```
-config.yaml                     dataset roots & detector model ids
-src/ovd_hallucination_fdr/      core library (e-values, detectors,
-                                annotations, matching, paths, ...)
-scripts/                        65 experiment / aggregation / plot scripts
-outputs/                        pre-computed CSVs reproducing every
-                                table in the paper, plus 1 demo seed
-paper/                          submission tex + compiled pdf
-requirements.txt / pyproject.toml
-LICENSE                         MIT
+.
+├── config.yaml                     # dataset roots & detector model ids
+├── src/ovd_hallucination_fdr/      # core library
+│   ├── evalues.py                  # self-normalized betting e-values + e-BH
+│   ├── detectors.py                # GDino / OWL-ViT / YOLO-World wrappers
+│   ├── annotations.py              # GT loaders for COCO/VOC/LVIS/OI
+│   ├── matching.py                 # IoU greedy matching, family construction
+│   ├── analysis.py                 # FDP / recall / pooled-precision metrics
+│   ├── paths.py                    # config-driven path resolution
+│   └── io.py
+├── scripts/                        # 65 experiment / aggregation / plot scripts
+├── outputs/                        # pre-computed CSVs + intermediate artefacts
+├── requirements.txt / pyproject.toml
+└── LICENSE                         # MIT
 ```
 
-## 1. Setup
+---
+
+## Reproducing the paper
+
+All numbers in the main text + appendix are sourced from
+`outputs/paper_ground_truth_table_2026-04-14.csv` (1142 rows, 18 cols).
+
+| Paper artefact | Script | Required inputs (all bundled) |
+|---|---|---|
+| Main result (Table 1) | `scripts/run_formal_betting_pipeline.py` | `outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv` |
+| Baselines (Table 2) | `scripts/run_adaptive_fdr_baselines.py`, `scripts/run_topk_ihw_baselines.py`, `scripts/run_crc_all_configs.py` | candidate tables for all 6 configs |
+| Score floor (Table 3) | `scripts/adaptive_score_floor.py` | 20-seed formal-pipeline outputs |
+| Cluster e-BH (Table 4) | `scripts/build_object_vs_candidate_table.py` | NMS-aware run outputs |
+| K-stratified bound | `scripts/build_k_stratified_table.py` | 20-seed e-value runs |
+| Conditional validity | `scripts/build_conditional_validity_tables.py` | 20-seed e-value runs |
+| Estimator ablation | `scripts/estimator_ablation_aggregate.py` | bundled estimator runs |
+| Cal-pool sweep | `scripts/cal_size_sweep.py` | bundled sweep outputs |
+| Shift stress | `scripts/exchangeability_shift.py` | candidate tables |
+| Latency benchmark | `scripts/benchmark_runtime.py` | candidate tables |
+
+Each script reads from `outputs/` (set via `OVD_OUTPUTS_DIR` or
+`config.yaml`) and writes a result CSV back into `outputs/`.
+
+### End-to-end detector inference (optional)
+
+To regenerate candidate tables from raw images:
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt          # core
-pip install -e ".[detectors]"            # optional: torch / transformers / ultralytics
-```
-
-`src/ovd_hallucination_fdr/paths.py` reads `config.yaml`; either edit
-the yaml in place or override at runtime via environment variables:
-
-```bash
-export OVD_PROJECT_ROOT="$PWD"
 export COCO_ROOT=/path/to/coco2017
 export VOC_ROOT=/path/to/voc2012
 export LVIS_ROOT=/path/to/lvis
+
+python scripts/run_groundingdino_pilot.py --dataset coco --n-images 1000
+python scripts/run_owlvit_pilot.py        --dataset coco --n-images 1000
+python scripts/run_yoloworld_pilot.py     --dataset coco --n-images 1000
 ```
 
-## 2. Quick demo (no data download required)
+Datasets are not redistributed; download them from the official sources
+(COCO 2017, Pascal VOC 2012, LVIS v1, Open Images v7).
 
-```bash
-python scripts/demo_minimal.py
+---
+
+## Three deployment modes
+
+| Mode | Guarantee | Cost |
+|------|-----------|------|
+| **A** | Per-family FDR ≤ α (Theorem 1) | None — finite-sample, exact |
+| **B** | Mode A + LOO-mean pooled-FDP monitoring | Compute LOO mean per release |
+| **C** | Mode A + Bernstein-certified pooled-FDP bound on K ≤ 5 (Cor. 4) | Stratified concentration audit |
+
+---
+
+## Configuration
+
+Edit `config.yaml` directly, or set environment variables at runtime
+(env vars take precedence):
+
+```yaml
+project_root: ${OVD_PROJECT_ROOT:-./}
+outputs_dir:  ${OVD_OUTPUTS_DIR:-./outputs}
+datasets:
+  coco_root:        ${COCO_ROOT:-./data/coco2017}
+  voc_root:         ${VOC_ROOT:-./data/voc2012}
+  lvis_root:        ${LVIS_ROOT:-./data/lvis}
+  objects365_root:  ${OBJECTS365_ROOT:-./data/objects365}
+  open_images_root: ${OPEN_IMAGES_ROOT:-./data/open_images_v7}
+detector_models:
+  groundingdino: IDEA-Research/grounding-dino-tiny
+  owlvit:        google/owlv2-base-patch16-ensemble
+  yoloworld:     yolov8x-worldv2
 ```
 
-This runs within-family e-BH on the bundled single-seed COCO/GroundingDINO
-candidate table at α = 0.10 and prints the resulting (rejections, pooled
-FDP, recall) alongside the published 20-seed mean. Expected output is OK
-within seed variance.
+---
 
-## 3. Reproducing the paper tables
+## Citation
 
-All numbers in the main text and appendix are stored in
-`outputs/paper_ground_truth_table_2026-04-14.csv` (1142 rows, 18 columns).
-The aggregator scripts are pure functions of the bundled CSVs:
+Anonymous submission to NeurIPS 2026. Citation block will be added
+after the review period.
 
-| Paper artefact | Script |
-|----------------|--------|
-| Table 1 (full-COCO/GDino) main result | `scripts/run_formal_betting_pipeline.py` |
-| Table 2 (baseline comparison) | `scripts/run_adaptive_fdr_baselines.py`, `scripts/run_topk_ihw_baselines.py`, `scripts/run_crc_all_configs.py` |
-| Table 3 (score floor) | `scripts/adaptive_score_floor.py` |
-| Table 4 (cluster vs candidate) | `scripts/build_object_vs_candidate_table.py` |
-| App. K-stratified | `scripts/build_k_stratified_table.py` |
-| App. Conditional validity | `scripts/build_conditional_validity_tables.py` |
-| App. Estimator ablation | `scripts/estimator_ablation_aggregate.py` |
-| App. Cal-pool sweep | `scripts/cal_size_sweep.py` |
-| App. Shift stress | `scripts/exchangeability_shift.py` |
-| App. Latency | `scripts/benchmark_runtime.py` |
+## License
 
-The 6 (dataset × detector) configurations are bundled as
-`outputs/<config>/candidate_table.csv`. The full 20-seed e-value
-artefacts (≈ 1.3 GB) are NOT bundled; only seed 0 of COCO/GDino is
-included for the quick demo. To regenerate the full 20-seed evidence,
-run:
-
-```bash
-python scripts/run_formal_betting_pipeline.py \
-    --candidates outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv \
-    --out outputs/coco_gdino_1000_20seed_formal_hist \
-    --n-seeds 20
-```
-
-Detector inference scripts (`run_groundingdino_pilot.py`,
-`run_birdet_baseline.py`, `run_regionclip_baseline.py`) require the raw
-datasets to be downloaded and the corresponding `*_ROOT` env var to be
-set.
-
-## 4. Three-mode deployment
-
-The wrapper supports three deployment modes:
-
-* **Mode A** — per-family FDR only (default; finite-sample, dependence-robust).
-* **Mode B** — Mode A plus LOO-mean empirical pooled-FDP monitoring.
-* **Mode C** — Mode A plus a Bernstein-certified pooled-FDP upper bound on
-  the K ≤ 5 stratum (`scripts/compute_empirical_bernstein_bound.py`).
-
-## 5. License
-
-MIT. See `LICENSE`.
+MIT — see [`LICENSE`](LICENSE).
