@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "outputs/coco_groundingdino_mix_25.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 50,
+  "num_candidates": 686,
+  "num_absent_candidates": 130,
+  "num_true_positive_candidates": 94,
+  "num_null_candidates": 592,
+  "top10pct_fdp": 0.2898550724637681,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 419,
+    "num_test_candidates": 267,
+    "num_cal_null_scores": 365,
+    "cal_null_score_threshold_min": 0.050013117492198944,
+    "cal_null_score_threshold_max": 0.5103765726089478,
+    "test_null_evalue_mean": 1.350875104179069,
+    "e_bh_num_families": 21,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

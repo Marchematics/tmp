@@ -1,0 +1,171 @@
+{
+  "description": "Per-template density-ratio fitting mitigation for free-form power collapse",
+  "strategies": {
+    "global": "Global density-ratio model + global calibration pool (baseline)",
+    "pertemplate_phi_local_Cm": "Per-template density-ratio model + per-template calibration pool",
+    "pertemplate_phi_global_Cm": "Per-template density-ratio model + global calibration pool"
+  },
+  "results_mean": [
+    {
+      "strategy": "global",
+      "alpha": 0.05,
+      "rejections": 0.0,
+      "fdp": 0.0,
+      "recall": 0.0,
+      "max_evalue": 14.441610448014098
+    },
+    {
+      "strategy": "global",
+      "alpha": 0.1,
+      "rejections": 3.2,
+      "fdp": 0.41,
+      "recall": 0.0011079145629506993,
+      "max_evalue": 14.441610448014098
+    },
+    {
+      "strategy": "global",
+      "alpha": 0.15,
+      "rejections": 35.5,
+      "fdp": 0.24798571473264067,
+      "recall": 0.015759812192456223,
+      "max_evalue": 14.441610448014098
+    },
+    {
+      "strategy": "global",
+      "alpha": 0.2,
+      "rejections": 38.8,
+      "fdp": 0.24707772441787065,
+      "recall": 0.017156537470551618,
+      "max_evalue": 14.441610448014098
+    },
+    {
+      "strategy": "pertemplate_phi_global_Cm",
+      "alpha": 0.05,
+      "rejections": 49.95,
+      "fdp": 0.010628296330179702,
+      "recall": 0.029209737675558994,
+      "max_evalue": 129.09766055037792
+    },
+    {
+      "strategy": "pertemplate_phi_global_Cm",
+      "alpha": 0.1,
+      "rejections": 83.65,
+      "fdp": 0.04160193198752736,
+      "recall": 0.04743561467356354,
+      "max_evalue": 129.09766055037792
+    },
+    {
+      "strategy": "pertemplate_phi_global_Cm",
+      "alpha": 0.15,
+      "rejections": 107.2,
+      "fdp": 0.10479743367081888,
+      "recall": 0.056692316855997585,
+      "max_evalue": 129.09766055037792
+    },
+    {
+      "strategy": "pertemplate_phi_global_Cm",
+      "alpha": 0.2,
+      "rejections": 118.8,
+      "fdp": 0.10496541507976839,
+      "recall": 0.06278332591157285,
+      "max_evalue": 129.09766055037792
+    },
+    {
+      "strategy": "pertemplate_phi_local_Cm",
+      "alpha": 0.05,
+      "rejections": 47.75,
+      "fdp": 0.013003425893959336,
+      "recall": 0.027810874322566535,
+      "max_evalue": 117.8840956957285
+    },
+    {
+      "strategy": "pertemplate_phi_local_Cm",
+      "alpha": 0.1,
+      "rejections": 81.9,
+      "fdp": 0.03762705301016487,
+      "recall": 0.046646084811164897,
+      "max_evalue": 117.8840956957285
+    },
+    {
+      "strategy": "pertemplate_phi_local_Cm",
+      "alpha": 0.15,
+      "rejections": 101.25,
+      "fdp": 0.060435204019811506,
+      "recall": 0.05622811330894473,
+      "max_evalue": 117.8840956957285
+    },
+    {
+      "strategy": "pertemplate_phi_local_Cm",
+      "alpha": 0.2,
+      "rejections": 118.5,
+      "fdp": 0.10517872630123817,
+      "recall": 0.0626758094548333,
+      "max_evalue": 117.8840956957285
+    }
+  ],
+  "phi_max_diagnostic": [
+    {
+      "template": "a visible {cat} in the scene",
+      "own_model_pct": 1.0,
+      "phi_max_pertemplate": 119.29578076308303,
+      "phi_max_global": 14.465869657861465,
+      "phi_max_ratio": 8.21558893002541,
+      "cal_C_m_local": 1030.2064995079668,
+      "cal_m_local": 1080.9
+    },
+    {
+      "template": "the {cat}",
+      "own_model_pct": 1.0,
+      "phi_max_pertemplate": 94.97283957817277,
+      "phi_max_global": 14.465869657861465,
+      "phi_max_ratio": 6.581731065596847,
+      "cal_C_m_local": 1127.9691506629883,
+      "cal_m_local": 1118.3
+    },
+    {
+      "template": "a {cat} object",
+      "own_model_pct": 1.0,
+      "phi_max_pertemplate": 77.03402511806507,
+      "phi_max_global": 14.465869657861465,
+      "phi_max_ratio": 5.3168669654503375,
+      "cal_C_m_local": 1984.8203950534812,
+      "cal_m_local": 2015.5
+    },
+    {
+      "template": "a photo of a {cat}",
+      "own_model_pct": 1.0,
+      "phi_max_pertemplate": 18.862634426296033,
+      "phi_max_global": 14.465869657861465,
+      "phi_max_ratio": 1.305823459553825,
+      "cal_C_m_local": 1694.1239036625752,
+      "cal_m_local": 1678.4
+    },
+    {
+      "template": "a small {cat} near the center",
+      "own_model_pct": 0.0,
+      "phi_max_pertemplate": 14.465869657861465,
+      "phi_max_global": 14.465869657861465,
+      "phi_max_ratio": 1.0,
+      "cal_C_m_local": 9416.238308153797,
+      "cal_m_local": 10671.55
+    },
+    {
+      "template": "a {cat} in the scene",
+      "own_model_pct": 0.0,
+      "phi_max_pertemplate": 14.465869657861465,
+      "phi_max_global": 14.465869657861465,
+      "phi_max_ratio": 1.0,
+      "cal_C_m_local": 8351.746823629572,
+      "cal_m_local": 9127.6
+    },
+    {
+      "template": "other",
+      "own_model_pct": 0.0,
+      "phi_max_pertemplate": 14.465869657861465,
+      "phi_max_global": 14.465869657861465,
+      "phi_max_ratio": 1.0,
+      "cal_C_m_local": 8303.262421516996,
+      "cal_m_local": 6063.55
+    }
+  ]
+}

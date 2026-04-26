@@ -1,0 +1,30 @@
+loaded 30792 candidates from outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv
+  seed 0: 4 α rows, α=0.10 → sa_recall_obj=0.3967, base_recall_obj=0.3388
+  seed 1: 4 α rows, α=0.10 → sa_recall_obj=0.4401, base_recall_obj=0.3900
+  seed 2: 4 α rows, α=0.10 → sa_recall_obj=0.3798, base_recall_obj=0.3056
+  seed 3: 4 α rows, α=0.10 → sa_recall_obj=0.4757, base_recall_obj=0.4175
+  seed 4: 4 α rows, α=0.10 → sa_recall_obj=0.3563, base_recall_obj=0.3263
+  seed 5: 4 α rows, α=0.10 → sa_recall_obj=0.4317, base_recall_obj=0.3607
+  seed 6: 4 α rows, α=0.10 → sa_recall_obj=0.5214, base_recall_obj=0.4572
+  seed 7: 4 α rows, α=0.10 → sa_recall_obj=0.4006, base_recall_obj=0.3585
+  seed 8: 4 α rows, α=0.10 → sa_recall_obj=0.3442, base_recall_obj=0.3144
+  seed 9: 4 α rows, α=0.10 → sa_recall_obj=0.3453, base_recall_obj=0.2901
+  seed 10: 4 α rows, α=0.10 → sa_recall_obj=0.4136, base_recall_obj=0.3569
+  seed 11: 4 α rows, α=0.10 → sa_recall_obj=0.3903, base_recall_obj=0.3362
+  seed 12: 4 α rows, α=0.10 → sa_recall_obj=0.3325, base_recall_obj=0.2784
+  seed 13: 4 α rows, α=0.10 → sa_recall_obj=0.3537, base_recall_obj=0.3344
+  seed 14: 4 α rows, α=0.10 → sa_recall_obj=0.3563, base_recall_obj=0.3103
+  seed 15: 4 α rows, α=0.10 → sa_recall_obj=0.3412, base_recall_obj=0.2908
+  seed 16: 4 α rows, α=0.10 → sa_recall_obj=0.3808, base_recall_obj=0.3342
+  seed 17: 4 α rows, α=0.10 → sa_recall_obj=0.4047, base_recall_obj=0.3612
+  seed 18: 4 α rows, α=0.10 → sa_recall_obj=0.3444, base_recall_obj=0.2850
+  seed 19: 4 α rows, α=0.10 → sa_recall_obj=0.4251, base_recall_obj=0.3735
+written: outputs/coco_gdino_nmsaware_calibrated_20seed_iou030/summary.csv
+written: outputs/coco_gdino_nmsaware_calibrated_20seed_iou030/aggregate.csv
+
+=== aggregate ===
+ alpha  n_seeds  sa_fdp_pooled_mean  base_fdp_pooled_mean  sa_family_fdp_mean  base_family_fdp_mean  sa_rej_mean  base_rej_mean  sa_recall_object_mean  base_recall_object_mean  recall_ratio_sa_over_base_object
+  0.05       20              0.0273                0.0274              0.0045                0.0042       119.95         104.00                 0.3284                   0.2724                            1.2055
+  0.10       20              0.0309                0.0396              0.0060                0.0065       143.75         134.00                 0.3917                   0.3410                            1.1487
+  0.15       20              0.0472                0.0507              0.0088                0.0095       164.90         152.45                 0.4401                   0.3796                            1.1592
+  0.20       20              0.0671                0.0598              0.0130                0.0125       183.70         166.85                 0.4795                   0.4074                            1.1772

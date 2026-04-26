@@ -1,0 +1,2 @@
+alpha,n_seeds,compression_ratio_mean,mean_cluster_size_mean,max_cluster_size_max,nms_fdp_pooled_mean,nms_fdp_pooled_std,nms_family_fdp_mean,nms_rej_mean,nms_recall_cluster_mean,nms_recall_members_mean,base_fdp_pooled_mean,base_family_fdp_mean,base_rej_mean,base_recall_mean,rej_ratio_nms_over_base,recall_ratio_nms_members_over_base
+0.1,20,0.46250305349989135,2.167761256119442,137,0.034021284981039845,0.01827753868822406,0.005885249139439083,123.75,0.1736462058827958,0.23497834199631096,0.039629685549485434,0.0064841763864110225,134.0,0.1870700239336989,0.9235,1.2561

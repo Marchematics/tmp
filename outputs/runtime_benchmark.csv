@@ -1,0 +1,7 @@
+dataset,detector,phi_fit_ms,calibration_aggregate_ms,evalue_total_ms,evalue_per_family_us,ebh_total_ms,ebh_per_family_us,total_wrapper_ms,n_test_families,n_test_candidates,n_cal_null
+COCO val,GDino,1.887,0.721,0.221,0.411,10.247,19.083,13.076,537.0,5957.8,5324.0
+COCO val,OWL-ViT,1.09,0.435,0.144,0.577,4.338,17.422,6.007,249.0,2724.6,1799.6
+COCO val,YOLO-World,0.738,0.323,0.098,0.466,3.133,14.921,4.293,210.0,877.8,439.8
+VOC 2012,GDino,1.693,0.713,0.22,0.394,10.208,18.262,12.835,559.0,5919.6,5333.8
+VOC 2012,OWL-ViT,0.853,0.344,0.104,0.416,3.575,14.243,4.877,251.0,1466.8,1015.4
+VOC 2012,YOLO-World,0.688,0.295,0.089,0.375,3.274,13.756,4.347,238.0,621.2,267.0

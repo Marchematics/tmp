@@ -1,0 +1,29 @@
+{
+  "candidate_table": "<PROJECT_ROOT>/outputs/coco_gdino_sentence_smoke20/analysis/candidate_table.csv",
+  "estimator": "hist",
+  "alphas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "split_ratios": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "mondrian": "none",
+  "mondrian_min_null": 200,
+  "num_total_candidates": 2712,
+  "num_total_families": 60,
+  "per_seed_summary_path": "<PROJECT_ROOT>/outputs/coco_gdino_sentence_smoke20/formal/seed_summaries.json",
+  "seed_wall_seconds": {
+    "0": 0.16566736600361764,
+    "1": 0.1490721619920805
+  },
+  "total_wall_seconds": 0.6812078620423563
+}

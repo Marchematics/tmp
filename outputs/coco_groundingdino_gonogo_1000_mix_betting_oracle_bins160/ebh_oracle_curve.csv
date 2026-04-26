@@ -1,0 +1,2 @@
+alpha,num_test_families,num_rejected_families,total_rejections,fp,tp,fdp,recall,mean_family_fdp
+0.1,1361,220,314,12,302,0.03821656050955414,0.17257142857142857,0.0058168013715405335

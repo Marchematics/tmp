@@ -1,0 +1,59 @@
+{
+  "task": "A3 BIRDet head-to-head reproduction plus wrapper stacking",
+  "date": "2026-04-16",
+  "status": "blocked_no_official_code_or_weights",
+  "paper": {
+    "arxiv": "https://arxiv.org/abs/2410.08645",
+    "title_on_arxiv": "Boosting Open-Vocabulary Object Detection by Handling Background Samples",
+    "prompt_title_mismatch": "The task file says 'Implicit-Region-Recovery Distillation', but arXiv:2410.08645 is 'Boosting Open-Vocabulary Object Detection by Handling Background Samples'."
+  },
+  "search_evidence": [
+    {
+      "query": "GitHub repository search: BIRDet open-vocabulary detection",
+      "result": "0 relevant repositories"
+    },
+    {
+      "query": "GitHub repository search: arXiv 2410.08645",
+      "result": "0 repositories"
+    },
+    {
+      "query": "GitHub API repository: IDEA-Research/BIRDet",
+      "result": "404 Repository not found"
+    },
+    {
+      "query": "GitHub API user repos: zengruizhe2022",
+      "result": "404 user/repositories not found"
+    },
+    {
+      "query": "GitHub repository search: Background Information Representation",
+      "result": "0 repositories"
+    },
+    {
+      "query": "CatalyzeX paper page",
+      "result": "Request Code only; no GitHub link"
+    },
+    {
+      "query": "Hugging Face model search: BIRDet",
+      "result": "No relevant BIRDet model; only unrelated honey-birdette result"
+    },
+    {
+      "query": "Hugging Face model search: Boosting Open-Vocabulary Object Detection Background Samples",
+      "result": "[]"
+    }
+  ],
+  "local_outputs": {
+    "runner_script": "data_raw/a_project_2/scripts/run_birdet_baseline.py",
+    "expected_candidates_if_unblocked": "data_raw/a_project_2/outputs/coco_birdet_1000_mix.jsonl",
+    "status_csv": "data_raw/a_project_2/outputs/birdet_repro_status/detector_side_comparison_status.csv"
+  },
+  "recommended_command_after_official_artifacts_are_available": "conda activate birdet_env && python data_raw/a_project_2/scripts/run_birdet_baseline.py --config /path/to/birdet_config.py --checkpoint /path/to/birdet_checkpoint.pth --repo-root /path/to/BIRDet --device cuda:6 --limit-images 1000 --seed 0 --out-jsonl data_raw/a_project_2/outputs/coco_birdet_1000_mix.jsonl",
+  "formal_pipeline_command_after_candidates_exist": "cd data_raw/a_project_2 && bash scripts/run_full_pipeline.sh outputs/coco_birdet_1000_mix.jsonl coco_birdet_1000_20seed 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+  "fallback": {
+    "status": "prepared_not_run",
+    "candidates": [
+      "CORA (Wu et al. 2023)",
+      "RegionCLIP (Zhong et al. 2022)"
+    ],
+    "reason": "The task's fallback policy says to switch if BIRDet cannot be made runnable. The immediate blocker is stronger: no official code/checkpoint was found."
+  }
+}

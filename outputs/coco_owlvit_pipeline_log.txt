@@ -1,0 +1,78 @@
+=== Step 1: analyze_candidates ===
+Wrote analysis to outputs/coco_owlvit_val_1000_mix_analysis
+Candidates: 12669 | absent candidates: 928
+Top-10% FDP: 0.21468034727703236
+Absent top-10% FDP: 1.0
+Test null e-value mean: 1.015820149875104
+=== Step 2: run_formal_betting_pipeline ===
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:212: RuntimeWarning: divide by zero encountered in divide
+  ratio = p1 / p0
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+<PROJECT_ROOT>/scripts/run_formal_betting_pipeline.py:699: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for stratum, group in test_df.groupby("stratum", sort=False):
+Wrote formal pipeline outputs to outputs/coco_owlvit_val_1000_mix_formal_hist
+{
+  "candidate_table": "outputs/coco_owlvit_val_1000_mix_analysis/candidate_table.csv",
+  "estimator": "hist",
+  "alphas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "split_ratios": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "mondrian": "none",
+  "mondrian_min_null": 200,
+  "num_total_candidates": 12669,
+  "num_total_families": 1248,
+  "per_seed_summary_path": "outputs/coco_owlvit_val_1000_mix_formal_hist/seed_summaries.json"
+}
+=== Done: outputs/coco_owlvit_val_1000_mix_formal_hist ===

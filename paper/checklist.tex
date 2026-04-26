@@ -1,0 +1,85 @@
+\section*{NeurIPS Paper Checklist}
+
+\begin{enumerate}
+
+\item {\bf Claims}
+    \item[] Question: Do the main claims made in the abstract and introduction accurately reflect the paper's contributions and scope?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The abstract states a possibility-and-barrier characterization with specific theorems and experimental results. Guarantees are layered: per-family FDR is exact (Proposition~\ref{prop:family_fdr}), a stratified empirical Bernstein bound gives a non-vacuous pooled FDP certificate on the $K\!\le\!5$ stratum (Corollary~\ref{cor:stratified_pooled}), and full pooled FDP is validated empirically (19/20 pass at $\alpha\!=\!0.10$). All claimed theorems are proved (Appendix~\ref{app:proofs}), and all numerical claims are supported by experiments in \S\ref{sec:experiments}--\ref{sec:boundary} with 20-seed validation. Limitations are explicitly discussed in \S\ref{sec:discussion}.
+
+\item {\bf Limitations}
+    \item[] Question: Does the paper discuss the limitations of the work performed by the authors?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: \S\ref{sec:discussion} contains an explicit ``Limitations and future work'' paragraph discussing: the exhaustive-annotation requirement, moderate recall, failure on free-form prompts, and the need for a calibration dataset. \S\ref{sec:boundary} characterizes the annotation-completeness boundary, and Appendix~A documents failed repair attempts on LVIS.
+
+\item {\bf Theory assumptions and proofs}
+    \item[] Question: For each theoretical result, does the paper provide the full set of assumptions and a complete (and correct) proof?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Lemma~1 (exact validity), Theorems~1--3, Corollaries~1--2, Lemma~2, and Propositions~1--3 are all stated with explicit assumptions. Corollary~\ref{cor:stratified_pooled} (stratified pooled FDP bound) states the empirical Bernstein concentration result with all parameters. Full proofs appear in Appendix~\ref{app:proofs}.
+
+    \item {\bf Experimental result reproducibility}
+    \item[] Question: Does the paper fully disclose all the information needed to reproduce the main experimental results of the paper to the extent that it affects the main claims and/or conclusions of the paper (regardless of whether the code and data are provided or not)?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Appendix~\ref{app:benchmark} specifies the full benchmark protocol: dataset construction, split ratios (60/20/20), matching threshold ($\tau\!=\!0.5$), score map (80-bin histogram), detector configurations, and the 20-seed evaluation protocol. All hyperparameters are stated in \S\ref{sec:experiments}.
+
+\item {\bf Open access to data and code}
+    \item[] Question: Does the paper provide open access to the data and code, with sufficient instructions to faithfully reproduce the main experimental results, as described in supplemental material?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Code and evaluation scripts are available at an anonymized repository: \url{https://anonymous.4open.science/r/tmp-5EB7}. All experiments use publicly available datasets (COCO, VOC) and open-weight detectors (GroundingDINO, OWL-ViT v2, YOLO-World).
+
+\item {\bf Experimental setting/details}
+    \item[] Question: Does the paper specify all the training and test details (e.g., data splits, hyperparameters, how they were chosen, type of optimizer) necessary to understand the results?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: \S\ref{sec:experiments} and Appendix~\ref{app:benchmark} fully specify data splits, hyperparameters, detector configurations, and evaluation metrics. Ablations over estimator choice (Appendix~\ref{app:additional}), IoU threshold (Appendix~\ref{app:iou_sensitivity}), and calibration pool size (Appendix~\ref{app:cal_size}) are provided.
+
+\item {\bf Experiment statistical significance}
+    \item[] Question: Does the paper report error bars suitably and correctly defined or other appropriate information about the statistical significance of the experiments?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: All main results report mean $\pm$ standard deviation over 20 independent random splits (seeds 0--19). Error bars in Figures~2--3 show $\pm$1 s.d. The source of variability (random family-level train/cal/test partitioning) is stated in \S\ref{sec:experiments}.
+
+\item {\bf Experiments compute resources}
+    \item[] Question: For each experiment, does the paper provide sufficient information on the computer resources (type of compute workers, memory, time of execution) needed to reproduce the experiments?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Appendix~\ref{app:freeform} reports runtime: candidate generation takes ${\sim}280$\,s on one RTX 3090; the post-hoc statistical pipeline takes ${\sim}13$\,s total for 5 seeds. The method requires no training and runs on a single GPU.
+
+\item {\bf Code of ethics}
+    \item[] Question: Does the research conducted in the paper conform, in every respect, with the NeurIPS Code of Ethics \url{https://neurips.cc/public/EthicsGuidelines}?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The research uses only publicly available, properly cited datasets and models. No human subjects or private data are involved.
+
+\item {\bf Broader impacts}
+    \item[] Question: Does the paper discuss both potential positive societal impacts and negative societal impacts of the work performed?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The method reduces hallucinated detections, benefiting safety-critical applications such as autonomous perception and medical screening. Potential negative impacts include: (i) false confidence in automated monitoring, since per-family FDR control is a statistical guarantee, not a guarantee of per-instance correctness; (ii) over-reliance in partially annotated deployments, where the oracle-null assumption may be silently violated and produce miscalibrated control (see \S\ref{sec:boundary}); and (iii) lowered barriers to deploying surveillance systems with formally controlled false-alarm rates, which could enable misuse without adequate human oversight. \S\ref{sec:discussion} discusses the deployment scope and explicitly characterizes the contamination-bound regimes where validity is recoverable.
+
+\item {\bf Safeguards}
+    \item[] Question: Does the paper describe safeguards that have been put in place for responsible release of data or models that have a high risk for misuse (e.g., pre-trained language models, image generators, or scraped datasets)?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: The paper does not release new models or datasets. It provides a post-hoc statistical filter that operates on existing detector outputs.
+
+\item {\bf Licenses for existing assets}
+    \item[] Question: Are the creators or original owners of assets (e.g., code, data, models), used in the paper, properly credited and are the license and terms of use explicitly mentioned and properly respected?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: COCO, VOC, GroundingDINO, OWL-ViT v2, and YOLO-World are cited in the main text. COCO is CC BY 4.0; VOC is research-use; all detector models are open-weight with permissive licenses.
+
+\item {\bf New assets}
+    \item[] Question: Are new assets introduced in the paper well documented and is the documentation provided alongside the assets?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: The paper does not introduce new datasets or pre-trained models.
+
+\item {\bf Crowdsourcing and research with human subjects}
+    \item[] Question: For crowdsourcing experiments and research with human subjects, does the paper include the full text of instructions given to participants and screenshots, if applicable, as well as details about compensation (if any)?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: No crowdsourcing or human subjects research is involved.
+
+\item {\bf Institutional review board (IRB) approvals or equivalent for research with human subjects}
+    \item[] Question: Does the paper describe potential risks incurred by study participants, whether such risks were disclosed to the subjects, and whether Institutional Review Board (IRB) approvals (or an equivalent approval/review based on the requirements of your country or institution) were obtained?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: No human subjects research is involved.
+
+\item {\bf Declaration of LLM usage}
+    \item[] Question: Does the paper describe the usage of LLMs if it is an important, original, or non-standard component of the core methods in this research? Note that if the LLM is used only for writing, editing, or formatting purposes and does \emph{not} impact the core methodology, scientific rigor, or originality of the research, declaration is not required.
+    \item[] Answer: \answerNA{}
+    \item[] Justification: LLMs are not used as an important, original, or non-standard component of the core method. The method operates on detector confidence scores, not language-model outputs.
+
+\end{enumerate}

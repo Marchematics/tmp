@@ -1,0 +1,2 @@
+seed,alpha,iou_thresh,n_candidates,n_clusters,compression_ratio,mean_cluster_size,max_cluster_size,nms_rej,nms_fp,nms_tp,nms_tp_members,nms_fdp_pooled,nms_family_fdp_mean,nms_recall_cluster,nms_recall_members,base_rej,base_fp,base_tp,base_fdp_pooled,base_family_fdp_mean,base_recall
+0,0.1,0.5,32472,17755,0.5467787632421779,1.828893269501549,162,3,1,2,2,0.3333333333333333,0.000835421888053467,0.0010147133434804667,0.0010147133434804667,3,1,2,0.3333333333333333,0.000835421888053467,0.0010147133434804667

@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "outputs/coco_groundingdino_absent_25.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 25,
+  "num_candidates": 130,
+  "num_absent_candidates": 130,
+  "num_true_positive_candidates": 0,
+  "num_null_candidates": 130,
+  "top10pct_fdp": 1.0,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 39,
+    "num_test_candidates": 91,
+    "num_cal_null_scores": 39,
+    "cal_null_score_threshold_min": 0.050587452948093414,
+    "cal_null_score_threshold_max": 0.2933909595012665,
+    "test_null_evalue_mean": 1.4285714285714286,
+    "e_bh_num_families": 11,
+    "e_bh_total_rejections": 1,
+    "e_bh_total_fp": 1,
+    "e_bh_mean_family_fdp": 0.09090909090909091
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "source_jsonl": "data_raw/a_project_2/outputs/oi_1000_gdino.jsonl",
+  "ann_json": "<OPEN_IMAGES_ROOT>/annotations/oi_val_coco_5000.json",
+  "class_descriptions": "<OPEN_IMAGES_ROOT>/annotations/class-descriptions-boxable.csv",
+  "image_labels_csv": "<OPEN_IMAGES_ROOT>/annotations/oidv7-val-annotations-human-imagelabels.csv",
+  "filter": "absent in human negative labels OR present in human positive labels",
+  "num_families_in": 2784,
+  "num_families_out": 762,
+  "by_status": {
+    "PRESENT_POS": 755,
+    "ABSENT_UNVERIFIED": 1993,
+    "PRESENT_UNVERIFIED": 29,
+    "ABSENT_NEG": 7
+  },
+  "num_needed_images": 1000,
+  "num_images_with_positive_labels": 993,
+  "num_images_with_negative_labels": 980,
+  "num_image_label_rows_used": 14633,
+  "num_unique_images_kept": 756
+}

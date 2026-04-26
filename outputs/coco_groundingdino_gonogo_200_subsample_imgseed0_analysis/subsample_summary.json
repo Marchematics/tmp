@@ -1,0 +1,10 @@
+{
+  "source_candidate_table": "data_raw/a_project_2/outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv",
+  "image_subsample_seed": 0,
+  "num_images": 200,
+  "num_families": 526,
+  "num_candidates": 6192,
+  "num_absent_candidates": 1670,
+  "num_tp_candidates": 662,
+  "num_null_candidates": 5530
+}

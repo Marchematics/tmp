@@ -1,0 +1,3 @@
+family_id,dataset,image_id,file_name,category_id,category_name,prompt,is_prompt_absent,gt_count,candidate_idx,score,x1,y1,x2,y2,max_iou,is_tp,is_null
+coco:139:37:0,coco,139,000000000139.jpg,37,sports ball,sports ball,True,0,0,0.06328309327363968,6.0296,38.7569,173.0735,129.4688,0.0,False,True
+coco:285:33:1,coco,285,000000000285.jpg,33,suitcase,suitcase,True,0,0,0.2665671706199646,1.2905,69.1165,584.9554,637.3259,0.0,False,True

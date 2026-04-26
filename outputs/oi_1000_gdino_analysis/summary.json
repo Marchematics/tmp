@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "outputs/oi_1000_gdino.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 2784,
+  "num_candidates": 39376,
+  "num_absent_candidates": 28659,
+  "num_true_positive_candidates": 2159,
+  "num_null_candidates": 37217,
+  "top10pct_fdp": 0.6927374301675978,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 19469,
+    "num_test_candidates": 19907,
+    "num_cal_null_scores": 18395,
+    "cal_null_score_threshold_min": 0.050000015646219254,
+    "cal_null_score_threshold_max": 0.9327973127365112,
+    "test_null_evalue_mean": 0.9911775304569583,
+    "e_bh_num_families": 1376,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

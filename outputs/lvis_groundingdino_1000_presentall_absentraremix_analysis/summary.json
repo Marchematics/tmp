@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "data_raw/a_project_2/outputs/lvis_groundingdino_1000_presentall_absentraremix.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 2992,
+  "num_candidates": 65853,
+  "num_absent_candidates": 44982,
+  "num_true_positive_candidates": 3927,
+  "num_null_candidates": 61926,
+  "top10pct_fdp": 0.7232007288187063,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 31132,
+    "num_test_candidates": 34721,
+    "num_cal_null_scores": 29268,
+    "cal_null_score_threshold_min": 0.050000790506601334,
+    "cal_null_score_threshold_max": 0.900227427482605,
+    "test_null_evalue_mean": 0.9547104766205273,
+    "e_bh_num_families": 1506,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

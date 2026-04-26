@@ -1,0 +1,100 @@
+{
+  "description": "Prompt-conditional activation frontier diagnostic for free-form pilot",
+  "interpretation": "phi_max_below_T1 = True means Theorem 1 predicts zero rejections for that template. When this holds for most/all templates, the overall power collapse is explained by the activation frontier, not by a validity failure.",
+  "global_mean": [
+    {
+      "alpha": 0.05,
+      "global_m": 8140.45,
+      "global_C_m": 8042.953682054838,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 28.30702341137124,
+      "T1": 601.6531976314429,
+      "pct_below_T1": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "global_m": 8140.45,
+      "global_C_m": 8042.953682054838,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 28.30702341137124,
+      "T1": 289.91181515092967,
+      "pct_below_T1": 1.0
+    },
+    {
+      "alpha": 0.15,
+      "global_m": 8140.45,
+      "global_C_m": 8042.953682054838,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 28.30702341137124,
+      "T1": 190.96567797117447,
+      "pct_below_T1": 1.0
+    },
+    {
+      "alpha": 0.2,
+      "global_m": 8140.45,
+      "global_C_m": 8042.953682054838,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 28.30702341137124,
+      "T1": 142.37394942985821,
+      "pct_below_T1": 1.0
+    }
+  ],
+  "per_template_alpha010": [
+    {
+      "template": "a small {cat} near the center",
+      "cal_null_count": 2610.45,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 53.84668758817541,
+      "T1_global": 570.4090562072279,
+      "pct_below_T1": 1.0
+    },
+    {
+      "template": "a {cat} in the scene",
+      "cal_null_count": 2346.75,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 50.53289040184927,
+      "T1_global": 532.8826515006347,
+      "pct_below_T1": 1.0
+    },
+    {
+      "template": "a {cat} object",
+      "cal_null_count": 581.85,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 28.343266080573308,
+      "T1_global": 291.48536285070094,
+      "pct_below_T1": 1.0
+    },
+    {
+      "template": "a photo of a {cat}",
+      "cal_null_count": 389.05,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 19.924652868024832,
+      "T1_global": 201.96085817524386,
+      "pct_below_T1": 1.0
+    },
+    {
+      "template": "a visible {cat} in the scene",
+      "cal_null_count": 362.45,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 16.04093330150608,
+      "T1_global": 161.85548800851126,
+      "pct_below_T1": 1.0
+    },
+    {
+      "template": "other",
+      "cal_null_count": 1599.85,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 14.48083064425829,
+      "T1_global": 145.67962907021808,
+      "pct_below_T1": 1.0
+    },
+    {
+      "template": "the {cat}",
+      "cal_null_count": 250.05,
+      "fit_phi_max": 12.844148440659634,
+      "mean_K": 14.070338299631402,
+      "T1_global": 141.7038855480527,
+      "pct_below_T1": 1.0
+    }
+  ]
+}

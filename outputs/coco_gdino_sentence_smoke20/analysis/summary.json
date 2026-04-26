@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "<PROJECT_ROOT>/outputs/coco_gdino_sentence_smoke20/candidates.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 60,
+  "num_candidates": 2712,
+  "num_absent_candidates": 1643,
+  "num_true_positive_candidates": 159,
+  "num_null_candidates": 2553,
+  "top10pct_fdp": 0.8088235294117647,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 1128,
+    "num_test_candidates": 1584,
+    "num_cal_null_scores": 1097,
+    "cal_null_score_threshold_min": 0.050003938376903534,
+    "cal_null_score_threshold_max": 0.6377187371253967,
+    "test_null_evalue_mean": 0.6718531468531469,
+    "e_bh_num_families": 37,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

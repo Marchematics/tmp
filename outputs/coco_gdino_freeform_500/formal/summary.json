@@ -1,0 +1,35 @@
+{
+  "candidate_table": "<PROJECT_ROOT>/outputs/coco_gdino_freeform_500/analysis/candidate_table.csv",
+  "estimator": "hist",
+  "alphas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "split_ratios": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "mondrian": "none",
+  "mondrian_min_null": 200,
+  "num_total_candidates": 41871,
+  "num_total_families": 1496,
+  "per_seed_summary_path": "<PROJECT_ROOT>/outputs/coco_gdino_freeform_500/formal/seed_summaries.json",
+  "seed_wall_seconds": {
+    "0": 2.7908193879993632,
+    "1": 2.526876236021053,
+    "2": 2.4598884899751283,
+    "3": 2.477776226995047,
+    "4": 2.559989261033479
+  },
+  "total_wall_seconds": 13.294746285013389
+}

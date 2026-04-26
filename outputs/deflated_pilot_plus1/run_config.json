@@ -1,0 +1,25 @@
+{
+  "candidate_table": "outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv",
+  "alphas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "split_ratios": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "max_thresholds": 2000,
+  "min_cal_rejections": 1,
+  "risk": "pooled_plus1",
+  "loss": "pooled calibration FDP"
+}

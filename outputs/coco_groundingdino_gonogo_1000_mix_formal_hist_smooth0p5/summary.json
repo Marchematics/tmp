@@ -1,0 +1,27 @@
+{
+  "candidate_table": "data_raw/a_project_2/outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv",
+  "estimator": "hist",
+  "alphas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "split_ratios": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "mondrian": "none",
+  "mondrian_min_null": 200,
+  "num_total_candidates": 30792,
+  "num_total_families": 2686,
+  "per_seed_summary_path": "data_raw/a_project_2/outputs/coco_groundingdino_gonogo_1000_mix_formal_hist_smooth0p5/seed_summaries.json"
+}

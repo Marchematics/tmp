@@ -1,0 +1,9 @@
+{
+  "source_jsonl": "<PROJECT_ROOT>/outputs/oi_1000_gdino.jsonl",
+  "filter": "is_prompt_absent == False (present-only)",
+  "num_families_in": 2784,
+  "num_families_out": 784,
+  "num_present": 784,
+  "num_absent": 2000,
+  "num_unique_images": 784
+}

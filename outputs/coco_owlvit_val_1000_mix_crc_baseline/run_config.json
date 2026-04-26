@@ -1,0 +1,40 @@
+{
+  "candidate_table": "<PROJECT_ROOT>/outputs/coco_owlvit_val_1000_mix_analysis/candidate_table.csv",
+  "alphas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "split_ratios": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "max_thresholds": 2000,
+  "min_cal_rejections": 1,
+  "risk": "family_crc",
+  "loss": "per-family FDP with CRC-style bounded-risk upper correction"
+}

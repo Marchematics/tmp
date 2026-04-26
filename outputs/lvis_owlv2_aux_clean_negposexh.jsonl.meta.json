@@ -1,0 +1,14 @@
+{
+  "source_jsonl": "data_raw/a_project_2/outputs/lvis_owlv2_1000_presentall_absentraremix.jsonl",
+  "ann_json": "<PROJECT_ROOT>/data/lvis/lvis_v1_val.json",
+  "filter": "status \u2208 {NEG, POS_EXH}",
+  "num_families_in": 2992,
+  "num_families_out": 929,
+  "by_status": {
+    "POS_EXH": 910,
+    "UNKNOWN": 1981,
+    "POS_NONEXH": 82,
+    "NEG": 19
+  },
+  "num_unique_images": 912
+}

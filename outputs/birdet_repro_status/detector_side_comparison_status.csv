@@ -1,0 +1,9 @@
+table,dataset,detector,alpha,method,fdp_pooled_mean,fdp_pooled_std,fdp_family_mean,recall_mean,rejections_mean,phi_max_median,loo_mean,n_seeds,source,status,reason
+detector_side_comparison,COCO val,BIRDet,0.05,birdet_vanilla,,,,,,,,0,outputs/birdet_repro_status/status.json,blocked_no_official_code_or_weights,Official BIRDet code/checkpoint not found; numeric row not valid yet
+detector_side_comparison,COCO val,BIRDet,0.10,birdet_vanilla,,,,,,,,0,outputs/birdet_repro_status/status.json,blocked_no_official_code_or_weights,Official BIRDet code/checkpoint not found; numeric row not valid yet
+detector_side_comparison,COCO val,BIRDet,0.15,birdet_vanilla,,,,,,,,0,outputs/birdet_repro_status/status.json,blocked_no_official_code_or_weights,Official BIRDet code/checkpoint not found; numeric row not valid yet
+detector_side_comparison,COCO val,BIRDet,0.20,birdet_vanilla,,,,,,,,0,outputs/birdet_repro_status/status.json,blocked_no_official_code_or_weights,Official BIRDet code/checkpoint not found; numeric row not valid yet
+detector_side_comparison,COCO val,BIRDet,0.05,birdet_plus_wrapper,,,,,,,,0,outputs/birdet_repro_status/status.json,blocked_no_official_code_or_weights,Official BIRDet code/checkpoint not found; numeric row not valid yet
+detector_side_comparison,COCO val,BIRDet,0.10,birdet_plus_wrapper,,,,,,,,0,outputs/birdet_repro_status/status.json,blocked_no_official_code_or_weights,Official BIRDet code/checkpoint not found; numeric row not valid yet
+detector_side_comparison,COCO val,BIRDet,0.15,birdet_plus_wrapper,,,,,,,,0,outputs/birdet_repro_status/status.json,blocked_no_official_code_or_weights,Official BIRDet code/checkpoint not found; numeric row not valid yet
+detector_side_comparison,COCO val,BIRDet,0.20,birdet_plus_wrapper,,,,,,,,0,outputs/birdet_repro_status/status.json,blocked_no_official_code_or_weights,Official BIRDet code/checkpoint not found; numeric row not valid yet

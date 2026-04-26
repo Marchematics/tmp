@@ -1,0 +1,42 @@
+{
+  "candidate_table": "outputs/voc_1000_gdino_analysis/candidate_table.csv",
+  "estimator": "hist",
+  "alphas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "split_ratios": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "mondrian": "none",
+  "mondrian_min_null": 200,
+  "num_total_candidates": 29534,
+  "num_total_families": 2794,
+  "per_seed_summary_path": "outputs/voc_gdino_1000_20seed_formal_hist/seed_summaries.json"
+}

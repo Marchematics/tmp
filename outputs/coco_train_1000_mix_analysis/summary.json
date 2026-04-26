@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "outputs/coco_train_1000_mix.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 2988,
+  "num_candidates": 31210,
+  "num_absent_candidates": 8887,
+  "num_true_positive_candidates": 3640,
+  "num_null_candidates": 27570,
+  "top10pct_fdp": 0.3675104133290612,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 14347,
+    "num_test_candidates": 16863,
+    "num_cal_null_scores": 12577,
+    "cal_null_score_threshold_min": 0.050003208220005035,
+    "cal_null_score_threshold_max": 0.8244994878768921,
+    "test_null_evalue_mean": 1.0109777779710023,
+    "e_bh_num_families": 1354,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

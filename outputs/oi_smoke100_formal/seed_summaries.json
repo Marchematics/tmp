@@ -1,0 +1,92 @@
+{
+  "0": {
+    "seed": 0,
+    "num_fit_families": 164,
+    "num_cal_families": 55,
+    "num_test_families": 55,
+    "num_fit_candidates": 2172,
+    "num_cal_candidates": 684,
+    "num_test_candidates": 659,
+    "num_cal_null": 629,
+    "sum_phi_cal": 619.1215865468415,
+    "density_ratio": {
+      "num_fit_null": 2013,
+      "num_fit_tp": 159,
+      "num_bins_realized": 80,
+      "max_phi": 26.72746331236897,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "1": {
+    "seed": 1,
+    "num_fit_families": 164,
+    "num_cal_families": 55,
+    "num_test_families": 55,
+    "num_fit_candidates": 2244,
+    "num_cal_candidates": 683,
+    "num_test_candidates": 588,
+    "num_cal_null": 636,
+    "sum_phi_cal": 973.7586312155278,
+    "density_ratio": {
+      "num_fit_null": 2070,
+      "num_fit_tp": 174,
+      "num_bins_realized": 80,
+      "max_phi": 29.74137931034483,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "2": {
+    "seed": 2,
+    "num_fit_families": 164,
+    "num_cal_families": 55,
+    "num_test_families": 55,
+    "num_fit_candidates": 2174,
+    "num_cal_candidates": 689,
+    "num_test_candidates": 652,
+    "num_cal_null": 642,
+    "sum_phi_cal": 614.8644033283272,
+    "density_ratio": {
+      "num_fit_null": 2012,
+      "num_fit_tp": 162,
+      "num_bins_realized": 80,
+      "max_phi": 19.194163860830525,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "3": {
+    "seed": 3,
+    "num_fit_families": 164,
+    "num_cal_families": 55,
+    "num_test_families": 55,
+    "num_fit_candidates": 2057,
+    "num_cal_candidates": 687,
+    "num_test_candidates": 771,
+    "num_cal_null": 620,
+    "sum_phi_cal": 609.2955994967385,
+    "density_ratio": {
+      "num_fit_null": 1911,
+      "num_fit_tp": 146,
+      "num_bins_realized": 80,
+      "max_phi": 17.848692403486922,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "4": {
+    "seed": 4,
+    "num_fit_families": 164,
+    "num_cal_families": 55,
+    "num_test_families": 55,
+    "num_fit_candidates": 2197,
+    "num_cal_candidates": 663,
+    "num_test_candidates": 655,
+    "num_cal_null": 622,
+    "sum_phi_cal": 617.7403841190434,
+    "density_ratio": {
+      "num_fit_null": 2022,
+      "num_fit_tp": 175,
+      "num_bins_realized": 80,
+      "max_phi": 19.642285714285716,
+      "fit_null_phi_mean": 1.0
+    }
+  }
+}

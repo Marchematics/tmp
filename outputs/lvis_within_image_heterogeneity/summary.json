@@ -1,0 +1,8 @@
+{
+  "global_mean_fdp": 0.09227456753772542,
+  "img_mondrian_mean_fdp": 0.08728304719016793,
+  "global_mean_recall": 0.020316453033324026,
+  "img_mondrian_mean_recall": 0.019590755092802184,
+  "n_high_null_images": 43,
+  "global_null_p95": 0.2666674852371216
+}

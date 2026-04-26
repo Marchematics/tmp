@@ -1,0 +1,12 @@
+family_id,dataset,image_id,category_id,category_name,prompt,is_prompt_absent,num_candidates,num_rejected,fp,tp,fdp
+coco:1000:57:9,coco,1000,57,carrot,carrot,True,3,0,0,0,0.0
+coco:1296:72:11,coco,1296,72,tv,tv,True,5,0,0,0,0.0
+coco:139:37:0,coco,139,37,sports ball,sports ball,True,1,0,0,0,0.0
+coco:1532:74:16,coco,1532,74,mouse,mouse,True,1,0,0,0,0.0
+coco:1675:85:18,coco,1675,85,clock,clock,True,5,0,0,0,0.0
+coco:1761:9:19,coco,1761,9,boat,boat,True,63,0,0,0,0.0
+coco:1818:86:20,coco,1818,86,vase,vase,True,3,0,0,0,0.0
+coco:2006:40:22,coco,2006,40,baseball glove,baseball glove,True,1,0,0,0,0.0
+coco:2149:5:23,coco,2149,5,airplane,airplane,True,7,0,0,0,0.0
+coco:285:33:1,coco,285,33,suitcase,suitcase,True,1,1,1,0,1.0
+coco:724:49:3,coco,724,49,knife,knife,True,1,0,0,0,0.0

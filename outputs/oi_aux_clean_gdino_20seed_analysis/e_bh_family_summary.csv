@@ -1,0 +1,383 @@
+family_id,dataset,image_id,category_id,category_name,prompt,is_prompt_absent,num_candidates,num_rejected,fp,tp,fdp
+openimages:1000:400:761,openimages,1000,400,Truck,Truck,False,24,0,0,0,0.0
+openimages:101:468:79,openimages,101,468,Airplane,Airplane,False,3,0,0,0,0.0
+openimages:106:446:80,openimages,106,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:108:124:81,openimages,108,124,Juice,Juice,False,5,0,0,0,0.0
+openimages:10:69:8,openimages,10,69,Person,Person,False,14,0,0,0,0.0
+openimages:110:456:82,openimages,110,456,Flower,Flower,False,21,0,0,0,0.0
+openimages:111:433:83,openimages,111,433,Clothing,Clothing,False,6,0,0,0,0.0
+openimages:112:571:84,openimages,112,571,Car,Car,False,36,0,0,0,0.0
+openimages:113:463:85,openimages,113,463,Fish,Fish,False,5,0,0,0,0.0
+openimages:114:409:86,openimages,114,409,Wheel,Wheel,False,10,0,0,0,0.0
+openimages:116:568:88,openimages,116,568,Human nose,Human nose,False,2,0,0,0,0.0
+openimages:123:434:92,openimages,123,434,Footwear,Footwear,False,4,0,0,0,0.0
+openimages:129:571:96,openimages,129,571,Car,Car,False,1,0,0,0,0.0
+openimages:133:463:99,openimages,133,463,Fish,Fish,False,1,0,0,0,0.0
+openimages:135:122:100,openimages,135,122,Cat,Cat,False,2,0,0,0,0.0
+openimages:138:391:101,openimages,138,391,Tree,Tree,False,42,0,0,0,0.0
+openimages:139:314:102,openimages,139,314,Baked goods,Baked goods,False,14,0,0,0,0.0
+openimages:13:203:10,openimages,13,203,Fruit,Fruit,False,28,0,0,0,0.0
+openimages:140:292:103,openimages,140,292,Human head,Human head,False,3,0,0,0,0.0
+openimages:147:71:108,openimages,147,71,Swimwear,Swimwear,False,20,0,0,0,0.0
+openimages:148:334:109,openimages,148,334,Plant,Plant,False,6,0,0,0,0.0
+openimages:149:334:110,openimages,149,334,Plant,Plant,False,4,0,0,0,0.0
+openimages:14:571:11,openimages,14,571,Car,Car,False,6,0,0,0,0.0
+openimages:150:103:111,openimages,150,103,Land vehicle,Land vehicle,False,11,0,0,0,0.0
+openimages:154:409:115,openimages,154,409,Wheel,Wheel,False,22,0,0,0,0.0
+openimages:155:288:116,openimages,155,288,Lynx,Lynx,False,3,0,0,0,0.0
+openimages:15:433:12,openimages,15,433,Clothing,Clothing,False,13,0,0,0,0.0
+openimages:161:462:120,openimages,161,462,Building,Building,False,1,0,0,0,0.0
+openimages:165:422:123,openimages,165,422,Chicken,Chicken,False,5,0,0,0,0.0
+openimages:167:552:124,openimages,167,552,Tire,Tire,False,10,0,0,0,0.0
+openimages:16:193:13,openimages,16,193,Food,Food,False,3,0,0,0,0.0
+openimages:172:103:128,openimages,172,103,Land vehicle,Land vehicle,False,14,0,0,0,0.0
+openimages:175:446:130,openimages,175,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:176:409:131,openimages,176,409,Wheel,Wheel,False,4,0,0,0,0.0
+openimages:177:338:132,openimages,177,338,Pasta,Pasta,False,1,0,0,0,0.0
+openimages:178:292:133,openimages,178,292,Human head,Human head,False,6,0,0,0,0.0
+openimages:179:193:134,openimages,179,193,Food,Food,False,10,0,0,0,0.0
+openimages:180:241:135,openimages,180,241,House,House,False,5,0,0,0,0.0
+openimages:183:342:137,openimages,183,342,Infant bed,Infant bed,False,3,0,0,0,0.0
+openimages:185:210:138,openimages,185,210,Fox,Fox,False,8,0,0,0,0.0
+openimages:186:571:139,openimages,186,571,Car,Car,False,34,0,0,0,0.0
+openimages:187:446:140,openimages,187,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:188:298:141,openimages,188,298,Mammal,Mammal,False,3,0,0,0,0.0
+openimages:189:514:142,openimages,189,514,Jeans,Jeans,False,5,0,0,0,0.0
+openimages:190:333:143,openimages,190,333,Girl,Girl,False,20,0,0,0,0.0
+openimages:192:51:145,openimages,192,51,Boy,Boy,False,14,0,0,0,0.0
+openimages:194:450:147,openimages,194,450,Candle,Candle,False,2,0,0,0,0.0
+openimages:199:103:151,openimages,199,103,Land vehicle,Land vehicle,False,46,0,0,0,0.0
+openimages:203:446:152,openimages,203,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:204:573:153,openimages,204,573,Human hand,Human hand,False,6,0,0,0,0.0
+openimages:208:126:157,openimages,208,126,Beetle,Beetle,False,1,0,0,0,0.0
+openimages:20:253:16,openimages,20,253,Human hair,Human hair,False,23,0,0,0,0.0
+openimages:212:177:161,openimages,212,177,Human body,Human body,False,7,0,0,0,0.0
+openimages:214:564:163,openimages,214,564,Lily,Lily,False,1,0,0,0,0.0
+openimages:216:124:165,openimages,216,124,Juice,Juice,False,13,0,0,0,0.0
+openimages:21:69:17,openimages,21,69,Person,Person,False,3,0,0,0,0.0
+openimages:220:228:169,openimages,220,228,Woman,Woman,False,12,0,0,0,0.0
+openimages:225:103:172,openimages,225,103,Land vehicle,Land vehicle,False,8,0,0,0,0.0
+openimages:227:571:174,openimages,227,571,Car,Car,False,19,0,0,0,0.0
+openimages:22:462:18,openimages,22,462,Building,Building,False,2,0,0,0,0.0
+openimages:230:5:176,openimages,230,5,Football,Football,False,2,0,0,0,0.0
+openimages:234:177:179,openimages,234,177,Human body,Human body,False,4,0,0,0,0.0
+openimages:239:434:180,openimages,239,434,Footwear,Footwear,False,18,0,0,0,0.0
+openimages:23:100:19,openimages,23,100,Cheese,Cheese,False,5,0,0,0,0.0
+openimages:241:446:182,openimages,241,446,Dog,Dog,False,4,0,0,0,0.0
+openimages:243:334:183,openimages,243,334,Plant,Plant,False,1,0,0,0,0.0
+openimages:247:571:186,openimages,247,571,Car,Car,False,32,0,0,0,0.0
+openimages:255:409:191,openimages,255,409,Wheel,Wheel,False,3,0,0,0,0.0
+openimages:257:434:193,openimages,257,434,Footwear,Footwear,False,5,0,0,0,0.0
+openimages:259:308:195,openimages,259,308,Man,Man,False,1,0,0,0,0.0
+openimages:25:468:21,openimages,25,468,Airplane,Airplane,False,2,0,0,0,0.0
+openimages:260:228:196,openimages,260,228,Woman,Woman,False,11,0,0,0,0.0
+openimages:264:409:200,openimages,264,409,Wheel,Wheel,False,11,0,0,0,0.0
+openimages:265:446:201,openimages,265,446,Dog,Dog,False,3,0,0,0,0.0
+openimages:267:193:202,openimages,267,193,Food,Food,False,3,0,0,0,0.0
+openimages:268:228:203,openimages,268,228,Woman,Woman,False,29,0,0,0,0.0
+openimages:269:456:204,openimages,269,456,Flower,Flower,False,5,0,0,0,0.0
+openimages:271:43:206,openimages,271,43,Boat,Boat,False,36,0,0,0,0.0
+openimages:278:571:212,openimages,278,571,Car,Car,False,20,0,0,0,0.0
+openimages:280:334:214,openimages,280,334,Plant,Plant,False,2,0,0,0,0.0
+openimages:281:434:215,openimages,281,434,Footwear,Footwear,False,35,0,0,0,0.0
+openimages:283:468:216,openimages,283,468,Airplane,Airplane,False,48,0,0,0,0.0
+openimages:289:334:221,openimages,289,334,Plant,Plant,False,9,0,0,0,0.0
+openimages:28:409:23,openimages,28,409,Wheel,Wheel,False,22,0,0,0,0.0
+openimages:293:337:224,openimages,293,337,Sports equipment,Sports equipment,False,57,0,0,0,0.0
+openimages:295:49:226,openimages,295,49,Fast food,Fast food,False,10,0,0,0,0.0
+openimages:298:298:229,openimages,298,298,Mammal,Mammal,True,22,0,0,0,0.0
+openimages:299:285:230,openimages,299,285,Knife,Knife,False,7,0,0,0,0.0
+openimages:306:517:235,openimages,306,517,Drawer,Drawer,True,16,0,0,0,0.0
+openimages:30:561:25,openimages,30,561,Animal,Animal,False,2,0,0,0,0.0
+openimages:310:177:239,openimages,310,177,Human body,Human body,False,7,0,0,0,0.0
+openimages:311:573:240,openimages,311,573,Human hand,Human hand,False,33,0,0,0,0.0
+openimages:312:354:241,openimages,312,354,Raven,Raven,False,1,0,0,0,0.0
+openimages:314:51:243,openimages,314,51,Boy,Boy,False,14,0,0,0,0.0
+openimages:319:96:248,openimages,319,96,Traffic sign,Traffic sign,False,4,0,0,0,0.0
+openimages:322:29:250,openimages,322,29,Doll,Doll,False,2,0,0,0,0.0
+openimages:323:433:251,openimages,323,433,Clothing,Clothing,False,39,0,0,0,0.0
+openimages:324:571:252,openimages,324,571,Car,Car,False,11,0,0,0,0.0
+openimages:326:571:254,openimages,326,571,Car,Car,False,9,0,0,0,0.0
+openimages:327:314:255,openimages,327,314,Baked goods,Baked goods,False,17,0,0,0,0.0
+openimages:331:391:258,openimages,331,391,Tree,Tree,False,15,0,0,0,0.0
+openimages:334:462:260,openimages,334,462,Building,Building,False,3,0,0,0,0.0
+openimages:335:38:261,openimages,335,38,Ball,Ball,False,1,0,0,0,0.0
+openimages:336:314:262,openimages,336,314,Baked goods,Baked goods,False,9,0,0,0,0.0
+openimages:337:333:263,openimages,337,333,Girl,Girl,False,52,0,0,0,0.0
+openimages:33:414:28,openimages,33,414,Auto part,Auto part,False,7,0,0,0,0.0
+openimages:340:69:265,openimages,340,69,Person,Person,False,10,0,0,0,0.0
+openimages:341:561:266,openimages,341,561,Animal,Animal,False,12,0,0,0,0.0
+openimages:344:253:267,openimages,344,253,Human hair,Human hair,False,57,0,0,0,0.0
+openimages:349:177:269,openimages,349,177,Human body,Human body,False,16,0,0,0,0.0
+openimages:352:456:272,openimages,352,456,Flower,Flower,False,22,0,0,0,0.0
+openimages:356:42:274,openimages,356,42,Centipede,Centipede,False,4,0,0,0,0.0
+openimages:357:298:275,openimages,357,298,Mammal,Mammal,False,10,0,0,0,0.0
+openimages:358:111:276,openimages,358,111,Snack,Snack,False,14,0,0,0,0.0
+openimages:359:520:278,openimages,359,520,Cake,Cake,False,2,0,0,0,0.0
+openimages:361:404:279,openimages,361,404,Vehicle,Vehicle,False,6,0,0,0,0.0
+openimages:362:409:280,openimages,362,409,Wheel,Wheel,False,29,0,0,0,0.0
+openimages:364:193:282,openimages,364,193,Food,Food,False,34,0,0,0,0.0
+openimages:365:409:283,openimages,365,409,Wheel,Wheel,False,25,0,0,0,0.0
+openimages:368:504:285,openimages,368,504,Vegetable,Vegetable,False,23,0,0,0,0.0
+openimages:369:514:286,openimages,369,514,Jeans,Jeans,False,4,0,0,0,0.0
+openimages:36:263:31,openimages,36,263,Insect,Insect,False,3,0,0,0,0.0
+openimages:372:177:289,openimages,372,177,Human body,Human body,False,3,0,0,0,0.0
+openimages:375:499:291,openimages,375,499,Camera,Camera,False,2,0,0,0,0.0
+openimages:378:177:293,openimages,378,177,Human body,Human body,False,6,0,0,0,0.0
+openimages:379:337:294,openimages,379,337,Sports equipment,Sports equipment,False,40,0,0,0,0.0
+openimages:382:391:296,openimages,382,391,Tree,Tree,False,17,0,0,0,0.0
+openimages:384:503:297,openimages,384,503,Human arm,Human arm,False,40,0,0,0,0.0
+openimages:38:589:32,openimages,38,589,Crab,Crab,False,1,0,0,0,0.0
+openimages:394:571:303,openimages,394,571,Car,Car,False,78,0,0,0,0.0
+openimages:397:444:305,openimages,397,444,Waste container,Waste container,False,1,0,0,0,0.0
+openimages:398:145:306,openimages,398,145,Drink,Drink,False,4,0,0,0,0.0
+openimages:39:414:33,openimages,39,414,Auto part,Auto part,False,9,0,0,0,0.0
+openimages:400:184:308,openimages,400,184,Office supplies,Office supplies,False,61,0,0,0,0.0
+openimages:404:298:311,openimages,404,298,Mammal,Mammal,False,3,0,0,0,0.0
+openimages:405:49:312,openimages,405,49,Fast food,Fast food,False,20,0,0,0,0.0
+openimages:407:462:313,openimages,407,462,Building,Building,False,3,0,0,0,0.0
+openimages:408:193:314,openimages,408,193,Food,Food,False,11,0,0,0,0.0
+openimages:416:434:319,openimages,416,434,Footwear,Footwear,False,44,0,0,0,0.0
+openimages:417:391:320,openimages,417,391,Tree,Tree,True,5,0,0,0,0.0
+openimages:419:160:321,openimages,419,160,Door,Door,False,7,0,0,0,0.0
+openimages:420:334:322,openimages,420,334,Plant,Plant,False,7,0,0,0,0.0
+openimages:421:232:323,openimages,421,232,Goldfish,Goldfish,False,8,0,0,0,0.0
+openimages:423:438:324,openimages,423,438,Frog,Frog,False,2,0,0,0,0.0
+openimages:42:298:35,openimages,42,298,Mammal,Mammal,False,5,0,0,0,0.0
+openimages:439:103:335,openimages,439,103,Land vehicle,Land vehicle,False,7,0,0,0,0.0
+openimages:43:145:36,openimages,43,145,Drink,Drink,False,20,0,0,0,0.0
+openimages:443:339:337,openimages,443,339,Penguin,Penguin,False,2,0,0,0,0.0
+openimages:445:103:339,openimages,445,103,Land vehicle,Land vehicle,False,4,0,0,0,0.0
+openimages:44:91:37,openimages,44,91,Carnivore,Carnivore,False,7,0,0,0,0.0
+openimages:451:446:343,openimages,451,446,Dog,Dog,False,8,0,0,0,0.0
+openimages:460:516:351,openimages,460,516,Pineapple,Pineapple,False,2,0,0,0,0.0
+openimages:465:463:353,openimages,465,463,Fish,Fish,False,1,0,0,0,0.0
+openimages:467:446:355,openimages,467,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:477:433:364,openimages,477,433,Clothing,Clothing,False,67,0,0,0,0.0
+openimages:478:301:365,openimages,478,301,Musical instrument,Musical instrument,False,63,0,0,0,0.0
+openimages:481:433:368,openimages,481,433,Clothing,Clothing,False,22,0,0,0,0.0
+openimages:484:97:371,openimages,484,97,Chair,Chair,False,47,0,0,0,0.0
+openimages:485:469:372,openimages,485,469,Spoon,Spoon,False,2,0,0,0,0.0
+openimages:489:271:374,openimages,489,271,Wood-burning stove,Wood-burning stove,False,7,0,0,0,0.0
+openimages:493:592:378,openimages,493,592,Perfume,Perfume,False,3,0,0,0,0.0
+openimages:496:420:380,openimages,496,420,Bread,Bread,False,6,0,0,0,0.0
+openimages:498:189:382,openimages,498,189,Coffee,Coffee,False,16,0,0,0,0.0
+openimages:49:466:40,openimages,49,466,Furniture,Furniture,False,43,0,0,0,0.0
+openimages:4:434:2,openimages,4,434,Footwear,Footwear,False,26,0,0,0,0.0
+openimages:501:571:385,openimages,501,571,Car,Car,False,2,0,0,0,0.0
+openimages:503:446:386,openimages,503,446,Dog,Dog,False,4,0,0,0,0.0
+openimages:504:177:387,openimages,504,177,Human body,Human body,False,14,0,0,0,0.0
+openimages:505:43:388,openimages,505,43,Boat,Boat,False,11,0,0,0,0.0
+openimages:506:462:389,openimages,506,462,Building,Building,False,3,0,0,0,0.0
+openimages:512:404:393,openimages,512,404,Vehicle,Vehicle,False,10,0,0,0,0.0
+openimages:516:446:396,openimages,516,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:517:420:397,openimages,517,420,Bread,Bread,False,2,0,0,0,0.0
+openimages:518:203:398,openimages,518,203,Fruit,Fruit,False,68,0,0,0,0.0
+openimages:519:561:399,openimages,519,561,Animal,Animal,False,5,0,0,0,0.0
+openimages:522:177:401,openimages,522,177,Human body,Human body,False,24,0,0,0,0.0
+openimages:523:532:402,openimages,523,532,Parrot,Parrot,False,1,0,0,0,0.0
+openimages:524:148:404,openimages,524,148,Human mouth,Human mouth,True,33,0,0,0,0.0
+openimages:524:456:403,openimages,524,456,Flower,Flower,False,3,0,0,0,0.0
+openimages:525:409:405,openimages,525,409,Wheel,Wheel,False,9,0,0,0,0.0
+openimages:526:409:406,openimages,526,409,Wheel,Wheel,False,22,0,0,0,0.0
+openimages:527:35:407,openimages,527,35,Sunglasses,Sunglasses,False,8,0,0,0,0.0
+openimages:529:409:409,openimages,529,409,Wheel,Wheel,False,11,0,0,0,0.0
+openimages:534:203:413,openimages,534,203,Fruit,Fruit,False,21,0,0,0,0.0
+openimages:535:314:414,openimages,535,314,Baked goods,Baked goods,False,1,0,0,0,0.0
+openimages:538:423:416,openimages,538,423,Eagle,Eagle,False,1,0,0,0,0.0
+openimages:540:503:417,openimages,540,503,Human arm,Human arm,False,56,0,0,0,0.0
+openimages:541:503:418,openimages,541,503,Human arm,Human arm,False,42,0,0,0,0.0
+openimages:544:228:420,openimages,544,228,Woman,Woman,False,2,0,0,0,0.0
+openimages:545:362:421,openimages,545,362,Seafood,Seafood,False,25,0,0,0,0.0
+openimages:549:468:424,openimages,549,468,Airplane,Airplane,False,10,0,0,0,0.0
+openimages:54:64:45,openimages,54,64,Blue jay,Blue jay,False,1,0,0,0,0.0
+openimages:550:391:425,openimages,550,391,Tree,Tree,False,2,0,0,0,0.0
+openimages:555:426:427,openimages,555,426,Duck,Duck,False,4,0,0,0,0.0
+openimages:558:571:430,openimages,558,571,Car,Car,False,10,0,0,0,0.0
+openimages:561:69:432,openimages,561,69,Person,Person,False,89,0,0,0,0.0
+openimages:564:573:433,openimages,564,573,Human hand,Human hand,False,46,0,0,0,0.0
+openimages:567:253:435,openimages,567,253,Human hair,Human hair,False,13,0,0,0,0.0
+openimages:568:177:436,openimages,568,177,Human body,Human body,False,4,0,0,0,0.0
+openimages:56:263:46,openimages,56,263,Insect,Insect,False,2,0,0,0,0.0
+openimages:571:296:439,openimages,571,296,Lizard,Lizard,False,1,0,0,0,0.0
+openimages:572:391:440,openimages,572,391,Tree,Tree,False,7,0,0,0,0.0
+openimages:573:446:441,openimages,573,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:576:552:443,openimages,576,552,Tire,Tire,False,56,0,0,0,0.0
+openimages:577:333:444,openimages,577,333,Girl,Girl,False,2,0,0,0,0.0
+openimages:578:281:445,openimages,578,281,Table,Table,False,6,0,0,0,0.0
+openimages:579:76:446,openimages,579,76,Starfish,Starfish,False,7,0,0,0,0.0
+openimages:580:193:447,openimages,580,193,Food,Food,False,8,0,0,0,0.0
+openimages:581:446:448,openimages,581,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:588:409:452,openimages,588,409,Wheel,Wheel,False,2,0,0,0,0.0
+openimages:593:210:456,openimages,593,210,Fox,Fox,False,1,0,0,0,0.0
+openimages:595:296:458,openimages,595,296,Lizard,Lizard,False,11,0,0,0,0.0
+openimages:596:193:459,openimages,596,193,Food,Food,False,6,0,0,0,0.0
+openimages:599:552:461,openimages,599,552,Tire,Tire,False,29,0,0,0,0.0
+openimages:59:116:48,openimages,59,116,Cello,Cello,False,16,0,0,0,0.0
+openimages:602:503:464,openimages,602,503,Human arm,Human arm,False,29,0,0,0,0.0
+openimages:603:433:465,openimages,603,433,Clothing,Clothing,False,13,0,0,0,0.0
+openimages:608:301:468,openimages,608,301,Musical instrument,Musical instrument,False,8,0,0,0,0.0
+openimages:60:472:49,openimages,60,472,Oyster,Oyster,False,5,0,0,0,0.0
+openimages:610:102:470,openimages,610,102,Fire hydrant,Fire hydrant,False,1,0,0,0,0.0
+openimages:611:193:471,openimages,611,193,Food,Food,False,11,0,0,0,0.0
+openimages:615:210:475,openimages,615,210,Fox,Fox,False,2,0,0,0,0.0
+openimages:616:456:476,openimages,616,456,Flower,Flower,False,87,0,0,0,0.0
+openimages:618:286:478,openimages,618,286,Bottle,Bottle,False,3,0,0,0,0.0
+openimages:620:554:479,openimages,620,554,Luggage and bags,Luggage and bags,False,5,0,0,0,0.0
+openimages:623:298:482,openimages,623,298,Mammal,Mammal,False,9,0,0,0,0.0
+openimages:624:409:483,openimages,624,409,Wheel,Wheel,False,9,0,0,0,0.0
+openimages:629:409:487,openimages,629,409,Wheel,Wheel,False,5,0,0,0,0.0
+openimages:630:193:488,openimages,630,193,Food,Food,False,5,0,0,0,0.0
+openimages:636:281:491,openimages,636,281,Table,Table,False,6,0,0,0,0.0
+openimages:637:446:492,openimages,637,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:638:571:493,openimages,638,571,Car,Car,False,40,0,0,0,0.0
+openimages:640:391:494,openimages,640,391,Tree,Tree,False,6,0,0,0,0.0
+openimages:643:43:495,openimages,643,43,Boat,Boat,False,6,0,0,0,0.0
+openimages:646:433:496,openimages,646,433,Clothing,Clothing,False,34,0,0,0,0.0
+openimages:64:314:52,openimages,64,314,Baked goods,Baked goods,False,27,0,0,0,0.0
+openimages:650:301:499,openimages,650,301,Musical instrument,Musical instrument,False,27,0,0,0,0.0
+openimages:654:571:502,openimages,654,571,Car,Car,False,5,0,0,0,0.0
+openimages:659:103:505,openimages,659,103,Land vehicle,Land vehicle,False,29,0,0,0,0.0
+openimages:660:525:506,openimages,660,525,Marine mammal,Marine mammal,False,5,0,0,0,0.0
+openimages:662:298:509,openimages,662,298,Mammal,Mammal,True,1,0,0,0,0.0
+openimages:664:193:511,openimages,664,193,Food,Food,False,9,0,0,0,0.0
+openimages:666:69:512,openimages,666,69,Person,Person,False,3,0,0,0,0.0
+openimages:667:571:513,openimages,667,571,Car,Car,False,5,0,0,0,0.0
+openimages:669:91:515,openimages,669,91,Carnivore,Carnivore,False,2,0,0,0,0.0
+openimages:66:38:53,openimages,66,38,Ball,Ball,False,4,0,0,0,0.0
+openimages:674:351:520,openimages,674,351,Rifle,Rifle,False,35,0,0,0,0.0
+openimages:675:459:521,openimages,675,459,Palm tree,Palm tree,False,179,0,0,0,0.0
+openimages:676:55:522,openimages,676,55,Laptop,Laptop,False,3,0,0,0,0.0
+openimages:678:241:523,openimages,678,241,House,House,False,4,0,0,0,0.0
+openimages:686:485:526,openimages,686,485,Window,Window,False,5,0,0,0,0.0
+openimages:690:38:530,openimages,690,38,Ball,Ball,False,5,0,0,0,0.0
+openimages:691:409:531,openimages,691,409,Wheel,Wheel,False,6,0,0,0,0.0
+openimages:693:313:533,openimages,693,313,Mobile phone,Mobile phone,False,1,0,0,0,0.0
+openimages:696:334:534,openimages,696,334,Plant,Plant,False,1,0,0,0,0.0
+openimages:699:571:536,openimages,699,571,Car,Car,False,28,0,0,0,0.0
+openimages:69:404:55,openimages,69,404,Vehicle,Vehicle,False,2,0,0,0,0.0
+openimages:6:446:4,openimages,6,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:700:377:537,openimages,700,377,Snake,Snake,False,6,0,0,0,0.0
+openimages:704:534:540,openimages,704,534,Sparrow,Sparrow,False,1,0,0,0,0.0
+openimages:705:408:541,openimages,705,408,Weapon,Weapon,False,9,0,0,0,0.0
+openimages:707:409:543,openimages,707,409,Wheel,Wheel,False,26,0,0,0,0.0
+openimages:709:308:545,openimages,709,308,Man,Man,False,31,0,0,0,0.0
+openimages:710:282:546,openimages,710,282,Tableware,Tableware,False,62,0,0,0,0.0
+openimages:711:552:547,openimages,711,552,Tire,Tire,False,4,0,0,0,0.0
+openimages:715:298:550,openimages,715,298,Mammal,Mammal,False,1,0,0,0,0.0
+openimages:718:211:552,openimages,718,211,Flag,Flag,False,1,0,0,0,0.0
+openimages:71:571:57,openimages,71,571,Car,Car,False,3,0,0,0,0.0
+openimages:720:74:553,openimages,720,74,Bee,Bee,False,1,0,0,0,0.0
+openimages:722:338:555,openimages,722,338,Pasta,Pasta,False,4,0,0,0,0.0
+openimages:72:122:58,openimages,72,122,Cat,Cat,False,1,0,0,0,0.0
+openimages:732:177:561,openimages,732,177,Human body,Human body,False,8,0,0,0,0.0
+openimages:734:552:563,openimages,734,552,Tire,Tire,False,11,0,0,0,0.0
+openimages:737:462:565,openimages,737,462,Building,Building,False,4,0,0,0,0.0
+openimages:738:270:566,openimages,738,270,Refrigerator,Refrigerator,False,3,0,0,0,0.0
+openimages:740:433:568,openimages,740,433,Clothing,Clothing,False,27,0,0,0,0.0
+openimages:742:337:569,openimages,742,337,Sports equipment,Sports equipment,False,10,0,0,0,0.0
+openimages:744:38:571,openimages,744,38,Ball,Ball,False,2,0,0,0,0.0
+openimages:746:571:572,openimages,746,571,Car,Car,False,10,0,0,0,0.0
+openimages:751:456:577,openimages,751,456,Flower,Flower,False,13,0,0,0,0.0
+openimages:752:456:578,openimages,752,456,Flower,Flower,False,48,0,0,0,0.0
+openimages:754:242:579,openimages,754,242,Horse,Horse,False,7,0,0,0,0.0
+openimages:755:49:580,openimages,755,49,Fast food,Fast food,False,2,0,0,0,0.0
+openimages:757:482:582,openimages,757,482,Antelope,Antelope,False,5,0,0,0,0.0
+openimages:761:409:585,openimages,761,409,Wheel,Wheel,False,53,0,0,0,0.0
+openimages:763:277:587,openimages,763,277,Fashion accessory,Fashion accessory,False,28,0,0,0,0.0
+openimages:764:43:588,openimages,764,43,Boat,Boat,False,3,0,0,0,0.0
+openimages:765:298:589,openimages,765,298,Mammal,Mammal,False,40,0,0,0,0.0
+openimages:768:192:592,openimages,768,192,Personal care,Personal care,False,2,0,0,0,0.0
+openimages:76:488:61,openimages,76,488,Jellyfish,Jellyfish,False,11,0,0,0,0.0
+openimages:770:456:593,openimages,770,456,Flower,Flower,False,5,0,0,0,0.0
+openimages:773:571:595,openimages,773,571,Car,Car,False,12,0,0,0,0.0
+openimages:779:529:598,openimages,779,529,Watch,Watch,False,4,0,0,0,0.0
+openimages:780:456:599,openimages,780,456,Flower,Flower,False,57,0,0,0,0.0
+openimages:784:405:602,openimages,784,405,Handbag,Handbag,False,4,0,0,0,0.0
+openimages:787:298:605,openimages,787,298,Mammal,Mammal,False,1,0,0,0,0.0
+openimages:797:391:611,openimages,797,391,Tree,Tree,False,29,0,0,0,0.0
+openimages:798:281:612,openimages,798,281,Table,Table,False,52,0,0,0,0.0
+openimages:799:418:613,openimages,799,418,Monkey,Monkey,False,8,0,0,0,0.0
+openimages:79:314:63,openimages,79,314,Baked goods,Baked goods,False,2,0,0,0,0.0
+openimages:7:446:5,openimages,7,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:800:555:614,openimages,800,555,Microphone,Microphone,False,5,0,0,0,0.0
+openimages:801:434:615,openimages,801,434,Footwear,Footwear,False,3,0,0,0,0.0
+openimages:805:361:617,openimages,805,361,Shotgun,Shotgun,False,19,0,0,0,0.0
+openimages:812:298:622,openimages,812,298,Mammal,Mammal,False,6,0,0,0,0.0
+openimages:814:308:624,openimages,814,308,Man,Man,False,24,0,0,0,0.0
+openimages:815:359:625,openimages,815,359,Sculpture,Sculpture,False,11,0,0,0,0.0
+openimages:817:314:627,openimages,817,314,Baked goods,Baked goods,False,5,0,0,0,0.0
+openimages:81:148:64,openimages,81,148,Human mouth,Human mouth,False,4,0,0,0,0.0
+openimages:821:103:630,openimages,821,103,Land vehicle,Land vehicle,False,11,0,0,0,0.0
+openimages:822:438:631,openimages,822,438,Frog,Frog,False,4,0,0,0,0.0
+openimages:826:184:633,openimages,826,184,Office supplies,Office supplies,False,16,0,0,0,0.0
+openimages:827:468:634,openimages,827,468,Airplane,Airplane,False,2,0,0,0,0.0
+openimages:830:391:637,openimages,830,391,Tree,Tree,False,16,0,0,0,0.0
+openimages:831:277:638,openimages,831,277,Fashion accessory,Fashion accessory,False,21,0,0,0,0.0
+openimages:833:40:639,openimages,833,40,Bicycle,Bicycle,False,13,0,0,0,0.0
+openimages:835:114:641,openimages,835,114,Medical equipment,Medical equipment,False,19,0,0,0,0.0
+openimages:837:69:643,openimages,837,69,Person,Person,False,5,0,0,0,0.0
+openimages:838:107:644,openimages,838,107,Cabinetry,Cabinetry,False,39,0,0,0,0.0
+openimages:839:45:645,openimages,839,45,Boot,Boot,False,3,0,0,0,0.0
+openimages:842:253:648,openimages,842,253,Human hair,Human hair,False,18,0,0,0,0.0
+openimages:844:263:650,openimages,844,263,Insect,Insect,False,9,0,0,0,0.0
+openimages:847:277:652,openimages,847,277,Fashion accessory,Fashion accessory,False,11,0,0,0,0.0
+openimages:850:503:653,openimages,850,503,Human arm,Human arm,False,37,0,0,0,0.0
+openimages:851:111:654,openimages,851,111,Snack,Snack,False,30,0,0,0,0.0
+openimages:852:456:655,openimages,852,456,Flower,Flower,False,2,0,0,0,0.0
+openimages:857:571:659,openimages,857,571,Car,Car,False,2,0,0,0,0.0
+openimages:858:446:660,openimages,858,446,Dog,Dog,False,2,0,0,0,0.0
+openimages:859:298:661,openimages,859,298,Mammal,Mammal,False,40,0,0,0,0.0
+openimages:864:56:665,openimages,864,56,Miniskirt,Miniskirt,False,3,0,0,0,0.0
+openimages:86:468:68,openimages,86,468,Airplane,Airplane,False,18,0,0,0,0.0
+openimages:870:61:671,openimages,870,61,Pancake,Pancake,False,3,0,0,0,0.0
+openimages:871:337:672,openimages,871,337,Sports equipment,Sports equipment,False,16,0,0,0,0.0
+openimages:873:122:673,openimages,873,122,Cat,Cat,False,1,0,0,0,0.0
+openimages:875:528:675,openimages,875,528,Shelf,Shelf,False,85,0,0,0,0.0
+openimages:882:463:680,openimages,882,463,Fish,Fish,False,14,0,0,0,0.0
+openimages:883:404:681,openimages,883,404,Vehicle,Vehicle,False,9,0,0,0,0.0
+openimages:887:462:685,openimages,887,462,Building,Building,False,2,0,0,0,0.0
+openimages:894:143:688,openimages,894,143,Dessert,Dessert,False,4,0,0,0,0.0
+openimages:896:325:690,openimages,896,325,Kitchen knife,Kitchen knife,False,3,0,0,0,0.0
+openimages:897:433:691,openimages,897,433,Clothing,Clothing,False,10,0,0,0,0.0
+openimages:899:217:692,openimages,899,217,Egg (Food),Egg (Food),False,17,0,0,0,0.0
+openimages:8:468:6,openimages,8,468,Airplane,Airplane,False,1,0,0,0,0.0
+openimages:907:177:698,openimages,907,177,Human body,Human body,False,10,0,0,0,0.0
+openimages:914:571:702,openimages,914,571,Car,Car,False,1,0,0,0,0.0
+openimages:915:422:703,openimages,915,422,Chicken,Chicken,False,2,0,0,0,0.0
+openimages:916:571:704,openimages,916,571,Car,Car,False,23,0,0,0,0.0
+openimages:917:281:705,openimages,917,281,Table,Table,False,9,0,0,0,0.0
+openimages:920:103:707,openimages,920,103,Land vehicle,Land vehicle,False,12,0,0,0,0.0
+openimages:925:103:710,openimages,925,103,Land vehicle,Land vehicle,False,4,0,0,0,0.0
+openimages:931:193:714,openimages,931,193,Food,Food,False,13,0,0,0,0.0
+openimages:933:502:715,openimages,933,502,Human face,Human face,False,33,0,0,0,0.0
+openimages:935:292:717,openimages,935,292,Human head,Human head,False,9,0,0,0,0.0
+openimages:940:216:722,openimages,940,216,Jacket,Jacket,False,3,0,0,0,0.0
+openimages:942:219:723,openimages,942,219,Guitar,Guitar,False,1,0,0,0,0.0
+openimages:946:91:726,openimages,946,91,Carnivore,Carnivore,False,5,0,0,0,0.0
+openimages:948:573:727,openimages,948,573,Human hand,Human hand,False,4,0,0,0,0.0
+openimages:94:117:73,openimages,94,117,Jet ski,Jet ski,False,1,0,0,0,0.0
+openimages:951:456:728,openimages,951,456,Flower,Flower,False,39,0,0,0,0.0
+openimages:954:446:730,openimages,954,446,Dog,Dog,False,3,0,0,0,0.0
+openimages:957:298:733,openimages,957,298,Mammal,Mammal,False,11,0,0,0,0.0
+openimages:95:43:74,openimages,95,43,Boat,Boat,False,5,0,0,0,0.0
+openimages:960:446:735,openimages,960,446,Dog,Dog,False,2,0,0,0,0.0
+openimages:964:552:737,openimages,964,552,Tire,Tire,False,7,0,0,0,0.0
+openimages:965:22:738,openimages,965,22,Bird,Bird,False,4,0,0,0,0.0
+openimages:966:446:739,openimages,966,446,Dog,Dog,False,1,0,0,0,0.0
+openimages:968:420:741,openimages,968,420,Bread,Bread,False,8,0,0,0,0.0
+openimages:970:103:742,openimages,970,103,Land vehicle,Land vehicle,False,4,0,0,0,0.0
+openimages:972:228:743,openimages,972,228,Woman,Woman,False,5,0,0,0,0.0
+openimages:975:468:745,openimages,975,468,Airplane,Airplane,False,2,0,0,0,0.0
+openimages:977:282:747,openimages,977,282,Tableware,Tableware,False,31,0,0,0,0.0
+openimages:978:528:748,openimages,978,528,Shelf,Shelf,False,31,0,0,0,0.0
+openimages:980:276:750,openimages,980,276,Golf ball,Golf ball,False,3,0,0,0,0.0
+openimages:981:571:751,openimages,981,571,Car,Car,False,114,0,0,0,0.0
+openimages:983:43:752,openimages,983,43,Boat,Boat,False,8,0,0,0,0.0
+openimages:987:409:753,openimages,987,409,Wheel,Wheel,False,8,0,0,0,0.0
+openimages:988:277:754,openimages,988,277,Fashion accessory,Fashion accessory,False,4,0,0,0,0.0
+openimages:990:573:756,openimages,990,573,Human hand,Human hand,False,16,0,0,0,0.0
+openimages:992:193:757,openimages,992,193,Food,Food,False,11,0,0,0,0.0
+openimages:996:111:759,openimages,996,111,Snack,Snack,False,32,0,0,0,0.0
+openimages:999:391:760,openimages,999,391,Tree,Tree,False,6,0,0,0,0.0
+openimages:9:69:7,openimages,9,69,Person,Person,False,7,0,0,0,0.0

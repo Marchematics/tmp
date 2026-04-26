@@ -1,0 +1,23 @@
+# OVD Hallucination FDR — Reproducibility Config
+#
+# Usage:
+#   1) Set OVD_PROJECT_ROOT (and dataset root env vars), or
+#   2) Edit the paths below directly.
+#
+# All paths in scripts read from this file via
+# `from ovd_hallucination_fdr.paths import PROJECT_ROOT, DATASETS, OUTPUTS_DIR`.
+
+project_root: ${OVD_PROJECT_ROOT:-./}
+outputs_dir:  ${OVD_OUTPUTS_DIR:-./outputs}
+
+datasets:
+  coco_root:        ${COCO_ROOT:-./data/coco2017}
+  voc_root:         ${VOC_ROOT:-./data/voc2012}
+  lvis_root:        ${LVIS_ROOT:-./data/lvis}
+  objects365_root:  ${OBJECTS365_ROOT:-./data/objects365}
+  open_images_root: ${OPEN_IMAGES_ROOT:-./data/open_images_v7}
+
+detector_models:
+  groundingdino: IDEA-Research/grounding-dino-tiny
+  owlvit:        google/owlv2-base-patch16-ensemble
+  yoloworld:     yolov8x-worldv2

@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "data_raw/a_project_2/outputs/lvis_groundingdino_smoke_200_presentall_absentraremix.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 599,
+  "num_candidates": 12777,
+  "num_absent_candidates": 8793,
+  "num_true_positive_candidates": 812,
+  "num_null_candidates": 11965,
+  "top10pct_fdp": 0.702660406885759,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 5793,
+    "num_test_candidates": 6984,
+    "num_cal_null_scores": 5498,
+    "cal_null_score_threshold_min": 0.050002653151750565,
+    "cal_null_score_threshold_max": 0.71546471118927,
+    "test_null_evalue_mean": 0.9214344152831858,
+    "e_bh_num_families": 304,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

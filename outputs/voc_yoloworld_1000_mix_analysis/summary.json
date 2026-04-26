@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "outputs/voc_yoloworld_1000_mix.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 3000,
+  "num_candidates": 3198,
+  "num_absent_candidates": 296,
+  "num_true_positive_candidates": 1935,
+  "num_null_candidates": 1263,
+  "top10pct_fdp": 0.003125,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 1535,
+    "num_test_candidates": 1663,
+    "num_cal_null_scores": 619,
+    "cal_null_score_threshold_min": 0.05021839216351509,
+    "cal_null_score_threshold_max": 0.966543972492218,
+    "test_null_evalue_mean": 0.9472049689440993,
+    "e_bh_num_families": 608,
+    "e_bh_total_rejections": 384,
+    "e_bh_total_fp": 19,
+    "e_bh_mean_family_fdp": 0.019928728070175438
+  }
+}

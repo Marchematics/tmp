@@ -1,0 +1,38 @@
+{
+  "0": {
+    "seed": 0,
+    "num_fit_families": 36,
+    "num_cal_families": 12,
+    "num_test_families": 12,
+    "num_fit_candidates": 1660,
+    "num_cal_candidates": 524,
+    "num_test_candidates": 528,
+    "num_cal_null": 521,
+    "sum_phi_cal": 614.4249046489953,
+    "density_ratio": {
+      "num_fit_null": 1517,
+      "num_fit_tp": 143,
+      "num_bins_realized": 80,
+      "max_phi": 13.427690582959642,
+      "fit_null_phi_mean": 0.9999999999999999
+    }
+  },
+  "1": {
+    "seed": 1,
+    "num_fit_families": 36,
+    "num_cal_families": 12,
+    "num_test_families": 12,
+    "num_fit_candidates": 1474,
+    "num_cal_candidates": 589,
+    "num_test_candidates": 649,
+    "num_cal_null": 560,
+    "sum_phi_cal": 555.8421512514425,
+    "density_ratio": {
+      "num_fit_null": 1413,
+      "num_fit_tp": 61,
+      "num_bins_realized": 80,
+      "max_phi": 11.647517730496455,
+      "fit_null_phi_mean": 0.9999999999999999
+    }
+  }
+}

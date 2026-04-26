@@ -1,0 +1,22 @@
+family_id,dataset,image_id,category_id,category_name,prompt,is_prompt_absent,num_candidates,num_rejected,fp,tp,fdp
+coco:1000:43:18,coco,1000,43,tennis racket,tennis racket,False,7,0,0,0,0.0
+coco:1268:16:20,coco,1268,16,bird,bird,False,6,0,0,0,0.0
+coco:1353:1:24,coco,1353,1,person,person,False,60,0,0,0,0.0
+coco:1353:35:25,coco,1353,35,skis,skis,True,6,0,0,0,0.0
+coco:139:37:1,coco,139,37,sports ball,sports ball,True,1,0,0,0,0.0
+coco:139:84:0,coco,139,84,book,book,False,36,0,0,0,0.0
+coco:1425:85:27,coco,1425,85,clock,clock,True,6,0,0,0,0.0
+coco:1490:1:28,coco,1490,1,person,person,False,3,0,0,0,0.0
+coco:1503:16:31,coco,1503,16,bird,bird,True,6,0,0,0,0.0
+coco:1584:76:35,coco,1584,76,keyboard,keyboard,True,1,0,0,0,0.0
+coco:1675:85:37,coco,1675,85,clock,clock,True,5,0,0,0,0.0
+coco:1818:86:41,coco,1818,86,vase,vase,True,3,0,0,0,0.0
+coco:1993:62:42,coco,1993,62,chair,chair,False,7,0,0,0,0.0
+coco:2006:10:44,coco,2006,10,traffic light,traffic light,False,45,0,0,0,0.0
+coco:2006:40:45,coco,2006,40,baseball glove,baseball glove,True,1,0,0,0,0.0
+coco:2149:53:46,coco,2149,53,apple,apple,False,45,0,0,0,0.0
+coco:2149:5:47,coco,2149,5,airplane,airplane,True,7,0,0,0,0.0
+coco:285:23:2,coco,285,23,bear,bear,False,1,0,0,0,0.0
+coco:632:64:4,coco,632,64,potted plant,potted plant,False,10,0,0,0,0.0
+coco:776:65:8,coco,776,65,bed,bed,False,9,0,0,0,0.0
+coco:885:39:17,coco,885,39,baseball bat,baseball bat,True,2,0,0,0,0.0

@@ -1,0 +1,9 @@
+table,dataset,detector,alpha,method,fdp_pooled_mean,fdp_pooled_std,fdp_family_mean,recall_mean,rejections_mean,phi_max_median,loo_mean,n_seeds,source,pooled_bound_eps,pooled_bound_delta,pooled_bound_covered,pooled_bound_eps_stratified
+detector_side_comparison,COCO val,RegionCLIP,0.05,regionclip_vanilla,0.486876,0,0.209188,0.195824,2705,,,1,outputs/coco_regionclip_1000_mix.jsonl,,,,
+detector_side_comparison,COCO val,RegionCLIP,0.1,regionclip_vanilla,0.486876,0,0.209188,0.195824,2705,,,1,outputs/coco_regionclip_1000_mix.jsonl,,,,
+detector_side_comparison,COCO val,RegionCLIP,0.15,regionclip_vanilla,0.486876,0,0.209188,0.195824,2705,,,1,outputs/coco_regionclip_1000_mix.jsonl,,,,
+detector_side_comparison,COCO val,RegionCLIP,0.2,regionclip_vanilla,0.486876,0,0.209188,0.195824,2705,,,1,outputs/coco_regionclip_1000_mix.jsonl,,,,
+detector_side_comparison,COCO val,RegionCLIP,0.05,regionclip_plus_wrapper,0.002941,0.013153,0.000138,0.019915,28.25,341.404731,1,20,outputs/coco_regionclip_1000_20seed_formal_hist,76.039578,0.05,20/20,73.789381
+detector_side_comparison,COCO val,RegionCLIP,0.1,regionclip_plus_wrapper,0.00125,0.00559,0.000138,0.037299,52.9,341.404731,1,20,outputs/coco_regionclip_1000_20seed_formal_hist,32.856901,0.05,20/20,47.582927
+detector_side_comparison,COCO val,RegionCLIP,0.15,regionclip_plus_wrapper,0.00199,0.006373,0.000414,0.045469,64.3,341.404731,1,20,outputs/coco_regionclip_1000_20seed_formal_hist,26.782001,0.05,20/20,38.72185
+detector_side_comparison,COCO val,RegionCLIP,0.2,regionclip_plus_wrapper,0.0025,0.007697,0.000691,0.048715,68.9,341.404731,1,20,outputs/coco_regionclip_1000_20seed_formal_hist,25.034369,0.05,20/20,36.193062

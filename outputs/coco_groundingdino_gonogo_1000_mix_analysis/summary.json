@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "outputs/coco_groundingdino_gonogo_1000_mix.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 2992,
+  "num_candidates": 30792,
+  "num_absent_candidates": 9600,
+  "num_true_positive_candidates": 3414,
+  "num_null_candidates": 27378,
+  "top10pct_fdp": 0.4081168831168831,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 14909,
+    "num_test_candidates": 15883,
+    "num_cal_null_scores": 13260,
+    "cal_null_score_threshold_min": 0.0500003844499588,
+    "cal_null_score_threshold_max": 0.9124723076820374,
+    "test_null_evalue_mean": 0.7786187535716028,
+    "e_bh_num_families": 1367,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

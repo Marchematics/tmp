@@ -1,0 +1,5 @@
+family_id,dataset,image_id,file_name,category_id,category_name,prompt,is_prompt_absent,gt_count,candidate_idx,score,x1,y1,x2,y2,max_iou,is_tp,is_null
+smoke:1:1:0,smoke,1,a.jpg,1,dog,dog,False,1,0,0.9,10.0,10.0,40.0,40.0,1.0,True,False
+smoke:1:1:0,smoke,1,a.jpg,1,dog,dog,False,1,1,0.2,60.0,60.0,80.0,80.0,0.0,False,True
+smoke:2:2:1,smoke,2,b.jpg,2,cat,cat,True,0,0,0.8,5.0,5.0,20.0,20.0,0.0,False,True
+smoke:2:2:1,smoke,2,b.jpg,2,cat,cat,True,0,1,0.1,50.0,50.0,70.0,70.0,0.0,False,True

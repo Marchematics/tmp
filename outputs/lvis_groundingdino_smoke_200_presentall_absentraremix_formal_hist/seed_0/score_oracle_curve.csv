@@ -1,0 +1,5 @@
+alpha,total_rejections,fp,tp,fdp,recall,threshold,seed,method
+0.05,7,0,7,0.0,0.04375,0.8142661452293396,0,score_oracle
+0.1,7,0,7,0.0,0.04375,0.8142661452293396,0,score_oracle
+0.15,9,1,8,0.1111111111111111,0.05,0.73940509557724,0,score_oracle
+0.2,10,2,8,0.2,0.05,0.7110582590103149,0,score_oracle

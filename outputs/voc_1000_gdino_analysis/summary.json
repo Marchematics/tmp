@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "outputs/voc_1000_gdino.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 2940,
+  "num_candidates": 29534,
+  "num_absent_candidates": 15358,
+  "num_true_positive_candidates": 2776,
+  "num_null_candidates": 26758,
+  "top10pct_fdp": 0.4031821259309411,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 14723,
+    "num_test_candidates": 14811,
+    "num_cal_null_scores": 13381,
+    "cal_null_score_threshold_min": 0.05000240355730057,
+    "cal_null_score_threshold_max": 0.8431555032730103,
+    "test_null_evalue_mean": 0.9749722012909589,
+    "e_bh_num_families": 1399,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

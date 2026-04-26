@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "outputs/voc_1000_owlvit.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 3000,
+  "num_candidates": 7402,
+  "num_absent_candidates": 802,
+  "num_true_positive_candidates": 2187,
+  "num_null_candidates": 5215,
+  "top10pct_fdp": 0.18218623481781376,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 3608,
+    "num_test_candidates": 3794,
+    "num_cal_null_scores": 2562,
+    "cal_null_score_threshold_min": 0.05000393092632294,
+    "cal_null_score_threshold_max": 0.7403420209884644,
+    "test_null_evalue_mean": 0.90217227102128,
+    "e_bh_num_families": 632,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "candidate_table": "outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv",
+  "etas": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "alpha": 0.1,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "estimator": "hist",
+  "num_bins": 80,
+  "smoothing": 0.0,
+  "n_present_families": 992
+}

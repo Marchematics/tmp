@@ -1,0 +1,191 @@
+table,dataset,detector,alpha,method,fdp_pooled_mean,fdp_pooled_std,fdp_family_mean,recall_mean,rejections_mean,phi_max_median,loo_mean,n_seeds,source,pooled_bound_eps,pooled_bound_delta,pooled_bound_covered,pooled_bound_eps_stratified
+table1_main,COCO val,GDino,0.05,betting_eBH,0.027414,0.01878,0.004218,0.147168,104.0,356.8,1.0,20,outputs/coco_gdino_1000_20seed_formal_hist,14.785569,0.05,20/20,10.641227
+table1_main,COCO val,GDino,0.1,betting_eBH,0.03963,0.019761,0.006484,0.18707,134.0,356.8,1.0,20,outputs/coco_gdino_1000_20seed_formal_hist,11.589667,0.05,20/20,16.573011
+table1_main,COCO val,GDino,0.15,betting_eBH,0.0507,0.022012,0.009481,0.21018,152.4,356.8,1.0,20,outputs/coco_gdino_1000_20seed_formal_hist,10.155502,0.05,20/20,15.781716
+table1_main,COCO val,GDino,0.2,betting_eBH,0.05983,0.021171,0.012492,0.227744,166.8,356.8,1.0,20,outputs/coco_gdino_1000_20seed_formal_hist,9.270123,0.05,20/20,14.408231
+table1_main,COCO val,OWL-ViT,0.05,betting_eBH,0.015067,0.017121,0.002098,0.081944,44.2,197.7,1.0,20,outputs/coco_owlvit_1000_20seed_formal_hist,19.861974,0.05,20/20,14.408322
+table1_main,COCO val,OWL-ViT,0.1,betting_eBH,0.023127,0.018446,0.003373,0.112034,60.9,197.7,1.0,20,outputs/coco_owlvit_1000_20seed_formal_hist,13.855627,0.05,20/20,11.737192
+table1_main,COCO val,OWL-ViT,0.15,betting_eBH,0.035324,0.030224,0.005977,0.134035,73.8,197.7,1.0,20,outputs/coco_owlvit_1000_20seed_formal_hist,11.351216,0.05,20/20,11.532092
+table1_main,COCO val,OWL-ViT,0.2,betting_eBH,0.038021,0.030147,0.008119,0.153647,85.0,197.7,1.0,20,outputs/coco_owlvit_1000_20seed_formal_hist,9.93491,0.05,20/20,10.734474
+table1_main,VOC 2012,GDino,0.05,betting_eBH,0.04566,0.016742,0.01162,0.252067,150.0,1145.6,1.0,20,outputs/voc_gdino_1000_20seed_formal_hist,7.451771,0.05,20/20,11.459956
+table1_main,VOC 2012,GDino,0.1,betting_eBH,0.056233,0.019634,0.016869,0.326038,196.4,1145.6,1.0,20,outputs/voc_gdino_1000_20seed_formal_hist,5.804906,0.05,20/20,9.687416
+table1_main,VOC 2012,GDino,0.15,betting_eBH,0.071192,0.02581,0.021483,0.362624,222.1,1145.6,1.0,20,outputs/voc_gdino_1000_20seed_formal_hist,5.203661,0.05,20/20,8.941213
+table1_main,VOC 2012,GDino,0.2,betting_eBH,0.08655,0.028307,0.027361,0.388292,242.0,1145.6,1.0,20,outputs/voc_gdino_1000_20seed_formal_hist,4.823402,0.05,20/20,8.286638
+table1_main,VOC 2012,OWL-ViT,0.05,betting_eBH,0.018076,0.025403,0.00239,0.078308,34.7,152.3,1.0,20,outputs/voc_owlvit_1000_20seed_formal_hist,13.206632,0.05,20/20,12.497102
+table1_main,VOC 2012,OWL-ViT,0.1,betting_eBH,0.025365,0.027594,0.003533,0.097235,43.4,152.3,1.0,20,outputs/voc_owlvit_1000_20seed_formal_hist,11.125539,0.05,20/20,12.966181
+table1_main,VOC 2012,OWL-ViT,0.15,betting_eBH,0.023891,0.026495,0.003546,0.111362,49.6,152.3,1.0,20,outputs/voc_owlvit_1000_20seed_formal_hist,10.192688,0.05,20/20,11.975365
+table1_main,VOC 2012,OWL-ViT,0.2,betting_eBH,0.026621,0.027412,0.003906,0.127373,57.0,152.3,1.0,20,outputs/voc_owlvit_1000_20seed_formal_hist,9.310433,0.05,20/20,10.990911
+table2_baselines,COCO val,GDino,0.05,betting,0.027414,0.01878,0.004218,0.147168,104.0,,,20,outputs/coco_gdino_1000_20seed_formal_hist,14.785569,0.05,20/20,10.641227
+table2_baselines,COCO val,GDino,0.1,betting,0.03963,0.019761,0.006484,0.18707,134.0,,,20,outputs/coco_gdino_1000_20seed_formal_hist,11.589667,0.05,20/20,16.573011
+table2_baselines,COCO val,GDino,0.15,betting,0.0507,0.022012,0.009481,0.21018,152.4,,,20,outputs/coco_gdino_1000_20seed_formal_hist,10.155502,0.05,20/20,15.781716
+table2_baselines,COCO val,GDino,0.2,betting,0.05983,0.021171,0.012492,0.227744,166.8,,,20,outputs/coco_gdino_1000_20seed_formal_hist,9.270123,0.05,20/20,14.408231
+table2_baselines,COCO val,GDino,0.05,binary,0.0,0.0,0.0,0.0,0.0,,,20,outputs/coco_gdino_1000_20seed_formal_hist,14.785569,0.05,20/20,10.641227
+table2_baselines,COCO val,GDino,0.1,binary,0.016129,0.072131,0.000838,0.001562,1.6,,,20,outputs/coco_gdino_1000_20seed_formal_hist,11.589667,0.05,20/20,16.573011
+table2_baselines,COCO val,GDino,0.15,binary,0.0,0.0,0.0,0.0,0.0,,,20,outputs/coco_gdino_1000_20seed_formal_hist,10.155502,0.05,20/20,15.781716
+table2_baselines,COCO val,GDino,0.2,binary,0.025,0.111803,0.001955,0.001711,2.3,,,20,outputs/coco_gdino_1000_20seed_formal_hist,9.270123,0.05,20/20,14.408231
+table2_baselines,COCO val,GDino,0.05,pvalue_bh,0.119744,0.043239,0.028274,0.309784,245.8,,,20,outputs/coco_gdino_1000_20seed_formal_hist,14.785569,0.05,20/20,10.641227
+table2_baselines,COCO val,GDino,0.1,pvalue_bh,0.276935,0.125992,0.0554,0.379675,383.0,,,20,outputs/coco_gdino_1000_20seed_formal_hist,11.589667,0.05,20/20,16.573011
+table2_baselines,COCO val,GDino,0.15,pvalue_bh,0.355795,0.125744,0.089487,0.423114,482.0,,,20,outputs/coco_gdino_1000_20seed_formal_hist,10.155502,0.05,20/20,15.781716
+table2_baselines,COCO val,GDino,0.2,pvalue_bh,0.416825,0.110289,0.123362,0.457638,573.9,,,20,outputs/coco_gdino_1000_20seed_formal_hist,9.270123,0.05,20/20,14.408231
+table2_baselines,COCO val,GDino,0.05,pvalue_by,0.084107,0.018408,0.019638,0.232446,171.6,,,20,outputs/by_baseline_coco_gdino_20seed.csv,,,,
+table2_baselines,COCO val,GDino,0.1,pvalue_by,0.113364,0.020451,0.032894,0.277417,212.4,,,20,outputs/by_baseline_coco_gdino_20seed.csv,,,,
+table2_baselines,COCO val,GDino,0.15,pvalue_by,0.146395,0.031298,0.046477,0.302356,241.0,,,20,outputs/by_baseline_coco_gdino_20seed.csv,,,,
+table2_baselines,COCO val,GDino,0.2,pvalue_by,0.183915,0.038193,0.064448,0.328067,273.8,,,20,outputs/by_baseline_coco_gdino_20seed.csv,,,,
+boundary,COCO val,GDino,0.1,betting_eBH,0.03963,,,0.18707,134.0,356.8,,20,outputs/coco_gdino_1000_20seed_formal_hist,11.589667,0.05,20/20,16.573011
+boundary,VOC 2012,GDino,0.1,betting_eBH,0.056233,,,0.326038,196.4,1145.6,,20,outputs/voc_gdino_1000_20seed_formal_hist,5.804906,0.05,20/20,9.687416
+boundary,OI V7,GDino,0.1,betting_eBH,0.322815,,,0.099686,64.6,37.1,,5,outputs/oi_1000_gdino_formal_hist,21.853742,0.05,5/5,3.990095
+boundary,LVIS,GDino,0.1,betting_eBH,0.176626,,,0.039141,37.0,29.5,,5,outputs/lvis_groundingdino_1000_presentall_absentraremix_formal_hist,51.539835,0.05,5/5,12.492313
+table2_baselines,COCO val,GDino,0.05,score_threshold_cal,0.052091,0.018804,0.04547,0.252165,180.9,,,20,outputs/score_threshold_cal_baseline_coco_gdino_20seed.csv,,,,
+table2_baselines,COCO val,GDino,0.1,score_threshold_cal,0.100012,0.035255,0.070854,0.315904,240.4,,,20,outputs/score_threshold_cal_baseline_coco_gdino_20seed.csv,,,,
+table2_baselines,COCO val,GDino,0.15,score_threshold_cal,0.137907,0.049462,0.091588,0.353841,281.8,,,20,outputs/score_threshold_cal_baseline_coco_gdino_20seed.csv,,,,
+table2_baselines,COCO val,GDino,0.2,score_threshold_cal,0.194594,0.07269,0.129091,0.400301,344.8,,,20,outputs/score_threshold_cal_baseline_coco_gdino_20seed.csv,,,,
+table1_main,COCO val,YOLO-World,0.05,betting_eBH,0.029169,0.022006,0.005516,0.131106,53.3,1000000.0,1.0,20,outputs/coco_yoloworld_val_1000_20seed_formal_hist,6.9314,0.05,20/20,4.295661
+table1_main,COCO val,YOLO-World,0.1,betting_eBH,0.03082,0.023031,0.007212,0.152653,62.5,1000000.0,1.0,20,outputs/coco_yoloworld_val_1000_20seed_formal_hist,6.26668,0.05,20/20,4.543895
+table1_main,COCO val,YOLO-World,0.15,betting_eBH,0.034222,0.029231,0.008482,0.164505,67.8,1000000.0,1.0,20,outputs/coco_yoloworld_val_1000_20seed_formal_hist,6.015568,0.05,20/20,6.118428
+table1_main,COCO val,YOLO-World,0.2,betting_eBH,0.03469,0.029356,0.009157,0.172365,71.2,1000000.0,1.0,20,outputs/coco_yoloworld_val_1000_20seed_formal_hist,5.932938,0.05,20/20,6.042373
+table1_main,COCO train,GDino,0.05,betting_eBH,0.061519,0.037477,0.007418,0.150936,112.0,592.6,1.0,20,outputs/coco_train_gdino_1000_20seed_formal_hist,13.546767,0.05,20/20,20.266837
+table1_main,COCO train,GDino,0.1,betting_eBH,0.08134,0.038783,0.011867,0.199837,151.6,592.6,1.0,20,outputs/coco_train_gdino_1000_20seed_formal_hist,10.051923,0.05,20/20,15.004053
+table1_main,COCO train,GDino,0.15,betting_eBH,0.093157,0.041169,0.015616,0.231829,178.2,592.6,1.0,20,outputs/coco_train_gdino_1000_20seed_formal_hist,8.476498,0.05,20/20,12.619762
+table1_main,COCO train,GDino,0.2,betting_eBH,0.100785,0.037574,0.018527,0.253958,197.2,592.6,1.0,20,outputs/coco_train_gdino_1000_20seed_formal_hist,7.663369,0.05,20/20,11.909459
+table1_main,VOC 2012,YOLO-World,0.05,betting_eBH,0.010693,0.008636,0.006478,0.368483,145.1,1000000.0,1.0,20,outputs/voc_yoloworld_1000_20seed_formal_hist,0.989571,0.05,20/20,1.610118
+table1_main,VOC 2012,YOLO-World,0.1,betting_eBH,0.013373,0.011187,0.008964,0.408926,161.4,1000000.0,1.0,20,outputs/voc_yoloworld_1000_20seed_formal_hist,0.885258,0.05,20/20,1.439932
+table1_main,VOC 2012,YOLO-World,0.15,betting_eBH,0.013619,0.011086,0.009314,0.423405,167.1,1000000.0,1.0,20,outputs/voc_yoloworld_1000_20seed_formal_hist,0.859011,0.05,20/20,1.397167
+table1_main,VOC 2012,YOLO-World,0.2,betting_eBH,0.014659,0.014577,0.009947,0.430691,170.2,1000000.0,1.0,20,outputs/voc_yoloworld_1000_20seed_formal_hist,0.848421,0.05,20/20,1.37996
+freeform_pilot,COCO freeform 2k,GDino,0.05,betting_eBH,0.0,0.0,,0.0,0.0,14.5,1.0,20,outputs/coco_gdino_freeform_2000/formal_20seed,105208139891.1388,0.05,20/20,
+freeform_pilot,COCO freeform 2k,GDino,0.1,betting_eBH,0.41,0.331,,0.001108,3.2,14.5,1.0,20,outputs/coco_gdino_freeform_2000/formal_20seed,1402.451795,0.05,20/20,53.648687
+freeform_pilot,COCO freeform 2k,GDino,0.15,betting_eBH,0.248,0.081,,0.01576,35.5,14.5,1.0,20,outputs/coco_gdino_freeform_2000/formal_20seed,101.15982,0.05,20/20,3.881929
+freeform_pilot,COCO freeform 2k,GDino,0.2,betting_eBH,0.247,0.08,,0.017157,38.8,14.5,1.0,20,outputs/coco_gdino_freeform_2000/formal_20seed,95.325167,0.05,20/20,3.656289
+freeform_pilot,COCO freeform 2k,GDino,0.05,binary,0.0,0.0,,0.0,0.0,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,105208139891.1388,0.05,20/20,
+freeform_pilot,COCO freeform 2k,GDino,0.1,binary,0.0,0.0,,0.0,0.0,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,1402.451795,0.05,20/20,53.648687
+freeform_pilot,COCO freeform 2k,GDino,0.15,binary,0.0,0.0,,0.0,0.0,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,101.15982,0.05,20/20,3.881929
+freeform_pilot,COCO freeform 2k,GDino,0.2,binary,0.079,0.192,,0.002572,8.85,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,95.325167,0.05,20/20,3.656289
+freeform_pilot,COCO freeform 2k,GDino,0.05,pvalue_bh,0.510813,0.02862,,0.09167,317.1,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,105208139891.1388,0.05,20/20,
+freeform_pilot,COCO freeform 2k,GDino,0.1,pvalue_bh,0.607021,0.020431,,0.121005,520.8,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,1402.451795,0.05,20/20,53.648687
+freeform_pilot,COCO freeform 2k,GDino,0.15,pvalue_bh,0.651757,0.016378,,0.155637,755.6,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,101.15982,0.05,20/20,3.881929
+freeform_pilot,COCO freeform 2k,GDino,0.2,pvalue_bh,0.674105,0.017935,,0.198017,1027.9,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,95.325167,0.05,20/20,3.656289
+freeform_pilot,COCO freeform 2k,GDino,0.05,score_oracle,0.03677,,,0.019465,34.45,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,105208139891.1388,0.05,20/20,
+freeform_pilot,COCO freeform 2k,GDino,0.1,score_oracle,0.094209,,,0.030003,56.45,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,1402.451795,0.05,20/20,53.648687
+freeform_pilot,COCO freeform 2k,GDino,0.15,score_oracle,0.146685,,,0.037469,75.0,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,101.15982,0.05,20/20,3.881929
+freeform_pilot,COCO freeform 2k,GDino,0.2,score_oracle,0.197444,,,0.048914,103.7,,,20,outputs/coco_gdino_freeform_2000/formal_20seed,95.325167,0.05,20/20,3.656289
+freeform_mitigation,COCO freeform 2k,GDino,0.05,pertemplate_isotonic_clip500,0.017229,,0.00117,0.04512,77.8,,1.0,20,outputs/coco_gdino_freeform_2000/mitigation_best_20seed,,,,
+freeform_mitigation,COCO freeform 2k,GDino,0.1,pertemplate_isotonic_clip500,0.038886,,0.003258,0.055932,98.55,,1.0,20,outputs/coco_gdino_freeform_2000/mitigation_best_20seed,,,,
+freeform_mitigation,COCO freeform 2k,GDino,0.15,pertemplate_isotonic_clip500,0.060387,,0.005848,0.063751,114.8,,1.0,20,outputs/coco_gdino_freeform_2000/mitigation_best_20seed,,,,
+freeform_mitigation,COCO freeform 2k,GDino,0.2,pertemplate_isotonic_clip500,0.102363,,0.011383,0.069985,131.95,,1.0,20,outputs/coco_gdino_freeform_2000/mitigation_best_20seed,,,,
+freeform_mitigation,COCO freeform 2k,GDino,0.1,pertemplate_hist80_sm01_clip500,0.037781,,0.002924,0.051987,91.4,,1.0,20,outputs/coco_gdino_freeform_2000/mitigation_best_20seed,,,,
+freeform_mitigation,COCO freeform 2k,GDino,0.1,pertemplate_logreg_noclip,0.037537,,0.00284,0.051775,91.05,,1.0,20,outputs/coco_gdino_freeform_2000/mitigation_best_20seed,,,,
+score_floor,COCO val,GDino,0.05,betting_eBH_sf0.30,0.050809,0.02,0.011231,0.247178,179.6,,1.0,20,outputs/coco_gdino_1000_20seed_sf0.30,8.57148,0.05,20/20,13.326196
+score_floor,COCO val,GDino,0.1,betting_eBH_sf0.30,0.088266,0.031615,0.019348,0.303972,231.1,,1.0,20,outputs/coco_gdino_1000_20seed_sf0.30,6.700129,0.05,20/20,10.423059
+score_floor,COCO val,GDino,0.15,betting_eBH_sf0.30,0.132705,0.039006,0.032386,0.350689,280.8,,1.0,20,outputs/coco_gdino_1000_20seed_sf0.30,5.53044,0.05,20/20,8.60571
+score_floor,COCO val,GDino,0.2,betting_eBH_sf0.30,0.169377,0.043829,0.044246,0.379762,317.5,,1.0,20,outputs/coco_gdino_1000_20seed_sf0.30,4.887381,0.05,20/20,7.601902
+score_floor,COCO val,GDino,0.05,betting_eBH_sf0.40,0.060081,0.028462,0.012312,0.262807,193.6,,1.0,20,outputs/coco_gdino_1000_20seed_sf0.40,7.983591,0.05,20/20,12.419258
+score_floor,COCO val,GDino,0.1,betting_eBH_sf0.40,0.115067,0.034291,0.025924,0.33312,261.0,,1.0,20,outputs/coco_gdino_1000_20seed_sf0.40,5.921428,0.05,20/20,9.213849
+score_floor,COCO val,GDino,0.15,betting_eBH_sf0.40,0.193714,0.06032,0.04428,0.394942,341.6,,1.0,20,outputs/coco_gdino_1000_20seed_sf0.40,4.55912,0.05,20/20,7.101098
+score_floor,COCO val,GDino,0.2,betting_eBH_sf0.40,0.21416,0.043188,0.053454,0.419229,369.4,,1.0,20,outputs/coco_gdino_1000_20seed_sf0.40,4.138179,0.05,20/20,6.441394
+score_floor,VOC 2012,GDino,0.05,betting_eBH_sf0.30,0.086676,0.029954,0.028935,0.424422,263.9,,1.0,20,outputs/voc_gdino_1000_20seed_sf0.30,4.097898,0.05,20/20,7.053507
+score_floor,VOC 2012,GDino,0.1,betting_eBH_sf0.30,0.116109,0.03295,0.042468,0.478619,307.8,,1.0,20,outputs/voc_gdino_1000_20seed_sf0.30,3.508392,0.05,20/20,6.039098
+score_floor,VOC 2012,GDino,0.15,betting_eBH_sf0.30,0.163788,0.037409,0.071587,0.5199,353.7,,1.0,20,outputs/voc_gdino_1000_20seed_sf0.30,3.05469,0.05,20/20,5.257233
+score_floor,VOC 2012,GDino,0.2,betting_eBH_sf0.30,0.192751,0.04369,0.091137,0.541608,382.8,,1.0,20,outputs/voc_gdino_1000_20seed_sf0.30,2.837342,0.05,20/20,4.882937
+score_floor,VOC 2012,GDino,0.05,betting_eBH_sf0.40,0.090158,0.030566,0.030186,0.445285,278.2,,1.0,20,outputs/voc_gdino_1000_20seed_sf0.40,3.891484,0.05,20/20,6.698091
+score_floor,VOC 2012,GDino,0.1,betting_eBH_sf0.40,0.119734,0.036006,0.044216,0.490257,316.7,,1.0,20,outputs/voc_gdino_1000_20seed_sf0.40,3.410446,0.05,20/20,5.87111
+score_floor,VOC 2012,GDino,0.15,betting_eBH_sf0.40,0.174367,0.036825,0.076408,0.538911,371.6,,1.0,20,outputs/voc_gdino_1000_20seed_sf0.40,2.910679,0.05,20/20,5.009141
+score_floor,VOC 2012,GDino,0.2,betting_eBH_sf0.40,0.206536,0.048473,0.097641,0.56023,403.5,,1.0,20,outputs/voc_gdino_1000_20seed_sf0.40,2.702572,0.05,20/20,4.650692
+score_floor,COCO val,OWL-ViT,0.05,betting_eBH_sf0.30,0.034573,0.030877,0.00688,0.141558,78.0,,1.0,20,outputs/coco_owlvit_1000_20seed_sf0.30,10.646044,0.05,20/20,14.858021
+score_floor,COCO val,OWL-ViT,0.1,betting_eBH_sf0.30,0.05752,0.036047,0.015511,0.191226,108.2,,1.0,20,outputs/coco_owlvit_1000_20seed_sf0.30,7.638968,0.05,20/20,12.435843
+score_floor,COCO val,OWL-ViT,0.15,betting_eBH_sf0.30,0.077779,0.040238,0.024259,0.235365,136.4,,1.0,20,outputs/coco_owlvit_1000_20seed_sf0.30,6.101345,0.05,20/20,9.932657
+score_floor,COCO val,OWL-ViT,0.2,betting_eBH_sf0.30,0.122407,0.053787,0.040438,0.293682,180.2,,1.0,20,outputs/coco_owlvit_1000_20seed_sf0.30,4.759737,0.05,20/20,7.739128
+score_floor,COCO val,OWL-ViT,0.05,betting_eBH_sf0.40,0.04114,0.03122,0.00828,0.149345,82.8,,1.0,20,outputs/coco_owlvit_1000_20seed_sf0.40,10.051029,0.05,20/20,15.822319
+score_floor,COCO val,OWL-ViT,0.1,betting_eBH_sf0.40,0.066359,0.03756,0.017658,0.208096,119.2,,1.0,20,outputs/coco_owlvit_1000_20seed_sf0.40,6.975253,0.05,20/20,11.35324
+score_floor,COCO val,OWL-ViT,0.15,betting_eBH_sf0.40,0.088749,0.049363,0.027575,0.255577,150.2,,1.0,20,outputs/coco_owlvit_1000_20seed_sf0.40,5.565236,0.05,20/20,9.057815
+score_floor,COCO val,OWL-ViT,0.2,betting_eBH_sf0.40,0.161854,0.066479,0.047504,0.321171,206.2,,1.0,20,outputs/coco_owlvit_1000_20seed_sf0.40,4.087635,0.05,20/20,6.655422
+score_floor,VOC 2012,OWL-ViT,0.05,betting_eBH_sf0.30,0.018479,0.017664,0.003267,0.115401,51.2,,1.0,20,outputs/voc_owlvit_1000_20seed_sf0.30,8.574137,0.05,20/20,11.363593
+score_floor,VOC 2012,OWL-ViT,0.1,betting_eBH_sf0.30,0.026042,0.019777,0.004786,0.137826,61.6,,1.0,20,outputs/voc_owlvit_1000_20seed_sf0.30,7.274459,0.05,20/20,9.830878
+score_floor,VOC 2012,OWL-ViT,0.15,betting_eBH_sf0.30,0.061082,0.040685,0.012336,0.178666,83.4,,1.0,20,outputs/voc_owlvit_1000_20seed_sf0.30,5.372254,0.05,20/20,8.641769
+score_floor,VOC 2012,OWL-ViT,0.2,betting_eBH_sf0.30,0.093856,0.04277,0.020553,0.212446,102.8,,1.0,20,outputs/voc_owlvit_1000_20seed_sf0.30,4.358058,0.05,20/20,7.354094
+score_floor,VOC 2012,OWL-ViT,0.05,betting_eBH_sf0.40,0.021057,0.019417,0.003865,0.118372,52.6,,1.0,20,outputs/voc_owlvit_1000_20seed_sf0.40,8.358036,0.05,20/20,11.355294
+score_floor,VOC 2012,OWL-ViT,0.1,betting_eBH_sf0.40,0.035277,0.031621,0.006313,0.143618,65.0,,1.0,20,outputs/voc_owlvit_1000_20seed_sf0.40,6.972377,0.05,20/20,10.819618
+score_floor,VOC 2012,OWL-ViT,0.15,betting_eBH_sf0.40,0.077234,0.042161,0.015447,0.19576,93.2,,1.0,20,outputs/voc_owlvit_1000_20seed_sf0.40,4.809504,0.05,20/20,8.087359
+score_floor,VOC 2012,OWL-ViT,0.2,betting_eBH_sf0.40,0.102303,0.042647,0.020759,0.215249,105.1,,1.0,20,outputs/voc_owlvit_1000_20seed_sf0.40,4.179189,0.05,20/20,7.424499
+score_floor,COCO val,YOLO-World,0.05,betting_eBH_sf0.30,0.01345,0.018748,0.001825,0.103235,40.5,,1.0,20,outputs/coco_yoloworld_1000_20seed_sf0.30,9.928786,0.05,20/20,2.922771
+score_floor,COCO val,YOLO-World,0.1,betting_eBH_sf0.30,0.03035,0.020591,0.009216,0.225291,91.0,,1.0,20,outputs/coco_yoloworld_1000_20seed_sf0.30,4.110452,0.05,20/20,2.552504
+score_floor,COCO val,YOLO-World,0.15,betting_eBH_sf0.30,0.040207,0.023202,0.015879,0.293833,120.4,,1.0,20,outputs/coco_yoloworld_1000_20seed_sf0.30,2.9819,0.05,20/20,2.151222
+score_floor,COCO val,YOLO-World,0.2,betting_eBH_sf0.30,0.049012,0.021579,0.021188,0.343056,142.0,,1.0,20,outputs/coco_yoloworld_1000_20seed_sf0.30,2.522238,0.05,20/20,1.804962
+score_floor,COCO val,YOLO-World,0.05,betting_eBH_sf0.40,0.022188,0.022296,0.003254,0.106486,42.2,,1.0,20,outputs/coco_yoloworld_1000_20seed_sf0.40,9.502767,0.05,20/20,3.243233
+score_floor,COCO val,YOLO-World,0.1,betting_eBH_sf0.40,0.033364,0.02117,0.010645,0.232035,94.0,,1.0,20,outputs/coco_yoloworld_1000_20seed_sf0.40,3.975663,0.05,20/20,2.581973
+score_floor,COCO val,YOLO-World,0.15,betting_eBH_sf0.40,0.042479,0.025026,0.017308,0.300295,123.4,,1.0,20,outputs/coco_yoloworld_1000_20seed_sf0.40,2.909354,0.05,20/20,2.102602
+score_floor,COCO val,YOLO-World,0.2,betting_eBH_sf0.40,0.050596,0.022884,0.022438,0.3531,146.2,,1.0,20,outputs/coco_yoloworld_1000_20seed_sf0.40,2.449273,0.05,20/20,1.752351
+score_floor,VOC 2012,YOLO-World,0.05,betting_eBH_sf0.30,0.009921,0.012106,0.003676,0.185867,73.3,,1.0,20,outputs/voc_yoloworld_1000_20seed_sf0.30,43885456488.01579,0.05,20/20,1.955311
+score_floor,VOC 2012,YOLO-World,0.1,betting_eBH_sf0.30,0.013784,0.013007,0.008174,0.380424,149.9,,1.0,20,outputs/voc_yoloworld_1000_20seed_sf0.30,0.960568,0.05,20/20,1.561985
+score_floor,VOC 2012,YOLO-World,0.15,betting_eBH_sf0.30,0.02205,0.013103,0.013754,0.475089,188.8,,1.0,20,outputs/voc_yoloworld_1000_20seed_sf0.30,0.756088,0.05,20/20,1.229502
+score_floor,VOC 2012,YOLO-World,0.2,betting_eBH_sf0.30,0.031163,0.018708,0.019651,0.548998,220.3,,1.0,20,outputs/voc_yoloworld_1000_20seed_sf0.30,0.648262,0.05,20/20,1.05409
+score_floor,VOC 2012,YOLO-World,0.05,betting_eBH_sf0.40,0.009517,0.011699,0.003676,0.195191,76.9,,1.0,20,outputs/voc_yoloworld_1000_20seed_sf0.40,43885456487.9589,0.05,20/20,1.940409
+score_floor,VOC 2012,YOLO-World,0.1,betting_eBH_sf0.40,0.014089,0.013174,0.008279,0.391083,154.1,,1.0,20,outputs/voc_yoloworld_1000_20seed_sf0.40,0.932482,0.05,20/20,1.516223
+score_floor,VOC 2012,YOLO-World,0.15,betting_eBH_sf0.40,0.022102,0.013634,0.014104,0.489343,194.4,,1.0,20,outputs/voc_yoloworld_1000_20seed_sf0.40,0.734127,0.05,20/20,1.193754
+score_floor,VOC 2012,YOLO-World,0.2,betting_eBH_sf0.40,0.03315,0.01921,0.02057,0.562114,226.0,,1.0,20,outputs/voc_yoloworld_1000_20seed_sf0.40,0.631439,0.05,20/20,1.02676
+score_floor,COCO train,GDino,0.05,betting_eBH_sf0.30,0.080204,0.028142,0.015327,0.273648,207.4,,1.0,20,outputs/coco_train_gdino_1000_20seed_sf0.30,7.214856,0.05,20/20,11.208509
+score_floor,COCO train,GDino,0.1,betting_eBH_sf0.30,0.119267,0.03339,0.026941,0.329034,261.0,,1.0,20,outputs/coco_train_gdino_1000_20seed_sf0.30,5.71753,0.05,20/20,8.885916
+score_floor,COCO train,GDino,0.15,betting_eBH_sf0.30,0.164246,0.043278,0.044613,0.37594,316.5,,1.0,20,outputs/coco_train_gdino_1000_20seed_sf0.30,4.765692,0.05,20/20,7.414228
+score_floor,COCO train,GDino,0.2,betting_eBH_sf0.30,0.210594,0.043274,0.061099,0.419945,374.9,,1.0,20,outputs/coco_train_gdino_1000_20seed_sf0.30,4.033514,0.05,20/20,6.276507
+score_floor,COCO train,GDino,0.05,betting_eBH_sf0.40,0.082355,0.02725,0.016306,0.289085,220.0,,1.0,20,outputs/coco_train_gdino_1000_20seed_sf0.40,6.787184,0.05,20/20,10.548092
+score_floor,COCO train,GDino,0.1,betting_eBH_sf0.40,0.132215,0.035673,0.031166,0.346205,279.2,,1.0,20,outputs/coco_train_gdino_1000_20seed_sf0.40,5.362498,0.05,20/20,8.337423
+score_floor,COCO train,GDino,0.15,betting_eBH_sf0.40,0.195225,0.049467,0.050419,0.415326,364.7,,1.0,20,outputs/coco_train_gdino_1000_20seed_sf0.40,4.172451,0.05,20/20,6.492989
+score_floor,COCO train,GDino,0.2,betting_eBH_sf0.40,0.214634,0.037987,0.05664,0.437819,391.4,,1.0,20,outputs/coco_train_gdino_1000_20seed_sf0.40,3.824834,0.05,20/20,5.949555
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),GDino,0.05,betting_eBH_lvisaux,0.006351,0.011448,0.001824,0.094623,54.35,536.6,1.0,20,outputs/lvis_aux_clean_20seed_formal_hist,16.069334,0.05,20/20,22.023266
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),GDino,0.1,betting_eBH_lvisaux,0.021593,0.022722,0.0043,0.113765,66.6,536.6,1.0,20,outputs/lvis_aux_clean_20seed_formal_hist,13.72969,0.05,20/20,19.717715
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),GDino,0.15,betting_eBH_lvisaux,0.029873,0.024337,,0.127487,75.35,536.6,1.0,20,outputs/lvis_aux_clean_20seed_formal_hist,12.625357,0.05,20/20,18.114512
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),GDino,0.2,betting_eBH_lvisaux,0.032047,0.026485,,0.14174,84.0,536.6,1.0,20,outputs/lvis_aux_clean_20seed_formal_hist,11.792465,0.05,20/20,17.188648
+oi_aux_eta,OpenImages V7 (present-only),GDino,0.05,betting_eBH_oipresent,0.011143,0.018883,0.0019,0.088512,38.8,1598.4,1.0,20,outputs/oi_present_only_20seed_formal_hist,18.924938,0.05,20/20,9.934482
+oi_aux_eta,OpenImages V7 (present-only),GDino,0.1,betting_eBH_oipresent,0.023324,0.014697,0.0063,0.138998,61.65,1598.4,1.0,20,outputs/oi_present_only_20seed_formal_hist,11.749508,0.05,20/20,7.024682
+oi_aux_eta,OpenImages V7 (present-only),GDino,0.15,betting_eBH_oipresent,0.043642,0.033578,0.0126,0.170495,77.45,1598.4,1.0,20,outputs/oi_present_only_20seed_formal_hist,9.299766,0.05,20/20,6.018785
+oi_aux_eta,OpenImages V7 (present-only),GDino,0.2,betting_eBH_oipresent,0.062519,0.046096,0.0195,0.192539,89.4,1598.4,1.0,20,outputs/oi_present_only_20seed_formal_hist,8.070355,0.05,20/20,6.645486
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),OWLv2,0.05,betting_eBH_lvisaux,0.018699,0.014016,0.005124,0.148012,73.95,1000000.0,1.0,20,outputs/lvis_aux_clean_owlv2_20seed_formal_hist,9.842934,0.05,20/20,13.812872
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),OWLv2,0.1,betting_eBH_lvisaux,0.029557,0.014429,0.011778,0.208755,105.55,1000000.0,1.0,20,outputs/lvis_aux_clean_owlv2_20seed_formal_hist,7.484546,0.05,20/20,11.302143
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),OWLv2,0.15,betting_eBH_lvisaux,0.036584,0.016504,0.016535,0.237362,120.85,1000000.0,1.0,20,outputs/lvis_aux_clean_owlv2_20seed_formal_hist,6.828121,0.05,20/20,10.668387
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),OWLv2,0.2,betting_eBH_lvisaux,0.040366,0.01704,0.018868,0.269543,138.25,1000000.0,1.0,20,outputs/lvis_aux_clean_owlv2_20seed_formal_hist,6.278688,0.05,20/20,9.733795
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),YOLO-World,0.05,betting_eBH_lvisaux,0.014149,0.024617,0.00239,0.061635,15.0,1000000.0,1.0,20,outputs/lvis_aux_clean_yoloworld_20seed_formal_hist,142834771181.89844,0.05,20/20,4.169998
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),YOLO-World,0.1,betting_eBH_lvisaux,0.036842,0.030119,0.007521,0.126466,31.2,1000000.0,1.0,20,outputs/lvis_aux_clean_yoloworld_20seed_formal_hist,4.872666,0.05,20/20,4.182628
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),YOLO-World,0.15,betting_eBH_lvisaux,0.044551,0.030273,0.01132,0.161648,40.2,1000000.0,1.0,20,outputs/lvis_aux_clean_yoloworld_20seed_formal_hist,3.532505,0.05,20/20,4.057962
+lvis_aux_eta,LVIS val (NEG+POS_EXH only),YOLO-World,0.2,betting_eBH_lvisaux,0.048069,0.033072,0.012528,0.18366,45.9,1000000.0,1.0,20,outputs/lvis_aux_clean_yoloworld_20seed_formal_hist,3.131267,0.05,20/20,4.148303
+oi_aux_eta,OpenImages V7 val (image-label clean),GDino,0.05,betting_eBH_lvisaux,0.005528,0.011571,0.001089,0.085115,36.95,1000000.0,1.0,20,outputs/oi_aux_clean_gdino_20seed_formal_hist,21.260487,0.05,20/20,11.280998
+oi_aux_eta,OpenImages V7 val (image-label clean),GDino,0.1,betting_eBH_lvisaux,0.020522,0.016121,0.006536,0.122937,54.5,1000000.0,1.0,20,outputs/oi_aux_clean_gdino_20seed_formal_hist,14.478991,0.05,20/20,8.096064
+oi_aux_eta,OpenImages V7 val (image-label clean),GDino,0.15,betting_eBH_lvisaux,0.040903,0.026286,0.014651,0.152248,69.15,1000000.0,1.0,20,outputs/oi_aux_clean_gdino_20seed_formal_hist,11.653997,0.05,20/20,7.181058
+oi_aux_eta,OpenImages V7 val (image-label clean),GDino,0.2,betting_eBH_lvisaux,0.066164,0.037844,0.021405,0.173059,80.95,1000000.0,1.0,20,outputs/oi_aux_clean_gdino_20seed_formal_hist,10.154902,0.05,20/20,6.723666
+detector_side_comparison,COCO val,RegionCLIP,0.05,regionclip_vanilla,0.486876,0.0,0.209188,0.195824,2705.0,,,1,outputs/coco_regionclip_1000_mix.jsonl,,,,
+detector_side_comparison,COCO val,RegionCLIP,0.1,regionclip_vanilla,0.486876,0.0,0.209188,0.195824,2705.0,,,1,outputs/coco_regionclip_1000_mix.jsonl,,,,
+detector_side_comparison,COCO val,RegionCLIP,0.15,regionclip_vanilla,0.486876,0.0,0.209188,0.195824,2705.0,,,1,outputs/coco_regionclip_1000_mix.jsonl,,,,
+detector_side_comparison,COCO val,RegionCLIP,0.2,regionclip_vanilla,0.486876,0.0,0.209188,0.195824,2705.0,,,1,outputs/coco_regionclip_1000_mix.jsonl,,,,
+detector_side_comparison,COCO val,RegionCLIP,0.05,regionclip_plus_wrapper,0.002941,0.013153,0.000138,0.019915,28.25,341.404731,1.0,20,outputs/coco_regionclip_1000_20seed_formal_hist,76.039578,0.05,20/20,73.789381
+detector_side_comparison,COCO val,RegionCLIP,0.1,regionclip_plus_wrapper,0.00125,0.00559,0.000138,0.037299,52.9,341.404731,1.0,20,outputs/coco_regionclip_1000_20seed_formal_hist,32.856901,0.05,20/20,47.582927
+detector_side_comparison,COCO val,RegionCLIP,0.15,regionclip_plus_wrapper,0.00199,0.006373,0.000414,0.045469,64.3,341.404731,1.0,20,outputs/coco_regionclip_1000_20seed_formal_hist,26.782001,0.05,20/20,38.72185
+detector_side_comparison,COCO val,RegionCLIP,0.2,regionclip_plus_wrapper,0.0025,0.007697,0.000691,0.048715,68.9,341.404731,1.0,20,outputs/coco_regionclip_1000_20seed_formal_hist,25.034369,0.05,20/20,36.193062
+nms_aware_evalue,COCO,GDino,0.05,betting_eBH_nmsaware_iou050,0.0284,0.0168,0.0043,0.2351,103.1,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,GDino,0.1,betting_eBH_nmsaware_iou050,0.0443,0.0202,0.0068,0.2908,129.7,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,GDino,0.15,betting_eBH_nmsaware_iou050,0.0571,0.0231,0.0098,0.3236,146.4,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,GDino,0.2,betting_eBH_nmsaware_iou050,0.0646,0.0225,0.012,0.3487,159.1,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,GDino,0.05,betting_eBH_nmsaware_iou030,0.0222,0.0119,0.0035,0.2744,99.55,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou030_full,,,,
+nms_aware_evalue,COCO,GDino,0.1,betting_eBH_nmsaware_iou030,0.034,0.0183,0.0059,0.3369,123.75,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou030_full,,,,
+nms_aware_evalue,COCO,GDino,0.15,betting_eBH_nmsaware_iou030,0.0456,0.0184,0.0089,0.3662,136.25,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou030_full,,,,
+nms_aware_evalue,COCO,GDino,0.2,betting_eBH_nmsaware_iou030,0.0513,0.0179,0.0109,0.3942,147.55,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou030_full,,,,
+nms_aware_evalue,COCO,GDino,0.05,betting_eBH_nmsaware_iou070,0.0274,0.0188,0.0042,0.1472,104.0,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou070_full,,,,
+nms_aware_evalue,COCO,GDino,0.1,betting_eBH_nmsaware_iou070,0.0396,0.0198,0.0065,0.1871,134.0,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou070_full,,,,
+nms_aware_evalue,COCO,GDino,0.15,betting_eBH_nmsaware_iou070,0.0507,0.022,0.0095,0.2102,152.45,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou070_full,,,,
+nms_aware_evalue,COCO,GDino,0.2,betting_eBH_nmsaware_iou070,0.0598,0.0212,0.0125,0.2277,166.85,,,20,outputs/coco_gdino_1000_nmsaware_20seed_iou070_full,,,,
+nms_aware_evalue,VOC,GDino,0.05,betting_eBH_nmsaware_iou050,0.0429,0.0157,0.0109,0.4206,154.6,,,20,outputs/voc_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,VOC,GDino,0.1,betting_eBH_nmsaware_iou050,0.06,0.0239,0.0167,0.5163,193.5,,,20,outputs/voc_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,VOC,GDino,0.15,betting_eBH_nmsaware_iou050,0.0748,0.0286,0.0214,0.5691,216.75,,,20,outputs/voc_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,VOC,GDino,0.2,betting_eBH_nmsaware_iou050,0.0891,0.0306,0.027,0.602,233.0,,,20,outputs/voc_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,LVIS,GDino,0.05,betting_eBH_nmsaware_iou050,0.1583,0.0939,0.0044,0.0272,16.6,,,5,outputs/lvis_gdino_1000_nmsaware_5seed_iou050,,,,
+nms_aware_evalue,LVIS,GDino,0.1,betting_eBH_nmsaware_iou050,0.1799,0.0791,0.0102,0.0642,39.8,,,5,outputs/lvis_gdino_1000_nmsaware_5seed_iou050,,,,
+nms_aware_evalue,LVIS,GDino,0.15,betting_eBH_nmsaware_iou050,0.2574,0.0546,0.0209,0.0823,56.6,,,5,outputs/lvis_gdino_1000_nmsaware_5seed_iou050,,,,
+nms_aware_evalue,LVIS,GDino,0.2,betting_eBH_nmsaware_iou050,0.2875,0.0441,0.0313,0.1066,76.6,,,5,outputs/lvis_gdino_1000_nmsaware_5seed_iou050,,,,
+nms_aware_evalue,COCO,RegionCLIP,0.05,betting_eBH_nmsaware_iou050,0.0,0.0,0.0,0.0461,15.7,,,20,outputs/coco_regionclip_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,RegionCLIP,0.1,betting_eBH_nmsaware_iou050,0.0023,0.0102,0.0001,0.0858,29.05,,,20,outputs/coco_regionclip_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,RegionCLIP,0.15,betting_eBH_nmsaware_iou050,0.0014,0.0064,0.0001,0.1124,37.9,,,20,outputs/coco_regionclip_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,RegionCLIP,0.2,betting_eBH_nmsaware_iou050,0.001,0.0047,0.0001,0.1368,46.05,,,20,outputs/coco_regionclip_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,OWL-ViT,0.05,betting_eBH_nmsaware_iou050,0.0109,0.0155,0.0014,0.0991,41.25,,,20,outputs/coco_owlvit_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,OWL-ViT,0.1,betting_eBH_nmsaware_iou050,0.0175,0.0138,0.0026,0.1367,57.1,,,20,outputs/coco_owlvit_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,OWL-ViT,0.15,betting_eBH_nmsaware_iou050,0.0299,0.0267,0.0046,0.1638,69.35,,,20,outputs/coco_owlvit_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO,OWL-ViT,0.2,betting_eBH_nmsaware_iou050,0.0359,0.0243,0.0072,0.1922,81.85,,,20,outputs/coco_owlvit_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO-train,GDino,0.05,betting_eBH_nmsaware_iou050,0.0648,0.0389,0.0074,0.2441,115.4,,,20,outputs/coco_train_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO-train,GDino,0.1,betting_eBH_nmsaware_iou050,0.0841,0.0393,0.0115,0.3151,151.65,,,20,outputs/coco_train_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO-train,GDino,0.15,betting_eBH_nmsaware_iou050,0.0975,0.0408,0.0156,0.3549,173.75,,,20,outputs/coco_train_gdino_1000_nmsaware_20seed_iou050,,,,
+nms_aware_evalue,COCO-train,GDino,0.2,betting_eBH_nmsaware_iou050,0.1078,0.0409,0.0184,0.3863,191.05,,,20,outputs/coco_train_gdino_1000_nmsaware_20seed_iou050,,,,

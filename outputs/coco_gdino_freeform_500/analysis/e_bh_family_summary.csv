@@ -1,0 +1,781 @@
+family_id,dataset,image_id,category_id,category_name,prompt,is_prompt_absent,num_candidates,num_rejected,fp,tp,fdp
+coco:1000:50:29,coco,1000,50,spoon,a spoon in the scene,True,102,0,0,0,0.0
+coco:10092:77:304,coco,10092,77,cell phone,a small cell phone near the center,True,33,0,0,0,0.0
+coco:10363:36:308,coco,10363,36,snowboard,a snowboard in the scene,True,63,0,0,0,0.0
+coco:10583:46:310,coco,10583,46,wine glass,a close-up of a wine glass,True,2,0,0,0,0.0
+coco:10583:54:309,coco,10583,54,sandwich,the sandwich in this image,False,2,0,0,0,0.0
+coco:10583:78:311,coco,10583,78,microwave,a microwave in the scene,True,22,0,0,0,0.0
+coco:10707:10:314,coco,10707,10,traffic light,a traffic light in the scene,True,82,0,0,0,0.0
+coco:10707:51:313,coco,10707,51,bowl,a small bowl near the center,True,14,0,0,0,0.0
+coco:10764:21:316,coco,10764,21,cow,a small cow near the center,True,6,0,0,0,0.0
+coco:10977:81:318,coco,10977,81,sink,a photo of a sink,False,19,0,0,0,0.0
+coco:10995:17:323,coco,10995,17,cat,a cat in the scene,True,28,0,0,0,0.0
+coco:10995:60:322,coco,10995,60,donut,a small donut near the center,True,61,0,0,0,0.0
+coco:10995:65:321,coco,10995,65,bed,a photo of a bed,False,9,0,0,0,0.0
+coco:11051:85:325,coco,11051,85,clock,a photo containing a clock,True,10,0,0,0,0.0
+coco:11149:2:330,coco,11149,2,bicycle,a bicycle object,False,20,0,0,0,0.0
+coco:11149:54:332,coco,11149,54,sandwich,a small sandwich near the center,True,84,0,0,0,0.0
+coco:11511:10:338,coco,11511,10,traffic light,a traffic light in the scene,True,45,0,0,0,0.0
+coco:11511:4:336,coco,11511,4,motorcycle,the motorcycle in this image,False,10,0,0,0,0.0
+coco:11615:51:340,coco,11615,51,bowl,a small bowl near the center,True,34,0,0,0,0.0
+coco:11615:81:341,coco,11615,81,sink,a small sink near the center,True,26,0,0,0,0.0
+coco:11615:8:339,coco,11615,8,truck,a visible truck in the scene,False,12,0,0,0,0.0
+coco:11699:1:342,coco,11699,1,person,a person object,False,22,0,0,0,0.0
+coco:11699:67:343,coco,11699,67,dining table,a small dining table near the center,True,79,0,0,0,0.0
+coco:11760:24:345,coco,11760,24,zebra,a photo of a zebra,False,17,0,0,0,0.0
+coco:11760:47:347,coco,11760,47,cup,a small cup near the center,True,62,0,0,0,0.0
+coco:11813:37:350,coco,11813,37,sports ball,a close-up of a sports ball,True,9,0,0,0,0.0
+coco:11813:62:348,coco,11813,62,chair,a chair object,False,22,0,0,0,0.0
+coco:12062:53:353,coco,12062,53,apple,a apple in the scene,True,36,0,0,0,0.0
+coco:12062:63:352,coco,12062,63,couch,a photo containing a couch,True,6,0,0,0,0.0
+coco:12280:33:357,coco,12280,33,suitcase,a photo of a suitcase,False,23,0,0,0,0.0
+coco:12280:79:358,coco,12280,79,oven,a photo containing a oven,True,13,0,0,0,0.0
+coco:12576:47:360,coco,12576,47,cup,the cup in this image,False,11,0,0,0,0.0
+coco:12576:77:361,coco,12576,77,cell phone,a close-up of a cell phone,True,21,0,0,0,0.0
+coco:12639:40:363,coco,12639,40,baseball glove,a photo of a baseball glove,False,15,0,0,0,0.0
+coco:12639:89:365,coco,12639,89,hair drier,a photo containing a hair drier,True,14,0,0,0,0.0
+coco:12667:61:367,coco,12667,61,cake,a close-up of a cake,True,10,0,0,0,0.0
+coco:12667:67:368,coco,12667,67,dining table,a dining table in the scene,True,6,0,0,0,0.0
+coco:12670:85:371,coco,12670,85,clock,a photo containing a clock,True,17,0,0,0,0.0
+coco:12670:8:370,coco,12670,8,truck,a truck in the scene,True,40,0,0,0,0.0
+coco:1268:27:30,coco,1268,27,backpack,a visible backpack in the scene,False,9,0,0,0,0.0
+coco:1268:42:32,coco,1268,42,surfboard,a photo containing a surfboard,True,22,0,0,0,0.0
+coco:12748:39:373,coco,12748,39,baseball bat,a baseball bat in the scene,True,50,0,0,0,0.0
+coco:12748:49:374,coco,12748,49,knife,a photo containing a knife,True,21,0,0,0,0.0
+coco:1296:13:35,coco,1296,13,stop sign,a small stop sign near the center,True,8,0,0,0,0.0
+coco:1296:55:34,coco,1296,55,orange,a photo containing a orange,True,8,0,0,0,0.0
+coco:1296:77:33,coco,1296,77,cell phone,a cell phone object,False,9,0,0,0,0.0
+coco:13177:2:378,coco,13177,2,bicycle,a bicycle object,False,11,0,0,0,0.0
+coco:13201:24:382,coco,13201,24,zebra,a small zebra near the center,True,12,0,0,0,0.0
+coco:13291:1:384,coco,13291,1,person,a person object,False,29,0,0,0,0.0
+coco:13291:5:385,coco,13291,5,airplane,a close-up of a airplane,True,4,0,0,0,0.0
+coco:13348:23:389,coco,13348,23,bear,a close-up of a bear,True,6,0,0,0,0.0
+coco:13348:57:388,coco,13348,57,carrot,a photo containing a carrot,True,30,0,0,0,0.0
+coco:1353:33:37,coco,1353,33,suitcase,a photo containing a suitcase,True,16,0,0,0,0.0
+coco:13546:63:392,coco,13546,63,couch,a small couch near the center,True,32,0,0,0,0.0
+coco:13597:38:394,coco,13597,38,kite,a photo containing a kite,True,4,0,0,0,0.0
+coco:13659:42:398,coco,13659,42,surfboard,a photo containing a surfboard,True,38,0,0,0,0.0
+coco:13729:1:399,coco,13729,1,person,a photo of a person,False,31,0,0,0,0.0
+coco:13729:40:401,coco,13729,40,baseball glove,a baseball glove in the scene,True,53,0,0,0,0.0
+coco:13729:64:400,coco,13729,64,potted plant,a photo containing a potted plant,True,32,0,0,0,0.0
+coco:13774:20:403,coco,13774,20,sheep,a close-up of a sheep,True,9,0,0,0,0.0
+coco:13774:34:402,coco,13774,34,frisbee,a visible frisbee in the scene,False,13,0,0,0,0.0
+coco:13774:67:404,coco,13774,67,dining table,a dining table in the scene,True,43,0,0,0,0.0
+coco:13923:72:405,coco,13923,72,tv,the tv in this image,False,3,0,0,0,0.0
+coco:13923:73:407,coco,13923,73,laptop,a small laptop near the center,True,45,0,0,0,0.0
+coco:139:37:1,coco,139,37,sports ball,a photo containing a sports ball,True,9,0,0,0,0.0
+coco:139:84:0,coco,139,84,book,a book object,False,67,0,0,0,0.0
+coco:14007:57:410,coco,14007,57,carrot,a small carrot near the center,True,72,0,0,0,0.0
+coco:14038:46:412,coco,14038,46,wine glass,a wine glass in the scene,True,63,0,0,0,0.0
+coco:14038:84:411,coco,14038,84,book,a visible book in the scene,False,110,0,0,0,0.0
+coco:14038:87:413,coco,14038,87,scissors,a scissors in the scene,True,47,0,0,0,0.0
+coco:1425:53:41,coco,1425,53,apple,a photo containing a apple,True,12,0,0,0,0.0
+coco:14439:78:422,coco,14439,78,microwave,a microwave in the scene,True,19,0,0,0,0.0
+coco:14473:36:425,coco,14473,36,snowboard,a photo containing a snowboard,True,22,0,0,0,0.0
+coco:14831:65:426,coco,14831,65,bed,the bed in this image,False,6,0,0,0,0.0
+coco:14831:76:428,coco,14831,76,keyboard,a close-up of a keyboard,True,8,0,0,0,0.0
+coco:14831:88:427,coco,14831,88,teddy bear,a small teddy bear near the center,True,5,0,0,0,0.0
+coco:14888:51:430,coco,14888,51,bowl,a small bowl near the center,True,41,0,0,0,0.0
+coco:14888:82:431,coco,14888,82,refrigerator,a close-up of a refrigerator,True,6,0,0,0,0.0
+coco:1490:1:42,coco,1490,1,person,the person in this image,False,4,0,0,0,0.0
+coco:1490:27:43,coco,1490,27,backpack,a close-up of a backpack,True,17,0,0,0,0.0
+coco:1490:80:44,coco,1490,80,toaster,a small toaster near the center,True,80,0,0,0,0.0
+coco:1503:32:46,coco,1503,32,tie,a photo containing a tie,True,25,0,0,0,0.0
+coco:1503:73:45,coco,1503,73,laptop,a photo of a laptop,False,17,0,0,0,0.0
+coco:15079:54:432,coco,15079,54,sandwich,a visible sandwich in the scene,False,9,0,0,0,0.0
+coco:15254:46:437,coco,15254,46,wine glass,a close-up of a wine glass,True,8,0,0,0,0.0
+coco:15254:56:436,coco,15254,56,broccoli,a close-up of a broccoli,True,11,0,0,0,0.0
+coco:15272:10:438,coco,15272,10,traffic light,a photo of a traffic light,False,14,0,0,0,0.0
+coco:15272:79:439,coco,15272,79,oven,a small oven near the center,True,30,0,0,0,0.0
+coco:15278:50:443,coco,15278,50,spoon,a photo containing a spoon,True,9,0,0,0,0.0
+coco:15278:56:441,coco,15278,56,broccoli,a visible broccoli in the scene,False,51,0,0,0,0.0
+coco:15278:86:442,coco,15278,86,vase,a close-up of a vase,True,5,0,0,0,0.0
+coco:1532:41:50,coco,1532,41,skateboard,a small skateboard near the center,True,55,0,0,0,0.0
+coco:15335:51:444,coco,15335,51,bowl,a visible bowl in the scene,False,27,0,0,0,0.0
+coco:15335:5:446,coco,15335,5,airplane,a small airplane near the center,True,43,0,0,0,0.0
+coco:15338:54:448,coco,15338,54,sandwich,a small sandwich near the center,True,80,0,0,0,0.0
+coco:15440:13:450,coco,15440,13,stop sign,a photo of a stop sign,False,15,0,0,0,0.0
+coco:15440:50:452,coco,15440,50,spoon,a small spoon near the center,True,116,0,0,0,0.0
+coco:15440:90:451,coco,15440,90,toothbrush,a close-up of a toothbrush,True,15,0,0,0,0.0
+coco:15497:57:454,coco,15497,57,carrot,a carrot in the scene,True,62,0,0,0,0.0
+coco:15517:47:458,coco,15517,47,cup,a photo containing a cup,True,32,0,0,0,0.0
+coco:15517:6:456,coco,15517,6,bus,a bus object,False,51,0,0,0,0.0
+coco:15597:55:461,coco,15597,55,orange,a small orange near the center,True,139,0,0,0,0.0
+coco:15660:90:463,coco,15660,90,toothbrush,a close-up of a toothbrush,True,13,0,0,0,0.0
+coco:15746:11:465,coco,15746,11,fire hydrant,a visible fire hydrant in the scene,False,2,0,0,0,0.0
+coco:15751:16:468,coco,15751,16,bird,a bird object,False,24,0,0,0,0.0
+coco:1584:73:52,coco,1584,73,laptop,a small laptop near the center,True,75,0,0,0,0.0
+coco:1584:80:53,coco,1584,80,toaster,a small toaster near the center,True,67,0,0,0,0.0
+coco:15956:58:473,coco,15956,58,hot dog,a hot dog in the scene,True,12,0,0,0,0.0
+coco:16010:22:475,coco,16010,22,elephant,a close-up of a elephant,True,18,0,0,0,0.0
+coco:16010:24:474,coco,16010,24,zebra,a visible zebra in the scene,False,4,0,0,0,0.0
+coco:16249:15:480,coco,16249,15,bench,a visible bench in the scene,False,27,0,0,0,0.0
+coco:16439:46:483,coco,16439,46,wine glass,the wine glass in this image,False,4,0,0,0,0.0
+coco:16439:78:484,coco,16439,78,microwave,a small microwave near the center,True,16,0,0,0,0.0
+coco:16439:7:485,coco,16439,7,train,a small train near the center,True,62,0,0,0,0.0
+coco:16451:44:487,coco,16451,44,bottle,a close-up of a bottle,True,54,0,0,0,0.0
+coco:16451:8:488,coco,16451,8,truck,a close-up of a truck,True,16,0,0,0,0.0
+coco:16502:11:491,coco,16502,11,fire hydrant,a fire hydrant in the scene,True,16,0,0,0,0.0
+coco:16502:64:490,coco,16502,64,potted plant,a close-up of a potted plant,True,9,0,0,0,0.0
+coco:16598:55:493,coco,16598,55,orange,a close-up of a orange,True,6,0,0,0,0.0
+coco:16598:77:492,coco,16598,77,cell phone,the cell phone in this image,False,2,0,0,0,0.0
+coco:16598:8:494,coco,16598,8,truck,a truck in the scene,True,20,0,0,0,0.0
+coco:1675:49:56,coco,1675,49,knife,a photo containing a knife,True,17,0,0,0,0.0
+coco:1675:76:54,coco,1675,76,keyboard,a visible keyboard in the scene,False,6,0,0,0,0.0
+coco:1675:7:55,coco,1675,7,train,a close-up of a train,True,3,0,0,0,0.0
+coco:16958:74:497,coco,16958,74,mouse,a small mouse near the center,True,45,0,0,0,0.0
+coco:17029:3:498,coco,17029,3,car,a photo of a car,False,11,0,0,0,0.0
+coco:17029:40:499,coco,17029,40,baseball glove,a baseball glove in the scene,True,46,0,0,0,0.0
+coco:17031:25:501,coco,17031,25,giraffe,a giraffe object,False,2,0,0,0,0.0
+coco:17031:72:502,coco,17031,72,tv,a photo containing a tv,True,6,0,0,0,0.0
+coco:17115:24:504,coco,17115,24,zebra,a photo of a zebra,False,11,0,0,0,0.0
+coco:17115:36:505,coco,17115,36,snowboard,a close-up of a snowboard,True,6,0,0,0,0.0
+coco:17115:78:506,coco,17115,78,microwave,a microwave in the scene,True,34,0,0,0,0.0
+coco:17178:25:509,coco,17178,25,giraffe,a giraffe in the scene,True,19,0,0,0,0.0
+coco:17178:3:507,coco,17178,3,car,a photo of a car,False,13,0,0,0,0.0
+coco:17182:32:512,coco,17182,32,tie,a tie in the scene,True,87,0,0,0,0.0
+coco:17182:53:510,coco,17182,53,apple,a photo of a apple,False,16,0,0,0,0.0
+coco:17207:1:513,coco,17207,1,person,a visible person in the scene,False,7,0,0,0,0.0
+coco:17379:67:518,coco,17379,67,dining table,a small dining table near the center,True,36,0,0,0,0.0
+coco:17379:81:516,coco,17379,81,sink,a photo of a sink,False,16,0,0,0,0.0
+coco:17436:15:519,coco,17436,15,bench,a visible bench in the scene,False,7,0,0,0,0.0
+coco:17436:90:521,coco,17436,90,toothbrush,a photo containing a toothbrush,True,17,0,0,0,0.0
+coco:1761:17:59,coco,1761,17,cat,a small cat near the center,True,13,0,0,0,0.0
+coco:17627:36:524,coco,17627,36,snowboard,a photo containing a snowboard,True,22,0,0,0,0.0
+coco:17627:3:522,coco,17627,3,car,a visible car in the scene,False,21,0,0,0,0.0
+coco:17627:88:523,coco,17627,88,teddy bear,a close-up of a teddy bear,True,8,0,0,0,0.0
+coco:17714:70:526,coco,17714,70,toilet,a small toilet near the center,True,32,0,0,0,0.0
+coco:17899:47:528,coco,17899,47,cup,a photo of a cup,False,82,0,0,0,0.0
+coco:17905:11:531,coco,17905,11,fire hydrant,a fire hydrant object,False,13,0,0,0,0.0
+coco:17905:72:532,coco,17905,72,tv,a small tv near the center,True,36,0,0,0,0.0
+coco:18150:70:538,coco,18150,70,toilet,a photo containing a toilet,True,14,0,0,0,0.0
+coco:1818:20:62,coco,1818,20,sheep,a close-up of a sheep,True,4,0,0,0,0.0
+coco:18193:1:540,coco,18193,1,person,a person object,False,9,0,0,0,0.0
+coco:18193:84:542,coco,18193,84,book,a photo containing a book,True,10,0,0,0,0.0
+coco:18380:27:545,coco,18380,27,backpack,a small backpack near the center,True,101,0,0,0,0.0
+coco:18380:40:544,coco,18380,40,baseball glove,a close-up of a baseball glove,True,50,0,0,0,0.0
+coco:18491:1:546,coco,18491,1,person,the person in this image,False,31,0,0,0,0.0
+coco:18519:46:551,coco,18519,46,wine glass,a photo containing a wine glass,True,10,0,0,0,0.0
+coco:18575:67:552,coco,18575,67,dining table,a photo of a dining table,False,1,0,0,0,0.0
+coco:18575:72:554,coco,18575,72,tv,a tv in the scene,True,41,0,0,0,0.0
+coco:18737:39:557,coco,18737,39,baseball bat,a close-up of a baseball bat,True,4,0,0,0,0.0
+coco:18737:5:556,coco,18737,5,airplane,a close-up of a airplane,True,4,0,0,0,0.0
+coco:18770:25:560,coco,18770,25,giraffe,a small giraffe near the center,True,111,0,0,0,0.0
+coco:18833:17:561,coco,18833,17,cat,a cat object,False,7,0,0,0,0.0
+coco:18833:27:562,coco,18833,27,backpack,a backpack in the scene,True,12,0,0,0,0.0
+coco:18837:61:565,coco,18837,61,cake,a small cake near the center,True,69,0,0,0,0.0
+coco:18837:70:566,coco,18837,70,toilet,a photo containing a toilet,True,14,0,0,0,0.0
+coco:18837:8:564,coco,18837,8,truck,a visible truck in the scene,False,4,0,0,0,0.0
+coco:19042:49:569,coco,19042,49,knife,a close-up of a knife,True,59,0,0,0,0.0
+coco:19042:90:568,coco,19042,90,toothbrush,a close-up of a toothbrush,True,10,0,0,0,0.0
+coco:19109:89:572,coco,19109,89,hair drier,a photo containing a hair drier,True,32,0,0,0,0.0
+coco:19221:1:573,coco,19221,1,person,the person in this image,False,9,0,0,0,0.0
+coco:19221:49:574,coco,19221,49,knife,a knife in the scene,True,79,0,0,0,0.0
+coco:19221:57:575,coco,19221,57,carrot,a photo containing a carrot,True,15,0,0,0,0.0
+coco:19402:59:576,coco,19402,59,pizza,the pizza in this image,False,34,0,0,0,0.0
+coco:19402:8:577,coco,19402,8,truck,a truck in the scene,True,64,0,0,0,0.0
+coco:19432:49:580,coco,19432,49,knife,a photo containing a knife,True,20,0,0,0,0.0
+coco:19432:82:581,coco,19432,82,refrigerator,a close-up of a refrigerator,True,7,0,0,0,0.0
+coco:19742:34:583,coco,19742,34,frisbee,a small frisbee near the center,True,33,0,0,0,0.0
+coco:19742:86:582,coco,19742,86,vase,a visible vase in the scene,False,2,0,0,0,0.0
+coco:19786:41:587,coco,19786,41,skateboard,a photo containing a skateboard,True,27,0,0,0,0.0
+coco:19786:63:585,coco,19786,63,couch,a visible couch in the scene,False,21,0,0,0,0.0
+coco:19924:61:590,coco,19924,61,cake,a photo containing a cake,True,13,0,0,0,0.0
+coco:19924:7:589,coco,19924,7,train,a small train near the center,True,36,0,0,0,0.0
+coco:1993:67:63,coco,1993,67,dining table,the dining table in this image,False,15,0,0,0,0.0
+coco:20059:22:593,coco,20059,22,elephant,a photo containing a elephant,True,10,0,0,0,0.0
+coco:20059:24:591,coco,20059,24,zebra,a photo of a zebra,False,18,0,0,0,0.0
+coco:20059:89:592,coco,20059,89,hair drier,a small hair drier near the center,True,26,0,0,0,0.0
+coco:2006:1:66,coco,2006,1,person,the person in this image,False,10,0,0,0,0.0
+coco:20107:11:594,coco,20107,11,fire hydrant,the fire hydrant in this image,False,2,0,0,0,0.0
+coco:20107:16:596,coco,20107,16,bird,a photo containing a bird,True,16,0,0,0,0.0
+coco:20107:31:595,coco,20107,31,handbag,a close-up of a handbag,True,11,0,0,0,0.0
+coco:20247:23:597,coco,20247,23,bear,a visible bear in the scene,False,5,0,0,0,0.0
+coco:20247:25:598,coco,20247,25,giraffe,a small giraffe near the center,True,5,0,0,0,0.0
+coco:20333:50:602,coco,20333,50,spoon,a spoon in the scene,True,27,0,0,0,0.0
+coco:20333:51:600,coco,20333,51,bowl,a visible bowl in the scene,False,3,0,0,0,0.0
+coco:20553:33:605,coco,20553,33,suitcase,a suitcase in the scene,True,23,0,0,0,0.0
+coco:20571:31:606,coco,20571,31,handbag,a visible handbag in the scene,False,26,0,0,0,0.0
+coco:20571:5:607,coco,20571,5,airplane,a photo containing a airplane,True,8,0,0,0,0.0
+coco:20992:1:609,coco,20992,1,person,the person in this image,False,3,0,0,0,0.0
+coco:20992:62:610,coco,20992,62,chair,a close-up of a chair,True,16,0,0,0,0.0
+coco:21465:86:615,coco,21465,86,vase,a vase object,False,43,0,0,0,0.0
+coco:21465:9:617,coco,21465,9,boat,a photo containing a boat,True,18,0,0,0,0.0
+coco:21503:21:619,coco,21503,21,cow,a small cow near the center,True,24,0,0,0,0.0
+coco:21503:23:620,coco,21503,23,bear,a close-up of a bear,True,7,0,0,0,0.0
+coco:21503:74:618,coco,21503,74,mouse,the mouse in this image,False,12,0,0,0,0.0
+coco:2153:1:72,coco,2153,1,person,a photo of a person,False,25,0,0,0,0.0
+coco:2153:41:74,coco,2153,41,skateboard,a photo containing a skateboard,True,20,0,0,0,0.0
+coco:2153:6:73,coco,2153,6,bus,a bus in the scene,True,53,0,0,0,0.0
+coco:2157:49:75,coco,2157,49,knife,a photo of a knife,False,46,0,0,0,0.0
+coco:2157:52:77,coco,2157,52,banana,a small banana near the center,True,28,0,0,0,0.0
+coco:2157:80:76,coco,2157,80,toaster,a close-up of a toaster,True,18,0,0,0,0.0
+coco:21604:15:623,coco,21604,15,bench,a close-up of a bench,True,3,0,0,0,0.0
+coco:21839:48:626,coco,21839,48,fork,a close-up of a fork,True,193,0,0,0,0.0
+coco:21879:1:627,coco,21879,1,person,a person object,False,13,0,0,0,0.0
+coco:21879:58:629,coco,21879,58,hot dog,a close-up of a hot dog,True,14,0,0,0,0.0
+coco:21903:1:630,coco,21903,1,person,a photo of a person,False,25,0,0,0,0.0
+coco:21903:62:632,coco,21903,62,chair,a photo containing a chair,True,24,0,0,0,0.0
+coco:21903:75:631,coco,21903,75,remote,a close-up of a remote,True,19,0,0,0,0.0
+coco:22192:55:635,coco,22192,55,orange,a close-up of a orange,True,9,0,0,0,0.0
+coco:22192:65:633,coco,22192,65,bed,a photo of a bed,False,14,0,0,0,0.0
+coco:22371:39:637,coco,22371,39,baseball bat,a close-up of a baseball bat,True,26,0,0,0,0.0
+coco:22371:73:636,coco,22371,73,laptop,a visible laptop in the scene,False,4,0,0,0,0.0
+coco:22371:8:638,coco,22371,8,truck,a truck in the scene,True,33,0,0,0,0.0
+coco:22396:25:641,coco,22396,25,giraffe,a photo containing a giraffe,True,9,0,0,0,0.0
+coco:22396:5:639,coco,22396,5,airplane,a airplane object,False,9,0,0,0,0.0
+coco:22479:15:642,coco,22479,15,bench,a bench object,False,48,0,0,0,0.0
+coco:22479:62:644,coco,22479,62,chair,a chair in the scene,True,62,0,0,0,0.0
+coco:22589:20:645,coco,22589,20,sheep,the sheep in this image,False,14,0,0,0,0.0
+coco:2261:57:79,coco,2261,57,carrot,a photo containing a carrot,True,14,0,0,0,0.0
+coco:22623:34:649,coco,22623,34,frisbee,a photo containing a frisbee,True,13,0,0,0,0.0
+coco:22623:77:648,coco,22623,77,cell phone,a photo of a cell phone,False,6,0,0,0,0.0
+coco:22705:24:653,coco,22705,24,zebra,a close-up of a zebra,True,8,0,0,0,0.0
+coco:22705:33:652,coco,22705,33,suitcase,a close-up of a suitcase,True,6,0,0,0,0.0
+coco:22755:34:655,coco,22755,34,frisbee,a close-up of a frisbee,True,8,0,0,0,0.0
+coco:22755:3:654,coco,22755,3,car,a photo of a car,False,15,0,0,0,0.0
+coco:22892:64:657,coco,22892,64,potted plant,a photo of a potted plant,False,12,0,0,0,0.0
+coco:22892:6:659,coco,22892,6,bus,a close-up of a bus,True,2,0,0,0,0.0
+coco:22969:14:664,coco,22969,14,parking meter,a small parking meter near the center,True,62,0,0,0,0.0
+coco:22969:25:663,coco,22969,25,giraffe,the giraffe in this image,False,6,0,0,0,0.0
+coco:2299:32:81,coco,2299,32,tie,a tie object,False,138,0,0,0,0.0
+coco:2299:61:82,coco,2299,61,cake,a small cake near the center,True,80,0,0,0,0.0
+coco:2299:72:83,coco,2299,72,tv,a close-up of a tv,True,2,0,0,0,0.0
+coco:23023:31:666,coco,23023,31,handbag,a handbag object,False,8,0,0,0,0.0
+coco:23023:48:668,coco,23023,48,fork,a small fork near the center,True,78,0,0,0,0.0
+coco:23126:13:673,coco,23126,13,stop sign,a small stop sign near the center,True,79,0,0,0,0.0
+coco:23126:81:674,coco,23126,81,sink,a small sink near the center,True,85,0,0,0,0.0
+coco:23230:16:675,coco,23230,16,bird,a visible bird in the scene,False,19,0,0,0,0.0
+coco:23272:70:680,coco,23272,70,toilet,a close-up of a toilet,True,7,0,0,0,0.0
+coco:23359:63:683,coco,23359,63,couch,a small couch near the center,True,23,0,0,0,0.0
+coco:23751:2:689,coco,23751,2,bicycle,a small bicycle near the center,True,39,0,0,0,0.0
+coco:23751:38:687,coco,23751,38,kite,a kite object,False,17,0,0,0,0.0
+coco:23781:37:692,coco,23781,37,sports ball,a sports ball in the scene,True,89,0,0,0,0.0
+coco:23899:55:694,coco,23899,55,orange,a close-up of a orange,True,12,0,0,0,0.0
+coco:23937:55:698,coco,23937,55,orange,a close-up of a orange,True,9,0,0,0,0.0
+coco:24021:32:699,coco,24021,32,tie,the tie in this image,False,104,0,0,0,0.0
+coco:24021:34:701,coco,24021,34,frisbee,a small frisbee near the center,True,95,0,0,0,0.0
+coco:24021:50:700,coco,24021,50,spoon,a spoon in the scene,True,151,0,0,0,0.0
+coco:24027:11:703,coco,24027,11,fire hydrant,a fire hydrant in the scene,True,73,0,0,0,0.0
+coco:24144:39:706,coco,24144,39,baseball bat,a photo containing a baseball bat,True,4,0,0,0,0.0
+coco:24144:41:707,coco,24144,41,skateboard,a photo containing a skateboard,True,10,0,0,0,0.0
+coco:24144:59:705,coco,24144,59,pizza,a visible pizza in the scene,False,2,0,0,0,0.0
+coco:24243:53:710,coco,24243,53,apple,a photo containing a apple,True,20,0,0,0,0.0
+coco:24243:81:709,coco,24243,81,sink,a small sink near the center,True,69,0,0,0,0.0
+coco:24243:82:708,coco,24243,82,refrigerator,a visible refrigerator in the scene,False,5,0,0,0,0.0
+coco:2431:67:84,coco,2431,67,dining table,the dining table in this image,False,13,0,0,0,0.0
+coco:2431:8:86,coco,2431,8,truck,a close-up of a truck,True,7,0,0,0,0.0
+coco:24567:27:713,coco,24567,27,backpack,a backpack in the scene,True,46,0,0,0,0.0
+coco:24610:31:716,coco,24610,31,handbag,a photo containing a handbag,True,34,0,0,0,0.0
+coco:24610:41:715,coco,24610,41,skateboard,a photo containing a skateboard,True,29,0,0,0,0.0
+coco:24610:44:714,coco,24610,44,bottle,the bottle in this image,False,4,0,0,0,0.0
+coco:2473:1:87,coco,2473,1,person,the person in this image,False,11,0,0,0,0.0
+coco:2473:60:89,coco,2473,60,donut,a small donut near the center,True,75,0,0,0,0.0
+coco:24919:22:717,coco,24919,22,elephant,the elephant in this image,False,13,0,0,0,0.0
+coco:25057:31:721,coco,25057,31,handbag,a small handbag near the center,True,20,0,0,0,0.0
+coco:25096:25:724,coco,25096,25,giraffe,a small giraffe near the center,True,32,0,0,0,0.0
+coco:25096:41:723,coco,25096,41,skateboard,a photo of a skateboard,False,20,0,0,0,0.0
+coco:25096:82:725,coco,25096,82,refrigerator,a small refrigerator near the center,True,39,0,0,0,0.0
+coco:25139:24:726,coco,25139,24,zebra,a zebra object,False,21,0,0,0,0.0
+coco:25181:33:731,coco,25181,33,suitcase,a small suitcase near the center,True,43,0,0,0,0.0
+coco:25181:36:730,coco,25181,36,snowboard,a small snowboard near the center,True,42,0,0,0,0.0
+coco:25228:38:733,coco,25228,38,kite,a small kite near the center,True,27,0,0,0,0.0
+coco:25228:42:732,coco,25228,42,surfboard,a photo of a surfboard,False,31,0,0,0,0.0
+coco:25228:89:734,coco,25228,89,hair drier,a close-up of a hair drier,True,13,0,0,0,0.0
+coco:2532:24:92,coco,2532,24,zebra,a zebra in the scene,True,38,0,0,0,0.0
+coco:2532:35:90,coco,2532,35,skis,the skis in this image,False,18,0,0,0,0.0
+coco:25386:62:735,coco,25386,62,chair,a visible chair in the scene,False,36,0,0,0,0.0
+coco:25393:21:739,coco,25393,21,cow,a small cow near the center,True,33,0,0,0,0.0
+coco:25393:32:738,coco,25393,32,tie,a tie object,False,36,0,0,0,0.0
+coco:25393:89:740,coco,25393,89,hair drier,a close-up of a hair drier,True,20,0,0,0,0.0
+coco:25394:47:741,coco,25394,47,cup,a cup object,False,5,0,0,0,0.0
+coco:25394:60:743,coco,25394,60,donut,a photo containing a donut,True,20,0,0,0,0.0
+coco:25424:10:745,coco,25424,10,traffic light,a small traffic light near the center,True,26,0,0,0,0.0
+coco:25424:1:744,coco,25424,1,person,a person object,False,7,0,0,0,0.0
+coco:25424:52:746,coco,25424,52,banana,a photo containing a banana,True,17,0,0,0,0.0
+coco:25560:34:748,coco,25560,34,frisbee,a small frisbee near the center,True,82,0,0,0,0.0
+coco:25560:84:749,coco,25560,84,book,a small book near the center,True,46,0,0,0,0.0
+coco:25593:14:750,coco,25593,14,parking meter,a small parking meter near the center,True,22,0,0,0,0.0
+coco:25603:47:752,coco,25603,47,cup,a cup object,False,12,0,0,0,0.0
+coco:2587:52:93,coco,2587,52,banana,a photo of a banana,False,15,0,0,0,0.0
+coco:2587:76:95,coco,2587,76,keyboard,a close-up of a keyboard,True,15,0,0,0,0.0
+coco:2592:49:96,coco,2592,49,knife,a knife object,False,5,0,0,0,0.0
+coco:2592:50:97,coco,2592,50,spoon,a photo containing a spoon,True,16,0,0,0,0.0
+coco:25986:48:757,coco,25986,48,fork,a small fork near the center,True,28,0,0,0,0.0
+coco:25986:60:755,coco,25986,60,donut,a photo of a donut,False,34,0,0,0,0.0
+coco:26204:10:758,coco,26204,10,traffic light,a photo of a traffic light,False,28,0,0,0,0.0
+coco:26204:20:760,coco,26204,20,sheep,a close-up of a sheep,True,11,0,0,0,0.0
+coco:26204:75:759,coco,26204,75,remote,a close-up of a remote,True,27,0,0,0,0.0
+coco:26465:55:763,coco,26465,55,orange,a close-up of a orange,True,17,0,0,0,0.0
+coco:26564:8:766,coco,26564,8,truck,a small truck near the center,True,30,0,0,0,0.0
+coco:26690:25:769,coco,26690,25,giraffe,a close-up of a giraffe,True,8,0,0,0,0.0
+coco:26690:41:767,coco,26690,41,skateboard,the skateboard in this image,False,3,0,0,0,0.0
+coco:2685:46:99,coco,2685,46,wine glass,a visible wine glass in the scene,False,34,0,0,0,0.0
+coco:2685:88:101,coco,2685,88,teddy bear,a photo containing a teddy bear,True,9,0,0,0,0.0
+coco:26926:48:772,coco,26926,48,fork,a photo containing a fork,True,12,0,0,0,0.0
+coco:26926:6:771,coco,26926,6,bus,a small bus near the center,True,26,0,0,0,0.0
+coco:27186:1:776,coco,27186,1,person,a photo of a person,False,13,0,0,0,0.0
+coco:27186:50:777,coco,27186,50,spoon,a spoon in the scene,True,20,0,0,0,0.0
+coco:27620:19:780,coco,27620,19,horse,a horse in the scene,True,76,0,0,0,0.0
+coco:27620:73:779,coco,27620,73,laptop,the laptop in this image,False,2,0,0,0,0.0
+coco:27696:52:784,coco,27696,52,banana,a banana in the scene,True,31,0,0,0,0.0
+coco:27696:59:782,coco,27696,59,pizza,a pizza object,False,2,0,0,0,0.0
+coco:27932:40:788,coco,27932,40,baseball glove,a visible baseball glove in the scene,False,9,0,0,0,0.0
+coco:27932:42:789,coco,27932,42,surfboard,a surfboard in the scene,True,19,0,0,0,0.0
+coco:27972:39:793,coco,27972,39,baseball bat,a photo containing a baseball bat,True,9,0,0,0,0.0
+coco:27972:42:791,coco,27972,42,surfboard,a surfboard object,False,6,0,0,0,0.0
+coco:27972:76:792,coco,27972,76,keyboard,a close-up of a keyboard,True,14,0,0,0,0.0
+coco:27982:81:794,coco,27982,81,sink,the sink in this image,False,7,0,0,0,0.0
+coco:28285:16:798,coco,28285,16,bird,a photo containing a bird,True,27,0,0,0,0.0
+coco:28285:85:797,coco,28285,85,clock,a visible clock in the scene,False,4,0,0,0,0.0
+coco:28285:9:799,coco,28285,9,boat,a boat in the scene,True,29,0,0,0,0.0
+coco:28449:28:802,coco,28449,28,umbrella,a close-up of a umbrella,True,5,0,0,0,0.0
+coco:28452:18:804,coco,28452,18,dog,a small dog near the center,True,107,0,0,0,0.0
+coco:28452:82:803,coco,28452,82,refrigerator,the refrigerator in this image,False,2,0,0,0,0.0
+coco:285:18:4,coco,285,18,dog,a photo containing a dog,True,5,0,0,0,0.0
+coco:28809:81:807,coco,28809,81,sink,a close-up of a sink,True,5,0,0,0,0.0
+coco:28993:52:811,coco,28993,52,banana,a small banana near the center,True,58,0,0,0,0.0
+coco:29187:1:812,coco,29187,1,person,a visible person in the scene,False,10,0,0,0,0.0
+coco:29187:27:813,coco,29187,27,backpack,a photo containing a backpack,True,13,0,0,0,0.0
+coco:2923:36:103,coco,2923,36,snowboard,a small snowboard near the center,True,51,0,0,0,0.0
+coco:2923:90:104,coco,2923,90,toothbrush,a photo containing a toothbrush,True,19,0,0,0,0.0
+coco:29393:18:815,coco,29393,18,dog,a photo of a dog,False,11,0,0,0,0.0
+coco:29393:36:817,coco,29393,36,snowboard,a close-up of a snowboard,True,23,0,0,0,0.0
+coco:29393:73:816,coco,29393,73,laptop,a photo containing a laptop,True,12,0,0,0,0.0
+coco:29397:15:818,coco,29397,15,bench,a bench object,False,5,0,0,0,0.0
+coco:29397:33:819,coco,29397,33,suitcase,a small suitcase near the center,True,19,0,0,0,0.0
+coco:29596:5:822,coco,29596,5,airplane,a photo containing a airplane,True,12,0,0,0,0.0
+coco:29675:35:828,coco,29675,35,skis,a close-up of a skis,True,8,0,0,0,0.0
+coco:29984:18:832,coco,29984,18,dog,a small dog near the center,True,57,0,0,0,0.0
+coco:29984:1:830,coco,29984,1,person,a visible person in the scene,False,20,0,0,0,0.0
+coco:29984:21:831,coco,29984,21,cow,a close-up of a cow,True,9,0,0,0,0.0
+coco:30213:67:833,coco,30213,67,dining table,the dining table in this image,False,12,0,0,0,0.0
+coco:30494:58:837,coco,30494,58,hot dog,a close-up of a hot dog,True,11,0,0,0,0.0
+coco:30504:35:839,coco,30504,35,skis,a photo of a skis,False,29,0,0,0,0.0
+coco:30675:7:842,coco,30675,7,train,the train in this image,False,3,0,0,0,0.0
+coco:30675:80:844,coco,30675,80,toaster,a small toaster near the center,True,106,0,0,0,0.0
+coco:30828:27:848,coco,30828,27,backpack,a visible backpack in the scene,False,12,0,0,0,0.0
+coco:31050:86:851,coco,31050,86,vase,a vase object,False,25,0,0,0,0.0
+coco:31093:5:856,coco,31093,5,airplane,a photo containing a airplane,True,4,0,0,0,0.0
+coco:31118:70:858,coco,31118,70,toilet,a toilet in the scene,True,70,0,0,0,0.0
+coco:31118:85:857,coco,31118,85,clock,a visible clock in the scene,False,15,0,0,0,0.0
+coco:31217:37:860,coco,31217,37,sports ball,a photo of a sports ball,False,14,0,0,0,0.0
+coco:31217:73:862,coco,31217,73,laptop,a close-up of a laptop,True,12,0,0,0,0.0
+coco:31269:24:866,coco,31269,24,zebra,a photo of a zebra,False,20,0,0,0,0.0
+coco:31269:84:868,coco,31269,84,book,a book in the scene,True,39,0,0,0,0.0
+coco:31296:28:871,coco,31296,28,umbrella,a umbrella in the scene,True,158,0,0,0,0.0
+coco:31296:50:870,coco,31296,50,spoon,a close-up of a spoon,True,47,0,0,0,0.0
+coco:31296:77:869,coco,31296,77,cell phone,the cell phone in this image,False,23,0,0,0,0.0
+coco:31322:32:873,coco,31322,32,tie,a close-up of a tie,True,10,0,0,0,0.0
+coco:31322:8:874,coco,31322,8,truck,a small truck near the center,True,51,0,0,0,0.0
+coco:31322:9:872,coco,31322,9,boat,a visible boat in the scene,False,49,0,0,0,0.0
+coco:31620:59:876,coco,31620,59,pizza,a close-up of a pizza,True,17,0,0,0,0.0
+coco:31620:61:875,coco,31620,61,cake,a cake object,False,59,0,0,0,0.0
+coco:31620:65:877,coco,31620,65,bed,a bed in the scene,True,37,0,0,0,0.0
+coco:31735:64:878,coco,31735,64,potted plant,a photo of a potted plant,False,17,0,0,0,0.0
+coco:31735:80:879,coco,31735,80,toaster,a small toaster near the center,True,57,0,0,0,0.0
+coco:31749:60:882,coco,31749,60,donut,a small donut near the center,True,18,0,0,0,0.0
+coco:31749:77:883,coco,31749,77,cell phone,a cell phone in the scene,True,14,0,0,0,0.0
+coco:31817:1:884,coco,31817,1,person,a photo of a person,False,25,0,0,0,0.0
+coco:31817:58:886,coco,31817,58,hot dog,a close-up of a hot dog,True,20,0,0,0,0.0
+coco:31817:60:885,coco,31817,60,donut,a donut in the scene,True,57,0,0,0,0.0
+coco:32081:23:892,coco,32081,23,bear,a small bear near the center,True,14,0,0,0,0.0
+coco:32081:84:891,coco,32081,84,book,a small book near the center,True,25,0,0,0,0.0
+coco:32285:3:894,coco,32285,3,car,a car in the scene,True,13,0,0,0,0.0
+coco:32285:70:893,coco,32285,70,toilet,a photo of a toilet,False,13,0,0,0,0.0
+coco:3255:35:108,coco,3255,35,skis,a photo of a skis,False,38,0,0,0,0.0
+coco:32570:42:899,coco,32570,42,surfboard,a surfboard object,False,16,0,0,0,0.0
+coco:32610:23:904,coco,32610,23,bear,a close-up of a bear,True,4,0,0,0,0.0
+coco:32610:43:903,coco,32610,43,tennis racket,a close-up of a tennis racket,True,32,0,0,0,0.0
+coco:32735:35:905,coco,32735,35,skis,a skis object,False,20,0,0,0,0.0
+coco:32811:70:910,coco,32811,70,toilet,a close-up of a toilet,True,7,0,0,0,0.0
+coco:32811:79:909,coco,32811,79,oven,a oven in the scene,True,6,0,0,0,0.0
+coco:32861:18:916,coco,32861,18,dog,a dog in the scene,True,34,0,0,0,0.0
+coco:32861:62:915,coco,32861,62,chair,a photo containing a chair,True,25,0,0,0,0.0
+coco:32901:15:921,coco,32901,15,bench,a bench in the scene,True,19,0,0,0,0.0
+coco:32901:31:922,coco,32901,31,handbag,a handbag in the scene,True,19,0,0,0,0.0
+coco:32901:32:920,coco,32901,32,tie,a photo of a tie,False,33,0,0,0,0.0
+coco:32941:52:924,coco,32941,52,banana,a banana in the scene,True,92,0,0,0,0.0
+coco:32941:9:925,coco,32941,9,boat,a small boat near the center,True,47,0,0,0,0.0
+coco:33005:31:928,coco,33005,31,handbag,a photo containing a handbag,True,13,0,0,0,0.0
+coco:33005:43:926,coco,33005,43,tennis racket,a visible tennis racket in the scene,False,6,0,0,0,0.0
+coco:33104:56:931,coco,33104,56,broccoli,a broccoli in the scene,True,166,0,0,0,0.0
+coco:33109:6:932,coco,33109,6,bus,a visible bus in the scene,False,15,0,0,0,0.0
+coco:33221:43:938,coco,33221,43,tennis racket,a visible tennis racket in the scene,False,10,0,0,0,0.0
+coco:33368:17:943,coco,33368,17,cat,a close-up of a cat,True,6,0,0,0,0.0
+coco:33368:1:941,coco,33368,1,person,the person in this image,False,3,0,0,0,0.0
+coco:33368:39:942,coco,33368,39,baseball bat,a photo containing a baseball bat,True,13,0,0,0,0.0
+coco:33638:3:946,coco,33638,3,car,a car in the scene,True,66,0,0,0,0.0
+coco:33638:43:945,coco,33638,43,tennis racket,a small tennis racket near the center,True,48,0,0,0,0.0
+coco:33638:79:944,coco,33638,79,oven,a visible oven in the scene,False,16,0,0,0,0.0
+coco:33707:25:947,coco,33707,25,giraffe,a giraffe object,False,3,0,0,0,0.0
+coco:33707:39:949,coco,33707,39,baseball bat,a baseball bat in the scene,True,19,0,0,0,0.0
+coco:33854:38:955,coco,33854,38,kite,a small kite near the center,True,68,0,0,0,0.0
+coco:33854:63:954,coco,33854,63,couch,a close-up of a couch,True,10,0,0,0,0.0
+coco:34139:10:960,coco,34139,10,traffic light,a photo containing a traffic light,True,11,0,0,0,0.0
+coco:34139:62:961,coco,34139,62,chair,a photo containing a chair,True,16,0,0,0,0.0
+coco:34205:1:963,coco,34205,1,person,a close-up of a person,True,4,0,0,0,0.0
+coco:34205:56:962,coco,34205,56,broccoli,a visible broccoli in the scene,False,26,0,0,0,0.0
+coco:34257:78:967,coco,34257,78,microwave,a microwave in the scene,True,44,0,0,0,0.0
+coco:34417:57:970,coco,34417,57,carrot,a carrot in the scene,True,117,0,0,0,0.0
+coco:34452:75:972,coco,34452,75,remote,a photo containing a remote,True,10,0,0,0,0.0
+coco:34760:37:975,coco,34760,37,sports ball,a sports ball in the scene,True,70,0,0,0,0.0
+coco:34873:84:979,coco,34873,84,book,a photo containing a book,True,19,0,0,0,0.0
+coco:3501:51:111,coco,3501,51,bowl,a photo of a bowl,False,6,0,0,0,0.0
+coco:35062:46:981,coco,35062,46,wine glass,a close-up of a wine glass,True,8,0,0,0,0.0
+coco:35197:7:984,coco,35197,7,train,a photo containing a train,True,18,0,0,0,0.0
+coco:35279:56:987,coco,35279,56,broccoli,a photo containing a broccoli,True,28,0,0,0,0.0
+coco:35279:84:986,coco,35279,84,book,a book object,False,3,0,0,0,0.0
+coco:35326:13:990,coco,35326,13,stop sign,a stop sign in the scene,True,92,0,0,0,0.0
+coco:35326:44:989,coco,35326,44,bottle,a visible bottle in the scene,False,31,0,0,0,0.0
+coco:35326:48:991,coco,35326,48,fork,a fork in the scene,True,32,0,0,0,0.0
+coco:3553:1:114,coco,3553,1,person,the person in this image,False,5,0,0,0,0.0
+coco:3553:54:115,coco,3553,54,sandwich,a close-up of a sandwich,True,14,0,0,0,0.0
+coco:35682:11:994,coco,35682,11,fire hydrant,a photo containing a fire hydrant,True,12,0,0,0,0.0
+coco:35682:41:993,coco,35682,41,skateboard,a photo containing a skateboard,True,21,0,0,0,0.0
+coco:35682:67:992,coco,35682,67,dining table,a visible dining table in the scene,False,11,0,0,0,0.0
+coco:35770:70:995,coco,35770,70,toilet,the toilet in this image,False,14,0,0,0,0.0
+coco:35770:76:996,coco,35770,76,keyboard,a small keyboard near the center,True,47,0,0,0,0.0
+coco:35963:62:1000,coco,35963,62,chair,a close-up of a chair,True,9,0,0,0,0.0
+coco:36494:54:1002,coco,36494,54,sandwich,a small sandwich near the center,True,33,0,0,0,0.0
+coco:3661:40:119,coco,3661,40,baseball glove,a close-up of a baseball glove,True,7,0,0,0,0.0
+coco:3661:47:117,coco,3661,47,cup,a visible cup in the scene,False,4,0,0,0,0.0
+coco:36660:48:1008,coco,36660,48,fork,a small fork near the center,True,45,0,0,0,0.0
+coco:36660:75:1009,coco,36660,75,remote,a photo containing a remote,True,18,0,0,0,0.0
+coco:36660:77:1007,coco,36660,77,cell phone,a photo of a cell phone,False,15,0,0,0,0.0
+coco:36844:14:1015,coco,36844,14,parking meter,a small parking meter near the center,True,86,0,0,0,0.0
+coco:36844:62:1013,coco,36844,62,chair,a visible chair in the scene,False,6,0,0,0,0.0
+coco:36861:14:1016,coco,36861,14,parking meter,a visible parking meter in the scene,False,21,0,0,0,0.0
+coco:36861:79:1017,coco,36861,79,oven,a small oven near the center,True,78,0,0,0,0.0
+coco:36936:1:1019,coco,36936,1,person,a person object,False,23,0,0,0,0.0
+coco:36936:21:1020,coco,36936,21,cow,a small cow near the center,True,52,0,0,0,0.0
+coco:37689:36:1025,coco,37689,36,snowboard,a photo of a snowboard,False,29,0,0,0,0.0
+coco:37689:48:1026,coco,37689,48,fork,a fork in the scene,True,160,0,0,0,0.0
+coco:37740:72:1028,coco,37740,72,tv,a tv object,False,11,0,0,0,0.0
+coco:37740:79:1030,coco,37740,79,oven,a small oven near the center,True,18,0,0,0,0.0
+coco:37751:27:1031,coco,37751,27,backpack,a photo of a backpack,False,23,0,0,0,0.0
+coco:37751:59:1032,coco,37751,59,pizza,a pizza in the scene,True,35,0,0,0,0.0
+coco:37777:4:1036,coco,37777,4,motorcycle,a photo containing a motorcycle,True,6,0,0,0,0.0
+coco:37777:79:1034,coco,37777,79,oven,a oven object,False,8,0,0,0,0.0
+coco:37988:18:1039,coco,37988,18,dog,a dog in the scene,True,20,0,0,0,0.0
+coco:38048:7:1042,coco,38048,7,train,a train in the scene,True,60,0,0,0,0.0
+coco:38070:70:1043,coco,38070,70,toilet,a photo of a toilet,False,9,0,0,0,0.0
+coco:38118:36:1047,coco,38118,36,snowboard,a close-up of a snowboard,True,21,0,0,0,0.0
+coco:38118:6:1048,coco,38118,6,bus,a bus in the scene,True,42,0,0,0,0.0
+coco:38210:1:1049,coco,38210,1,person,the person in this image,False,5,0,0,0,0.0
+coco:38210:44:1050,coco,38210,44,bottle,a close-up of a bottle,True,21,0,0,0,0.0
+coco:3845:47:120,coco,3845,47,cup,a photo of a cup,False,9,0,0,0,0.0
+coco:3845:54:121,coco,3845,54,sandwich,a sandwich in the scene,True,7,0,0,0,0.0
+coco:38576:2:1054,coco,38576,2,bicycle,a photo containing a bicycle,True,7,0,0,0,0.0
+coco:38678:60:1055,coco,38678,60,donut,a donut object,False,3,0,0,0,0.0
+coco:38825:33:1060,coco,38825,33,suitcase,a small suitcase near the center,True,44,0,0,0,0.0
+coco:38825:55:1059,coco,38825,55,orange,a close-up of a orange,True,5,0,0,0,0.0
+coco:38829:22:1062,coco,38829,22,elephant,a small elephant near the center,True,38,0,0,0,0.0
+coco:38829:27:1061,coco,38829,27,backpack,the backpack in this image,False,39,0,0,0,0.0
+coco:3934:43:125,coco,3934,43,tennis racket,a tennis racket in the scene,True,108,0,0,0,0.0
+coco:3934:63:123,coco,3934,63,couch,a photo of a couch,False,16,0,0,0,0.0
+coco:39405:44:1065,coco,39405,44,bottle,a photo containing a bottle,True,29,0,0,0,0.0
+coco:39480:41:1072,coco,39480,41,skateboard,a skateboard in the scene,True,28,0,0,0,0.0
+coco:39484:10:1073,coco,39484,10,traffic light,a traffic light object,False,74,0,0,0,0.0
+coco:39484:47:1074,coco,39484,47,cup,a cup in the scene,True,82,0,0,0,0.0
+coco:39551:60:1077,coco,39551,60,donut,a photo containing a donut,True,13,0,0,0,0.0
+coco:39670:79:1080,coco,39670,79,oven,a close-up of a oven,True,5,0,0,0,0.0
+coco:39670:7:1079,coco,39670,7,train,the train in this image,False,3,0,0,0,0.0
+coco:39769:17:1082,coco,39769,17,cat,a cat object,False,8,0,0,0,0.0
+coco:39785:1:1085,coco,39785,1,person,a visible person in the scene,False,7,0,0,0,0.0
+coco:39785:62:1087,coco,39785,62,chair,a close-up of a chair,True,23,0,0,0,0.0
+coco:39914:19:1089,coco,39914,19,horse,a small horse near the center,True,71,0,0,0,0.0
+coco:39914:1:1088,coco,39914,1,person,the person in this image,False,19,0,0,0,0.0
+coco:39914:81:1090,coco,39914,81,sink,a small sink near the center,True,76,0,0,0,0.0
+coco:39951:16:1092,coco,39951,16,bird,a bird in the scene,True,28,0,0,0,0.0
+coco:39956:13:1096,coco,39956,13,stop sign,a stop sign in the scene,True,104,0,0,0,0.0
+coco:39956:62:1094,coco,39956,62,chair,a chair object,False,14,0,0,0,0.0
+coco:40036:21:1098,coco,40036,21,cow,a photo containing a cow,True,6,0,0,0,0.0
+coco:40036:46:1099,coco,40036,46,wine glass,a wine glass in the scene,True,105,0,0,0,0.0
+coco:40083:16:1102,coco,40083,16,bird,a bird in the scene,True,95,0,0,0,0.0
+coco:40083:28:1100,coco,40083,28,umbrella,the umbrella in this image,False,5,0,0,0,0.0
+coco:40083:4:1101,coco,40083,4,motorcycle,a close-up of a motorcycle,True,15,0,0,0,0.0
+coco:40471:24:1104,coco,40471,24,zebra,a close-up of a zebra,True,17,0,0,0,0.0
+coco:40471:47:1103,coco,40471,47,cup,a photo of a cup,False,40,0,0,0,0.0
+coco:40471:84:1105,coco,40471,84,book,a close-up of a book,True,34,0,0,0,0.0
+coco:40757:65:1106,coco,40757,65,bed,a bed object,False,14,0,0,0,0.0
+coco:40757:89:1108,coco,40757,89,hair drier,a close-up of a hair drier,True,15,0,0,0,0.0
+coco:4134:3:127,coco,4134,3,car,a car in the scene,True,89,0,0,0,0.0
+coco:41633:74:1113,coco,41633,74,mouse,a small mouse near the center,True,25,0,0,0,0.0
+coco:41635:84:1115,coco,41635,84,book,a book in the scene,True,97,0,0,0,0.0
+coco:41872:21:1119,coco,41872,21,cow,a close-up of a cow,True,10,0,0,0,0.0
+coco:41872:61:1118,coco,41872,61,cake,a small cake near the center,True,23,0,0,0,0.0
+coco:41872:62:1117,coco,41872,62,chair,a chair object,False,16,0,0,0,0.0
+coco:41888:16:1120,coco,41888,16,bird,a bird object,False,11,0,0,0,0.0
+coco:41888:57:1121,coco,41888,57,carrot,a photo containing a carrot,True,23,0,0,0,0.0
+coco:41990:1:1123,coco,41990,1,person,a photo of a person,False,14,0,0,0,0.0
+coco:41990:22:1125,coco,41990,22,elephant,a photo containing a elephant,True,5,0,0,0,0.0
+coco:41990:81:1124,coco,41990,81,sink,a sink in the scene,True,58,0,0,0,0.0
+coco:42070:3:1126,coco,42070,3,car,a photo of a car,False,15,0,0,0,0.0
+coco:42102:1:1129,coco,42102,1,person,the person in this image,False,6,0,0,0,0.0
+coco:42178:7:1132,coco,42178,7,train,a train object,False,206,0,0,0,0.0
+coco:42276:55:1137,coco,42276,55,orange,a photo containing a orange,True,12,0,0,0,0.0
+coco:42276:70:1135,coco,42276,70,toilet,a photo of a toilet,False,15,0,0,0,0.0
+coco:42296:6:1139,coco,42296,6,bus,a bus in the scene,True,23,0,0,0,0.0
+coco:42528:62:1141,coco,42528,62,chair,a photo of a chair,False,17,0,0,0,0.0
+coco:42563:7:1144,coco,42563,7,train,a photo of a train,False,18,0,0,0,0.0
+coco:42889:74:1154,coco,42889,74,mouse,a small mouse near the center,True,22,0,0,0,0.0
+coco:42889:76:1152,coco,42889,76,keyboard,a visible keyboard in the scene,False,2,0,0,0,0.0
+coco:43314:14:1156,coco,43314,14,parking meter,a close-up of a parking meter,True,6,0,0,0,0.0
+coco:43314:1:1155,coco,43314,1,person,a photo of a person,False,15,0,0,0,0.0
+coco:43435:42:1158,coco,43435,42,surfboard,the surfboard in this image,False,27,0,0,0,0.0
+coco:43435:88:1160,coco,43435,88,teddy bear,a photo containing a teddy bear,True,14,0,0,0,0.0
+coco:43581:8:1163,coco,43581,8,truck,a small truck near the center,True,35,0,0,0,0.0
+coco:43737:9:1166,coco,43737,9,boat,a small boat near the center,True,54,0,0,0,0.0
+coco:4395:44:130,coco,4395,44,bottle,a close-up of a bottle,True,13,0,0,0,0.0
+coco:44068:36:1172,coco,44068,36,snowboard,a small snowboard near the center,True,34,0,0,0,0.0
+coco:44068:62:1170,coco,44068,62,chair,a chair object,False,3,0,0,0,0.0
+coco:44068:86:1171,coco,44068,86,vase,a photo containing a vase,True,7,0,0,0,0.0
+coco:44260:53:1176,coco,44260,53,apple,a photo of a apple,False,30,0,0,0,0.0
+coco:44279:3:1180,coco,44279,3,car,a small car near the center,True,86,0,0,0,0.0
+coco:44279:51:1179,coco,44279,51,bowl,a visible bowl in the scene,False,46,0,0,0,0.0
+coco:44590:1:1182,coco,44590,1,person,a person object,False,85,0,0,0,0.0
+coco:44590:72:1183,coco,44590,72,tv,a tv in the scene,True,69,0,0,0,0.0
+coco:44590:79:1184,coco,44590,79,oven,a close-up of a oven,True,29,0,0,0,0.0
+coco:44652:42:1187,coco,44652,42,surfboard,a photo containing a surfboard,True,21,0,0,0,0.0
+coco:44652:5:1185,coco,44652,5,airplane,a visible airplane in the scene,False,2,0,0,0,0.0
+coco:44699:20:1188,coco,44699,20,sheep,a photo of a sheep,False,23,0,0,0,0.0
+coco:44699:79:1189,coco,44699,79,oven,a small oven near the center,True,27,0,0,0,0.0
+coco:44699:84:1190,coco,44699,84,book,a book in the scene,True,78,0,0,0,0.0
+coco:44877:1:1191,coco,44877,1,person,the person in this image,False,9,0,0,0,0.0
+coco:44877:32:1192,coco,44877,32,tie,a close-up of a tie,True,21,0,0,0,0.0
+coco:44877:48:1193,coco,44877,48,fork,a fork in the scene,True,30,0,0,0,0.0
+coco:45070:65:1196,coco,45070,65,bed,a bed in the scene,True,17,0,0,0,0.0
+coco:45070:84:1195,coco,45070,84,book,a small book near the center,True,53,0,0,0,0.0
+coco:45090:42:1197,coco,45090,42,surfboard,the surfboard in this image,False,24,0,0,0,0.0
+coco:45090:47:1199,coco,45090,47,cup,a close-up of a cup,True,2,0,0,0,0.0
+coco:45090:65:1198,coco,45090,65,bed,a photo containing a bed,True,15,0,0,0,0.0
+coco:45229:31:1201,coco,45229,31,handbag,a handbag in the scene,True,35,0,0,0,0.0
+coco:45472:49:1205,coco,45472,49,knife,a close-up of a knife,True,186,0,0,0,0.0
+coco:45472:55:1203,coco,45472,55,orange,a orange object,False,26,0,0,0,0.0
+coco:45472:79:1204,coco,45472,79,oven,a oven in the scene,True,30,0,0,0,0.0
+coco:45550:24:1208,coco,45550,24,zebra,a small zebra near the center,True,62,0,0,0,0.0
+coco:45550:54:1206,coco,45550,54,sandwich,a sandwich object,False,6,0,0,0,0.0
+coco:45596:28:1209,coco,45596,28,umbrella,a umbrella object,False,25,0,0,0,0.0
+coco:46031:19:1217,coco,46031,19,horse,a photo containing a horse,True,19,0,0,0,0.0
+coco:46048:1:1218,coco,46048,1,person,a person object,False,12,0,0,0,0.0
+coco:46048:77:1219,coco,46048,77,cell phone,a cell phone in the scene,True,78,0,0,0,0.0
+coco:46252:28:1223,coco,46252,28,umbrella,a small umbrella near the center,True,32,0,0,0,0.0
+coco:46252:39:1221,coco,46252,39,baseball bat,the baseball bat in this image,False,10,0,0,0,0.0
+coco:46378:16:1224,coco,46378,16,bird,a visible bird in the scene,False,11,0,0,0,0.0
+coco:46378:23:1226,coco,46378,23,bear,a bear in the scene,True,5,0,0,0,0.0
+coco:46463:18:1229,coco,46463,18,dog,a close-up of a dog,True,4,0,0,0,0.0
+coco:46463:79:1227,coco,46463,79,oven,the oven in this image,False,15,0,0,0,0.0
+coco:46804:20:1233,coco,46804,20,sheep,the sheep in this image,False,2,0,0,0,0.0
+coco:46804:82:1235,coco,46804,82,refrigerator,a photo containing a refrigerator,True,4,0,0,0,0.0
+coco:46872:2:1238,coco,46872,2,bicycle,a bicycle in the scene,True,58,0,0,0,0.0
+coco:47010:70:1240,coco,47010,70,toilet,a close-up of a toilet,True,12,0,0,0,0.0
+coco:47112:59:1242,coco,47112,59,pizza,a visible pizza in the scene,False,3,0,0,0,0.0
+coco:47121:51:1245,coco,47121,51,bowl,a photo of a bowl,False,16,0,0,0,0.0
+coco:47571:14:1250,coco,47571,14,parking meter,a small parking meter near the center,True,79,0,0,0,0.0
+coco:47571:19:1248,coco,47571,19,horse,a visible horse in the scene,False,2,0,0,0,0.0
+coco:47585:21:1252,coco,47585,21,cow,a small cow near the center,True,3,0,0,0,0.0
+coco:47585:32:1251,coco,47585,32,tie,a tie object,False,42,0,0,0,0.0
+coco:4765:42:135,coco,4765,42,surfboard,the surfboard in this image,False,17,0,0,0,0.0
+coco:4765:5:136,coco,4765,5,airplane,a close-up of a airplane,True,6,0,0,0,0.0
+coco:47740:56:1255,coco,47740,56,broccoli,a broccoli in the scene,True,300,0,0,0,0.0
+coco:47769:16:1259,coco,47769,16,bird,a bird in the scene,True,38,0,0,0,0.0
+coco:47769:46:1258,coco,47769,46,wine glass,a close-up of a wine glass,True,18,0,0,0,0.0
+coco:47801:20:1262,coco,47801,20,sheep,a close-up of a sheep,True,4,0,0,0,0.0
+coco:4795:17:138,coco,4795,17,cat,a photo of a cat,False,6,0,0,0,0.0
+coco:4795:80:140,coco,4795,80,toaster,a photo containing a toaster,True,7,0,0,0,0.0
+coco:48153:1:1269,coco,48153,1,person,a visible person in the scene,False,4,0,0,0,0.0
+coco:48153:60:1271,coco,48153,60,donut,a photo containing a donut,True,8,0,0,0,0.0
+coco:48396:40:1273,coco,48396,40,baseball glove,a baseball glove in the scene,True,61,0,0,0,0.0
+coco:48396:8:1274,coco,48396,8,truck,a close-up of a truck,True,11,0,0,0,0.0
+coco:48504:22:1275,coco,48504,22,elephant,a photo of a elephant,False,12,0,0,0,0.0
+coco:48504:46:1277,coco,48504,46,wine glass,a photo containing a wine glass,True,13,0,0,0,0.0
+coco:48555:19:1278,coco,48555,19,horse,the horse in this image,False,14,0,0,0,0.0
+coco:48555:86:1280,coco,48555,86,vase,a close-up of a vase,True,8,0,0,0,0.0
+coco:48564:1:1281,coco,48564,1,person,the person in this image,False,3,0,0,0,0.0
+coco:48564:49:1282,coco,48564,49,knife,a close-up of a knife,True,8,0,0,0,0.0
+coco:48924:15:1286,coco,48924,15,bench,a bench in the scene,True,35,0,0,0,0.0
+coco:48924:27:1284,coco,48924,27,backpack,a visible backpack in the scene,False,24,0,0,0,0.0
+coco:48924:62:1285,coco,48924,62,chair,a photo containing a chair,True,19,0,0,0,0.0
+coco:49060:70:1289,coco,49060,70,toilet,a small toilet near the center,True,63,0,0,0,0.0
+coco:49259:1:1292,coco,49259,1,person,the person in this image,False,3,0,0,0,0.0
+coco:49259:51:1294,coco,49259,51,bowl,a close-up of a bowl,True,21,0,0,0,0.0
+coco:49269:54:1296,coco,49269,54,sandwich,a sandwich in the scene,True,4,0,0,0,0.0
+coco:49269:7:1297,coco,49269,7,train,a close-up of a train,True,6,0,0,0,0.0
+coco:49759:44:1299,coco,49759,44,bottle,a photo containing a bottle,True,38,0,0,0,0.0
+coco:49759:60:1300,coco,49759,60,donut,a close-up of a donut,True,12,0,0,0,0.0
+coco:49761:16:1301,coco,49761,16,bird,a bird object,False,52,0,0,0,0.0
+coco:49810:74:1305,coco,49810,74,mouse,a mouse in the scene,True,13,0,0,0,0.0
+coco:5001:8:142,coco,5001,8,truck,a truck in the scene,True,52,0,0,0,0.0
+coco:50149:9:1315,coco,50149,9,boat,a photo containing a boat,True,10,0,0,0,0.0
+coco:50165:7:1316,coco,50165,7,train,the train in this image,False,3,0,0,0,0.0
+coco:50326:82:1320,coco,50326,82,refrigerator,a close-up of a refrigerator,True,6,0,0,0,0.0
+coco:50331:64:1322,coco,50331,64,potted plant,the potted plant in this image,False,10,0,0,0,0.0
+coco:50331:6:1323,coco,50331,6,bus,a bus in the scene,True,27,0,0,0,0.0
+coco:50331:73:1324,coco,50331,73,laptop,a photo containing a laptop,True,6,0,0,0,0.0
+coco:5037:16:146,coco,5037,16,bird,a photo containing a bird,True,22,0,0,0,0.0
+coco:5037:6:144,coco,5037,6,bus,a bus object,False,2,0,0,0,0.0
+coco:50380:33:1326,coco,50380,33,suitcase,a photo containing a suitcase,True,31,0,0,0,0.0
+coco:50380:62:1325,coco,50380,62,chair,a chair object,False,23,0,0,0,0.0
+coco:5060:36:149,coco,5060,36,snowboard,a close-up of a snowboard,True,15,0,0,0,0.0
+coco:50638:43:1329,coco,50638,43,tennis racket,a photo containing a tennis racket,True,12,0,0,0,0.0
+coco:50638:88:1328,coco,50638,88,teddy bear,a visible teddy bear in the scene,False,3,0,0,0,0.0
+coco:50679:38:1333,coco,50679,38,kite,a kite in the scene,True,12,0,0,0,0.0
+coco:50828:55:1339,coco,50828,55,orange,a close-up of a orange,True,9,0,0,0,0.0
+coco:50828:65:1337,coco,50828,65,bed,a visible bed in the scene,False,9,0,0,0,0.0
+coco:50844:28:1341,coco,50844,28,umbrella,a umbrella in the scene,True,44,0,0,0,0.0
+coco:50844:67:1342,coco,50844,67,dining table,a photo containing a dining table,True,6,0,0,0,0.0
+coco:50943:42:1346,coco,50943,42,surfboard,a surfboard object,False,11,0,0,0,0.0
+coco:51008:36:1351,coco,51008,36,snowboard,a snowboard in the scene,True,18,0,0,0,0.0
+coco:51309:50:1354,coco,51309,50,spoon,a small spoon near the center,True,119,0,0,0,0.0
+coco:51309:76:1353,coco,51309,76,keyboard,a photo containing a keyboard,True,8,0,0,0,0.0
+coco:51314:42:1355,coco,51314,42,surfboard,a visible surfboard in the scene,False,6,0,0,0,0.0
+coco:51314:89:1356,coco,51314,89,hair drier,a small hair drier near the center,True,28,0,0,0,0.0
+coco:51326:35:1360,coco,51326,35,skis,a small skis near the center,True,83,0,0,0,0.0
+coco:51326:86:1358,coco,51326,86,vase,a vase object,False,16,0,0,0,0.0
+coco:51598:22:1362,coco,51598,22,elephant,a small elephant near the center,True,46,0,0,0,0.0
+coco:51610:64:1365,coco,51610,64,potted plant,a small potted plant near the center,True,34,0,0,0,0.0
+coco:51610:65:1364,coco,51610,65,bed,the bed in this image,False,15,0,0,0,0.0
+coco:51712:35:1367,coco,51712,35,skis,the skis in this image,False,9,0,0,0,0.0
+coco:51738:3:1372,coco,51738,3,car,a photo containing a car,True,11,0,0,0,0.0
+coco:51738:62:1370,coco,51738,62,chair,the chair in this image,False,8,0,0,0,0.0
+coco:51938:40:1375,coco,51938,40,baseball glove,a close-up of a baseball glove,True,32,0,0,0,0.0
+coco:51961:70:1378,coco,51961,70,toilet,a photo containing a toilet,True,11,0,0,0,0.0
+coco:51976:32:1380,coco,51976,32,tie,a small tie near the center,True,28,0,0,0,0.0
+coco:52007:56:1384,coco,52007,56,broccoli,a photo containing a broccoli,True,36,0,0,0,0.0
+coco:52017:28:1387,coco,52017,28,umbrella,a small umbrella near the center,True,42,0,0,0,0.0
+coco:52017:52:1386,coco,52017,52,banana,a small banana near the center,True,65,0,0,0,0.0
+coco:52412:38:1390,coco,52412,38,kite,a small kite near the center,True,63,0,0,0,0.0
+coco:52413:27:1393,coco,52413,27,backpack,a close-up of a backpack,True,29,0,0,0,0.0
+coco:52413:47:1391,coco,52413,47,cup,a photo of a cup,False,21,0,0,0,0.0
+coco:52462:32:1396,coco,52462,32,tie,a small tie near the center,True,58,0,0,0,0.0
+coco:52565:77:1401,coco,52565,77,cell phone,a close-up of a cell phone,True,5,0,0,0,0.0
+coco:52591:46:1404,coco,52591,46,wine glass,a small wine glass near the center,True,59,0,0,0,0.0
+coco:52891:88:1408,coco,52891,88,teddy bear,a close-up of a teddy bear,True,4,0,0,0,0.0
+coco:52996:49:1409,coco,52996,49,knife,a visible knife in the scene,False,22,0,0,0,0.0
+coco:53505:70:1412,coco,53505,70,toilet,a visible toilet in the scene,False,3,0,0,0,0.0
+coco:53529:27:1416,coco,53529,27,backpack,a backpack in the scene,True,63,0,0,0,0.0
+coco:53624:3:1420,coco,53624,3,car,a close-up of a car,True,10,0,0,0,0.0
+coco:53624:61:1419,coco,53624,61,cake,a close-up of a cake,True,14,0,0,0,0.0
+coco:53626:32:1422,coco,53626,32,tie,a tie in the scene,True,91,0,0,0,0.0
+coco:53626:35:1421,coco,53626,35,skis,a skis object,False,91,0,0,0,0.0
+coco:53909:14:1426,coco,53909,14,parking meter,a small parking meter near the center,True,4,0,0,0,0.0
+coco:53909:77:1424,coco,53909,77,cell phone,a visible cell phone in the scene,False,3,0,0,0,0.0
+coco:53994:43:1429,coco,53994,43,tennis racket,a photo containing a tennis racket,True,9,0,0,0,0.0
+coco:54123:76:1431,coco,54123,76,keyboard,a small keyboard near the center,True,36,0,0,0,0.0
+coco:54164:1:1433,coco,54164,1,person,a person object,False,4,0,0,0,0.0
+coco:54592:35:1436,coco,54592,35,skis,a visible skis in the scene,False,17,0,0,0,0.0
+coco:54592:76:1438,coco,54592,76,keyboard,a photo containing a keyboard,True,10,0,0,0,0.0
+coco:54605:39:1443,coco,54605,39,baseball bat,a baseball bat in the scene,True,62,0,0,0,0.0
+coco:54628:67:1445,coco,54628,67,dining table,the dining table in this image,False,20,0,0,0,0.0
+coco:54628:74:1447,coco,54628,74,mouse,a close-up of a mouse,True,13,0,0,0,0.0
+coco:54654:1:1448,coco,54654,1,person,a person object,False,8,0,0,0,0.0
+coco:54654:44:1450,coco,54654,44,bottle,a small bottle near the center,True,65,0,0,0,0.0
+coco:5477:5:153,coco,5477,5,airplane,the airplane in this image,False,8,0,0,0,0.0
+coco:54931:80:1452,coco,54931,80,toaster,a close-up of a toaster,True,5,0,0,0,0.0
+coco:54967:1:1454,coco,54967,1,person,a person object,False,30,0,0,0,0.0
+coco:54967:79:1456,coco,54967,79,oven,a small oven near the center,True,26,0,0,0,0.0
+coco:55002:31:1459,coco,55002,31,handbag,a photo containing a handbag,True,15,0,0,0,0.0
+coco:55002:84:1458,coco,55002,84,book,a close-up of a book,True,19,0,0,0,0.0
+coco:5503:70:156,coco,5503,70,toilet,a toilet object,False,12,0,0,0,0.0
+coco:5503:74:158,coco,5503,74,mouse,a small mouse near the center,True,25,0,0,0,0.0
+coco:55150:16:1467,coco,55150,16,bird,a small bird near the center,True,63,0,0,0,0.0
+coco:55150:84:1466,coco,55150,84,book,the book in this image,False,16,0,0,0,0.0
+coco:55167:6:1469,coco,55167,6,bus,a bus object,False,15,0,0,0,0.0
+coco:55299:28:1472,coco,55299,28,umbrella,a umbrella object,False,31,0,0,0,0.0
+coco:55299:86:1474,coco,55299,86,vase,a close-up of a vase,True,10,0,0,0,0.0
+coco:5529:1:159,coco,5529,1,person,a visible person in the scene,False,2,0,0,0,0.0
+coco:5529:23:161,coco,5529,23,bear,a small bear near the center,True,38,0,0,0,0.0
+coco:5529:27:160,coco,5529,27,backpack,a photo containing a backpack,True,22,0,0,0,0.0
+coco:55528:19:1477,coco,55528,19,horse,a small horse near the center,True,51,0,0,0,0.0
+coco:55528:84:1475,coco,55528,84,book,a visible book in the scene,False,25,0,0,0,0.0
+coco:5586:43:162,coco,5586,43,tennis racket,a photo of a tennis racket,False,28,0,0,0,0.0
+coco:55950:1:1478,coco,55950,1,person,a person object,False,6,0,0,0,0.0
+coco:5600:51:165,coco,5600,51,bowl,a photo of a bowl,False,10,0,0,0,0.0
+coco:56127:3:1482,coco,56127,3,car,a photo containing a car,True,9,0,0,0,0.0
+coco:56288:36:1485,coco,56288,36,snowboard,a snowboard in the scene,True,18,0,0,0,0.0
+coco:56288:49:1486,coco,56288,49,knife,a photo containing a knife,True,28,0,0,0,0.0
+coco:56344:90:1488,coco,56344,90,toothbrush,a small toothbrush near the center,True,85,0,0,0,0.0
+coco:56350:1:1490,coco,56350,1,person,a person object,False,84,0,0,0,0.0
+coco:56350:5:1492,coco,56350,5,airplane,a close-up of a airplane,True,7,0,0,0,0.0
+coco:56545:16:1493,coco,56545,16,bird,a visible bird in the scene,False,2,0,0,0,0.0
+coco:56545:72:1495,coco,56545,72,tv,a tv in the scene,True,14,0,0,0,0.0
+coco:5992:20:168,coco,5992,20,sheep,a photo of a sheep,False,14,0,0,0,0.0
+coco:5992:25:170,coco,5992,25,giraffe,a small giraffe near the center,True,21,0,0,0,0.0
+coco:6012:79:173,coco,6012,79,oven,a close-up of a oven,True,3,0,0,0,0.0
+coco:6040:44:175,coco,6040,44,bottle,a photo containing a bottle,True,13,0,0,0,0.0
+coco:6213:18:178,coco,6213,18,dog,a small dog near the center,True,47,0,0,0,0.0
+coco:632:64:6,coco,632,64,potted plant,a potted plant object,False,13,0,0,0,0.0
+coco:6460:87:182,coco,6460,87,scissors,a scissors in the scene,True,12,0,0,0,0.0
+coco:6471:64:184,coco,6471,64,potted plant,a photo containing a potted plant,True,17,0,0,0,0.0
+coco:6614:18:187,coco,6614,18,dog,a close-up of a dog,True,10,0,0,0,0.0
+coco:6614:55:186,coco,6614,55,orange,the orange in this image,False,13,0,0,0,0.0
+coco:6723:3:189,coco,6723,3,car,a visible car in the scene,False,17,0,0,0,0.0
+coco:6723:76:190,coco,6723,76,keyboard,a close-up of a keyboard,True,44,0,0,0,0.0
+coco:6771:77:195,coco,6771,77,cell phone,a visible cell phone in the scene,False,7,0,0,0,0.0
+coco:6818:70:198,coco,6818,70,toilet,a visible toilet in the scene,False,6,0,0,0,0.0
+coco:6818:85:200,coco,6818,85,clock,a close-up of a clock,True,7,0,0,0,0.0
+coco:6954:2:205,coco,6954,2,bicycle,a bicycle in the scene,True,26,0,0,0,0.0
+coco:6954:34:204,coco,6954,34,frisbee,a frisbee object,False,13,0,0,0,0.0
+coco:6954:35:206,coco,6954,35,skis,a small skis near the center,True,138,0,0,0,0.0
+coco:7088:19:209,coco,7088,19,horse,a small horse near the center,True,68,0,0,0,0.0
+coco:7088:28:207,coco,7088,28,umbrella,a photo of a umbrella,False,33,0,0,0,0.0
+coco:7088:75:208,coco,7088,75,remote,a photo containing a remote,True,13,0,0,0,0.0
+coco:7108:28:211,coco,7108,28,umbrella,a photo containing a umbrella,True,7,0,0,0,0.0
+coco:7108:48:212,coco,7108,48,fork,a photo containing a fork,True,22,0,0,0,0.0
+coco:724:28:11,coco,724,28,umbrella,a photo containing a umbrella,True,18,0,0,0,0.0
+coco:724:8:9,coco,724,8,truck,a visible truck in the scene,False,8,0,0,0,0.0
+coco:7278:9:214,coco,7278,9,boat,a photo containing a boat,True,11,0,0,0,0.0
+coco:7386:82:220,coco,7386,82,refrigerator,a refrigerator in the scene,True,36,0,0,0,0.0
+coco:7511:38:222,coco,7511,38,kite,a visible kite in the scene,False,21,0,0,0,0.0
+coco:7511:43:223,coco,7511,43,tennis racket,a tennis racket in the scene,True,45,0,0,0,0.0
+coco:7574:21:226,coco,7574,21,cow,a photo containing a cow,True,13,0,0,0,0.0
+coco:776:89:13,coco,776,89,hair drier,a photo containing a hair drier,True,9,0,0,0,0.0
+coco:7784:38:228,coco,7784,38,kite,a photo of a kite,False,15,0,0,0,0.0
+coco:7784:8:230,coco,7784,8,truck,a close-up of a truck,True,8,0,0,0,0.0
+coco:7795:13:233,coco,7795,13,stop sign,a close-up of a stop sign,True,12,0,0,0,0.0
+coco:7795:85:231,coco,7795,85,clock,a photo of a clock,False,22,0,0,0,0.0
+coco:7816:11:236,coco,7816,11,fire hydrant,a small fire hydrant near the center,True,53,0,0,0,0.0
+coco:7818:38:239,coco,7818,38,kite,a close-up of a kite,True,10,0,0,0,0.0
+coco:7818:86:237,coco,7818,86,vase,a photo of a vase,False,34,0,0,0,0.0
+coco:785:61:16,coco,785,61,cake,a photo containing a cake,True,6,0,0,0,0.0
+coco:7888:35:242,coco,7888,35,skis,a photo containing a skis,True,7,0,0,0,0.0
+coco:7888:85:240,coco,7888,85,clock,a visible clock in the scene,False,11,0,0,0,0.0
+coco:7977:1:243,coco,7977,1,person,a photo of a person,False,22,0,0,0,0.0
+coco:7991:36:247,coco,7991,36,snowboard,a photo containing a snowboard,True,15,0,0,0,0.0
+coco:7991:49:246,coco,7991,49,knife,a visible knife in the scene,False,20,0,0,0,0.0
+coco:8021:32:249,coco,8021,32,tie,a visible tie in the scene,False,14,0,0,0,0.0
+coco:8021:65:251,coco,8021,65,bed,a bed in the scene,True,38,0,0,0,0.0
+coco:802:67:19,coco,802,67,dining table,a photo containing a dining table,True,6,0,0,0,0.0
+coco:802:82:18,coco,802,82,refrigerator,a visible refrigerator in the scene,False,2,0,0,0,0.0
+coco:8211:15:254,coco,8211,15,bench,a bench in the scene,True,43,0,0,0,0.0
+coco:8211:62:252,coco,8211,62,chair,a photo of a chair,False,38,0,0,0,0.0
+coco:8211:87:253,coco,8211,87,scissors,a close-up of a scissors,True,41,0,0,0,0.0
+coco:8277:90:256,coco,8277,90,toothbrush,a toothbrush in the scene,True,24,0,0,0,0.0
+coco:8532:1:258,coco,8532,1,person,a person object,False,5,0,0,0,0.0
+coco:8532:36:260,coco,8532,36,snowboard,a photo containing a snowboard,True,14,0,0,0,0.0
+coco:8629:61:263,coco,8629,61,cake,a small cake near the center,True,16,0,0,0,0.0
+coco:8690:1:264,coco,8690,1,person,the person in this image,False,23,0,0,0,0.0
+coco:8690:40:266,coco,8690,40,baseball glove,a close-up of a baseball glove,True,20,0,0,0,0.0
+coco:872:64:22,coco,872,64,potted plant,a potted plant in the scene,True,140,0,0,0,0.0
+coco:8844:43:271,coco,8844,43,tennis racket,a tennis racket in the scene,True,51,0,0,0,0.0
+coco:8844:85:272,coco,8844,85,clock,a clock in the scene,True,41,0,0,0,0.0
+coco:885:1:24,coco,885,1,person,the person in this image,False,14,0,0,0,0.0
+coco:885:59:25,coco,885,59,pizza,a pizza in the scene,True,24,0,0,0,0.0
+coco:8899:11:273,coco,8899,11,fire hydrant,a photo of a fire hydrant,False,15,0,0,0,0.0
+coco:9378:11:277,coco,9378,11,fire hydrant,a photo containing a fire hydrant,True,11,0,0,0,0.0
+coco:9378:65:278,coco,9378,65,bed,a close-up of a bed,True,5,0,0,0,0.0
+coco:9400:61:280,coco,9400,61,cake,a close-up of a cake,True,19,0,0,0,0.0
+coco:9400:85:281,coco,9400,85,clock,a clock in the scene,True,97,0,0,0,0.0
+coco:9448:28:282,coco,9448,28,umbrella,the umbrella in this image,False,4,0,0,0,0.0
+coco:9448:31:284,coco,9448,31,handbag,a close-up of a handbag,True,17,0,0,0,0.0
+coco:9448:67:283,coco,9448,67,dining table,a close-up of a dining table,True,3,0,0,0,0.0
+coco:9483:64:286,coco,9483,64,potted plant,a photo containing a potted plant,True,17,0,0,0,0.0
+coco:9483:72:285,coco,9483,72,tv,a visible tv in the scene,False,7,0,0,0,0.0
+coco:9590:44:288,coco,9590,44,bottle,a photo of a bottle,False,38,0,0,0,0.0
+coco:9769:13:293,coco,9769,13,stop sign,a stop sign in the scene,True,35,0,0,0,0.0
+coco:9772:1:294,coco,9772,1,person,a photo of a person,False,11,0,0,0,0.0
+coco:9772:23:295,coco,9772,23,bear,a photo containing a bear,True,11,0,0,0,0.0
+coco:9772:24:296,coco,9772,24,zebra,a photo containing a zebra,True,8,0,0,0,0.0
+coco:9891:11:298,coco,9891,11,fire hydrant,a photo containing a fire hydrant,True,11,0,0,0,0.0
+coco:9914:67:300,coco,9914,67,dining table,a dining table object,False,4,0,0,0,0.0

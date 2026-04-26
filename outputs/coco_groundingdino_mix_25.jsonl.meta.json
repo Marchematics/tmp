@@ -1,0 +1,22 @@
+{
+  "dataset": "coco",
+  "ann_json": "<COCO_ROOT>/annotations/instances_val2017.json",
+  "img_dir": "<COCO_ROOT>/val2017",
+  "out_jsonl": "outputs/coco_groundingdino_mix_25.jsonl",
+  "model_id": "IDEA-Research/grounding-dino-tiny",
+  "device": "cuda:0",
+  "limit_images": 25,
+  "prompt_pool": "all",
+  "absent_prompts_per_image": 1,
+  "present_prompts_per_image": 1,
+  "box_threshold": 0.05,
+  "text_threshold": 0.05,
+  "nms_iou": 0.7,
+  "max_det": 300,
+  "match_iou": 0.5,
+  "seed": 0,
+  "num_families_written": 50,
+  "num_candidates": 686,
+  "mean_candidates_per_family": 13.72,
+  "num_missing_images": 0
+}

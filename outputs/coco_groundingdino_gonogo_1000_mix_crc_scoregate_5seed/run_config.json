@@ -1,0 +1,24 @@
+{
+  "candidate_table": "data_raw/a_project_2/outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv",
+  "alphas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "split_ratios": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "max_thresholds": 1000,
+  "min_cal_rejections": 1,
+  "loss": "per-family FDP with CRC-style bounded-risk upper correction"
+}

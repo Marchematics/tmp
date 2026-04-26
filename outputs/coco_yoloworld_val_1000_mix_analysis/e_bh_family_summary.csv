@@ -1,0 +1,538 @@
+family_id,dataset,image_id,category_id,category_name,prompt,is_prompt_absent,num_candidates,num_rejected,fp,tp,fdp
+coco:1000:43:27,coco,1000,43,tennis racket,tennis racket,False,5,0,0,0,0.0
+coco:100238:34:2552,coco,100238,34,frisbee,frisbee,False,4,0,0,0,0.0
+coco:100428:1:2561,coco,100428,1,person,person,False,3,0,0,0,0.0
+coco:100510:19:2567,coco,100510,19,horse,horse,False,1,0,0,0,0.0
+coco:101420:17:2584,coco,101420,17,cat,cat,False,1,0,0,0,0.0
+coco:101420:62:2585,coco,101420,62,chair,chair,True,1,0,0,0,0.0
+coco:101780:25:2590,coco,101780,25,giraffe,giraffe,False,4,0,0,0,0.0
+coco:102356:1:2602,coco,102356,1,person,person,False,1,0,0,0,0.0
+coco:102411:27:2607,coco,102411,27,backpack,backpack,True,4,0,0,0,0.0
+coco:102411:31:2605,coco,102411,31,handbag,handbag,False,6,0,0,0,0.0
+coco:102707:47:2611,coco,102707,47,cup,cup,False,2,0,0,0,0.0
+coco:102805:34:2614,coco,102805,34,frisbee,frisbee,False,1,0,0,0,0.0
+coco:102820:61:2617,coco,102820,61,cake,cake,False,1,0,0,0,0.0
+coco:10363:3:306,coco,10363,3,car,car,False,1,0,0,0,0.0
+coco:104572:81:2641,coco,104572,81,sink,sink,False,8,0,0,0,0.0
+coco:104603:23:2644,coco,104603,23,bear,bear,False,2,0,0,0,0.0
+coco:104612:51:2648,coco,104612,51,bowl,bowl,True,1,0,0,0,0.0
+coco:104612:56:2647,coco,104612,56,broccoli,broccoli,False,31,0,0,0,0.0
+coco:104619:25:2650,coco,104619,25,giraffe,giraffe,False,1,0,0,0,0.0
+coco:104669:55:2656,coco,104669,55,orange,orange,False,1,0,0,0,0.0
+coco:104803:70:2662,coco,104803,70,toilet,toilet,False,2,0,0,0,0.0
+coco:105014:56:2665,coco,105014,56,broccoli,broccoli,False,5,0,0,0,0.0
+coco:105249:70:2668,coco,105249,70,toilet,toilet,False,1,0,0,0,0.0
+coco:105455:3:2677,coco,105455,3,car,car,False,2,0,0,0,0.0
+coco:10583:49:309,coco,10583,49,knife,knife,False,1,0,0,0,0.0
+coco:105912:11:2680,coco,105912,11,fire hydrant,fire hydrant,False,1,0,0,0,0.0
+coco:105923:22:2683,coco,105923,22,elephant,elephant,False,1,0,0,0,0.0
+coco:106048:6:2686,coco,106048,6,bus,bus,False,1,0,0,0,0.0
+coco:106266:59:2692,coco,106266,59,pizza,pizza,False,3,0,0,0,0.0
+coco:106563:85:2704,coco,106563,85,clock,clock,False,1,0,0,0,0.0
+coco:106912:41:2713,coco,106912,41,skateboard,skateboard,False,1,0,0,0,0.0
+coco:10707:3:313,coco,10707,3,car,car,True,1,0,0,0,0.0
+coco:107094:27:2719,coco,107094,27,backpack,backpack,False,2,0,0,0,0.0
+coco:108253:1:2740,coco,108253,1,person,person,False,2,0,0,0,0.0
+coco:108440:7:2743,coco,108440,7,train,train,False,1,0,0,0,0.0
+coco:108495:41:2746,coco,108495,41,skateboard,skateboard,False,3,0,0,0,0.0
+coco:108503:42:2749,coco,108503,42,surfboard,surfboard,False,3,0,0,0,0.0
+coco:108864:22:2752,coco,108864,22,elephant,elephant,False,2,0,0,0,0.0
+coco:109055:2:2755,coco,109055,2,bicycle,bicycle,False,2,0,0,0,0.0
+coco:109118:40:2758,coco,109118,40,baseball glove,baseball glove,False,1,0,0,0,0.0
+coco:109441:11:2764,coco,109441,11,fire hydrant,fire hydrant,False,1,0,0,0,0.0
+coco:10977:81:318,coco,10977,81,sink,sink,False,2,0,0,0,0.0
+coco:109798:58:2769,coco,109798,58,hot dog,hot dog,True,1,0,0,0,0.0
+coco:109798:67:2767,coco,109798,67,dining table,dining table,False,1,0,0,0,0.0
+coco:109827:88:2770,coco,109827,88,teddy bear,teddy bear,False,1,0,0,0,0.0
+coco:10995:65:321,coco,10995,65,bed,bed,False,2,0,0,0,0.0
+coco:110211:24:2788,coco,110211,24,zebra,zebra,False,9,0,0,0,0.0
+coco:110282:10:2791,coco,110282,10,traffic light,traffic light,False,1,0,0,0,0.0
+coco:110638:22:2800,coco,110638,22,elephant,elephant,False,3,0,0,0,0.0
+coco:110721:1:2803,coco,110721,1,person,person,False,3,0,0,0,0.0
+coco:110972:21:2814,coco,110972,21,cow,cow,True,1,0,0,0,0.0
+coco:110999:53:2815,coco,110999,53,apple,apple,False,14,0,0,0,0.0
+coco:111086:9:2821,coco,111086,9,boat,boat,False,3,0,0,0,0.0
+coco:111179:85:2824,coco,111179,85,clock,clock,False,4,0,0,0,0.0
+coco:111951:46:2834,coco,111951,46,wine glass,wine glass,True,1,0,0,0,0.0
+coco:11197:10:333,coco,11197,10,traffic light,traffic light,False,8,0,0,0,0.0
+coco:112110:33:2836,coco,112110,33,suitcase,suitcase,False,1,0,0,0,0.0
+coco:112798:73:2851,coco,112798,73,laptop,laptop,False,1,0,0,0,0.0
+coco:113051:9:2857,coco,113051,9,boat,boat,False,2,0,0,0,0.0
+coco:113235:19:2860,coco,113235,19,horse,horse,False,2,0,0,0,0.0
+coco:113354:24:2863,coco,113354,24,zebra,zebra,False,5,0,0,0,0.0
+coco:113589:47:2871,coco,113589,47,cup,cup,True,1,0,0,0,0.0
+coco:114049:33:2878,coco,114049,33,suitcase,suitcase,False,4,0,0,0,0.0
+coco:114770:5:2881,coco,114770,5,airplane,airplane,False,2,0,0,0,0.0
+coco:114884:33:2887,coco,114884,33,suitcase,suitcase,False,7,0,0,0,0.0
+coco:114907:1:2890,coco,114907,1,person,person,False,51,0,0,0,0.0
+coco:11511:1:336,coco,11511,1,person,person,False,8,0,0,0,0.0
+coco:115245:27:2896,coco,115245,27,backpack,backpack,False,8,0,0,0,0.0
+coco:116068:28:2912,coco,116068,28,umbrella,umbrella,True,1,0,0,0,0.0
+coco:116206:50:2915,coco,116206,50,spoon,spoon,True,1,0,0,0,0.0
+coco:116208:59:2917,coco,116208,59,pizza,pizza,False,5,0,0,0,0.0
+coco:116362:67:2920,coco,116362,67,dining table,dining table,False,1,0,0,0,0.0
+coco:116439:1:2923,coco,116439,1,person,person,False,1,0,0,0,0.0
+coco:116589:24:2929,coco,116589,24,zebra,zebra,False,5,0,0,0,0.0
+coco:116825:49:2932,coco,116825,49,knife,knife,False,1,0,0,0,0.0
+coco:117197:1:2935,coco,117197,1,person,person,False,1,0,0,0,0.0
+coco:117374:16:2938,coco,117374,16,bird,bird,False,4,0,0,0,0.0
+coco:117492:31:2945,coco,117492,31,handbag,handbag,True,3,0,0,0,0.0
+coco:117492:62:2944,coco,117492,62,chair,chair,False,14,0,0,0,0.0
+coco:117525:1:2947,coco,117525,1,person,person,False,2,0,0,0,0.0
+coco:11760:24:345,coco,11760,24,zebra,zebra,False,3,0,0,0,0.0
+coco:117719:47:2953,coco,117719,47,cup,cup,False,4,0,0,0,0.0
+coco:117908:1:2959,coco,117908,1,person,person,False,2,0,0,0,0.0
+coco:117914:81:2962,coco,117914,81,sink,sink,False,1,0,0,0,0.0
+coco:11813:62:348,coco,11813,62,chair,chair,False,3,0,0,0,0.0
+coco:118209:19:2965,coco,118209,19,horse,horse,False,2,0,0,0,0.0
+coco:118515:17:2974,coco,118515,17,cat,cat,False,1,0,0,0,0.0
+coco:118594:21:2977,coco,118594,21,cow,cow,False,4,0,0,0,0.0
+coco:118921:1:2980,coco,118921,1,person,person,False,1,0,0,0,0.0
+coco:119038:21:2983,coco,119038,21,cow,cow,False,4,0,0,0,0.0
+coco:119233:77:2989,coco,119233,77,cell phone,cell phone,False,1,0,0,0,0.0
+coco:12120:41:356,coco,12120,41,skateboard,skateboard,True,1,0,0,0,0.0
+coco:12639:15:365,coco,12639,15,bench,bench,True,1,0,0,0,0.0
+coco:12639:40:363,coco,12639,40,baseball glove,baseball glove,False,2,0,0,0,0.0
+coco:13004:67:375,coco,13004,67,dining table,dining table,False,1,0,0,0,0.0
+coco:13177:2:378,coco,13177,2,bicycle,bicycle,False,3,0,0,0,0.0
+coco:13291:1:384,coco,13291,1,person,person,False,7,0,0,0,0.0
+coco:1353:1:36,coco,1353,1,person,person,False,8,0,0,0,0.0
+coco:13597:50:395,coco,13597,50,spoon,spoon,True,2,0,0,0,0.0
+coco:13774:1:402,coco,13774,1,person,person,False,1,0,0,0,0.0
+coco:13923:72:405,coco,13923,72,tv,tv,False,1,0,0,0,0.0
+coco:14226:1:414,coco,14226,1,person,person,False,2,0,0,0,0.0
+coco:1425:51:39,coco,1425,51,bowl,bowl,False,2,0,0,0,0.0
+coco:14473:7:423,coco,14473,7,train,train,False,1,0,0,0,0.0
+coco:14831:1:428,coco,14831,1,person,person,True,1,0,0,0,0.0
+coco:14831:65:426,coco,14831,65,bed,bed,False,2,0,0,0,0.0
+coco:1490:1:42,coco,1490,1,person,person,False,1,0,0,0,0.0
+coco:1503:76:45,coco,1503,76,keyboard,keyboard,False,2,0,0,0,0.0
+coco:15079:54:432,coco,15079,54,sandwich,sandwich,False,3,0,0,0,0.0
+coco:15254:48:436,coco,15254,48,fork,fork,True,1,0,0,0,0.0
+coco:15272:10:438,coco,15272,10,traffic light,traffic light,False,4,0,0,0,0.0
+coco:15278:56:441,coco,15278,56,broccoli,broccoli,False,33,0,0,0,0.0
+coco:1532:3:48,coco,1532,3,car,car,False,8,0,0,0,0.0
+coco:15335:47:444,coco,15335,47,cup,cup,False,1,0,0,0,0.0
+coco:15440:13:450,coco,15440,13,stop sign,stop sign,False,2,0,0,0,0.0
+coco:15517:6:456,coco,15517,6,bus,bus,False,15,0,0,0,0.0
+coco:15746:11:465,coco,15746,11,fire hydrant,fire hydrant,False,1,0,0,0,0.0
+coco:15751:16:468,coco,15751,16,bird,bird,False,5,0,0,0,0.0
+coco:16010:24:474,coco,16010,24,zebra,zebra,False,7,0,0,0,0.0
+coco:16228:32:477,coco,16228,32,tie,tie,False,1,0,0,0,0.0
+coco:16249:15:480,coco,16249,15,bench,bench,False,8,0,0,0,0.0
+coco:1675:17:54,coco,1675,17,cat,cat,False,3,0,0,0,0.0
+coco:17031:25:501,coco,17031,25,giraffe,giraffe,False,1,0,0,0,0.0
+coco:17115:24:504,coco,17115,24,zebra,zebra,False,2,0,0,0,0.0
+coco:17379:81:516,coco,17379,81,sink,sink,False,2,0,0,0,0.0
+coco:1761:5:57,coco,1761,5,airplane,airplane,False,3,0,0,0,0.0
+coco:17627:1:522,coco,17627,1,person,person,False,10,0,0,0,0.0
+coco:17899:63:528,coco,17899,63,couch,couch,False,1,0,0,0,0.0
+coco:17959:27:534,coco,17959,27,backpack,backpack,False,1,0,0,0,0.0
+coco:18150:63:537,coco,18150,63,couch,couch,False,2,0,0,0,0.0
+coco:18491:39:546,coco,18491,39,baseball bat,baseball bat,False,2,0,0,0,0.0
+coco:18737:33:556,coco,18737,33,suitcase,suitcase,True,2,0,0,0,0.0
+coco:18770:1:558,coco,18770,1,person,person,False,1,0,0,0,0.0
+coco:18833:17:561,coco,18833,17,cat,cat,False,2,0,0,0,0.0
+coco:18833:77:562,coco,18833,77,cell phone,cell phone,True,1,0,0,0,0.0
+coco:19109:1:570,coco,19109,1,person,person,False,35,0,0,0,0.0
+coco:19221:56:573,coco,19221,56,broccoli,broccoli,False,5,0,0,0,0.0
+coco:19402:1:576,coco,19402,1,person,person,False,3,0,0,0,0.0
+coco:19432:1:579,coco,19432,1,person,person,False,1,0,0,0,0.0
+coco:19742:86:582,coco,19742,86,vase,vase,False,1,0,0,0,0.0
+coco:20059:24:591,coco,20059,24,zebra,zebra,False,2,0,0,0,0.0
+coco:20107:11:594,coco,20107,11,fire hydrant,fire hydrant,False,1,0,0,0,0.0
+coco:20247:22:599,coco,20247,22,elephant,elephant,True,2,0,0,0,0.0
+coco:20247:23:597,coco,20247,23,bear,bear,False,2,0,0,0,0.0
+coco:20333:51:600,coco,20333,51,bowl,bowl,False,1,0,0,0,0.0
+coco:20553:88:603,coco,20553,88,teddy bear,teddy bear,False,6,0,0,0,0.0
+coco:20992:58:609,coco,20992,58,hot dog,hot dog,False,2,0,0,0,0.0
+coco:21465:62:615,coco,21465,62,chair,chair,False,2,0,0,0,0.0
+coco:21465:85:616,coco,21465,85,clock,clock,True,1,0,0,0,0.0
+coco:21503:54:618,coco,21503,54,sandwich,sandwich,False,4,0,0,0,0.0
+coco:2153:1:72,coco,2153,1,person,person,False,5,0,0,0,0.0
+coco:2157:46:75,coco,2157,46,wine glass,wine glass,False,15,0,0,0,0.0
+coco:21839:31:624,coco,21839,31,handbag,handbag,False,2,0,0,0,0.0
+coco:21879:1:627,coco,21879,1,person,person,False,4,0,0,0,0.0
+coco:22192:65:633,coco,22192,65,bed,bed,False,3,0,0,0,0.0
+coco:22396:5:639,coco,22396,5,airplane,airplane,False,1,0,0,0,0.0
+coco:22589:20:645,coco,22589,20,sheep,sheep,False,4,0,0,0,0.0
+coco:22623:70:650,coco,22623,70,toilet,toilet,True,1,0,0,0,0.0
+coco:22623:77:648,coco,22623,77,cell phone,cell phone,False,2,0,0,0,0.0
+coco:22755:3:654,coco,22755,3,car,car,False,5,0,0,0,0.0
+coco:22892:74:659,coco,22892,74,mouse,mouse,True,1,0,0,0,0.0
+coco:22969:25:663,coco,22969,25,giraffe,giraffe,False,2,0,0,0,0.0
+coco:2299:32:81,coco,2299,32,tie,tie,False,9,0,0,0,0.0
+coco:23023:33:666,coco,23023,33,suitcase,suitcase,False,2,0,0,0,0.0
+coco:23230:16:675,coco,23230,16,bird,bird,False,4,0,0,0,0.0
+coco:23272:62:679,coco,23272,62,chair,chair,True,2,0,0,0,0.0
+coco:23751:38:687,coco,23751,38,kite,kite,False,1,0,0,0,0.0
+coco:24027:38:702,coco,24027,38,kite,kite,False,1,0,0,0,0.0
+coco:24144:59:705,coco,24144,59,pizza,pizza,False,1,0,0,0,0.0
+coco:24243:1:708,coco,24243,1,person,person,False,15,0,0,0,0.0
+coco:24610:84:714,coco,24610,84,book,book,False,1,0,0,0,0.0
+coco:2473:35:87,coco,2473,35,skis,skis,False,1,0,0,0,0.0
+coco:24919:22:717,coco,24919,22,elephant,elephant,False,4,0,0,0,0.0
+coco:25139:24:726,coco,25139,24,zebra,zebra,False,3,0,0,0,0.0
+coco:25228:42:732,coco,25228,42,surfboard,surfboard,False,1,0,0,0,0.0
+coco:25386:54:735,coco,25386,54,sandwich,sandwich,False,1,0,0,0,0.0
+coco:25393:1:738,coco,25393,1,person,person,False,4,0,0,0,0.0
+coco:25394:47:741,coco,25394,47,cup,cup,False,4,0,0,0,0.0
+coco:25424:37:744,coco,25424,37,sports ball,sports ball,False,1,0,0,0,0.0
+coco:25560:17:747,coco,25560,17,cat,cat,False,2,0,0,0,0.0
+coco:25560:73:749,coco,25560,73,laptop,laptop,True,1,0,0,0,0.0
+coco:2592:49:96,coco,2592,49,knife,knife,False,1,0,0,0,0.0
+coco:26564:72:764,coco,26564,72,tv,tv,False,2,0,0,0,0.0
+coco:27186:63:776,coco,27186,63,couch,couch,False,1,0,0,0,0.0
+coco:27696:48:782,coco,27696,48,fork,fork,False,1,0,0,0,0.0
+coco:27932:40:788,coco,27932,40,baseball glove,baseball glove,False,2,0,0,0,0.0
+coco:27972:1:791,coco,27972,1,person,person,False,1,0,0,0,0.0
+coco:28285:85:797,coco,28285,85,clock,clock,False,1,0,0,0,0.0
+coco:29187:1:812,coco,29187,1,person,person,False,2,0,0,0,0.0
+coco:29393:18:815,coco,29393,18,dog,dog,False,1,0,0,0,0.0
+coco:29640:57:824,coco,29640,57,carrot,carrot,False,15,0,0,0,0.0
+coco:29984:1:830,coco,29984,1,person,person,False,4,0,0,0,0.0
+coco:30675:7:842,coco,30675,7,train,train,False,1,0,0,0,0.0
+coco:31050:86:851,coco,31050,86,vase,vase,False,4,0,0,0,0.0
+coco:31093:41:854,coco,31093,41,skateboard,skateboard,False,3,0,0,0,0.0
+coco:31118:85:857,coco,31118,85,clock,clock,False,3,0,0,0,0.0
+coco:31217:43:860,coco,31217,43,tennis racket,tennis racket,False,1,0,0,0,0.0
+coco:31269:24:866,coco,31269,24,zebra,zebra,False,3,0,0,0,0.0
+coco:31296:51:871,coco,31296,51,bowl,bowl,True,1,0,0,0,0.0
+coco:31296:77:869,coco,31296,77,cell phone,cell phone,False,1,0,0,0,0.0
+coco:31322:9:872,coco,31322,9,boat,boat,False,18,0,0,0,0.0
+coco:31620:61:875,coco,31620,61,cake,cake,False,2,0,0,0,0.0
+coco:31735:64:878,coco,31735,64,potted plant,potted plant,False,3,0,0,0,0.0
+coco:32285:70:893,coco,32285,70,toilet,toilet,False,1,0,0,0,0.0
+coco:32334:46:896,coco,32334,46,wine glass,wine glass,False,3,0,0,0,0.0
+coco:3255:35:108,coco,3255,35,skis,skis,False,3,0,0,0,0.0
+coco:32570:42:899,coco,32570,42,surfboard,surfboard,False,2,0,0,0,0.0
+coco:32735:35:905,coco,32735,35,skis,skis,False,3,0,0,0,0.0
+coco:32941:10:923,coco,32941,10,traffic light,traffic light,False,2,0,0,0,0.0
+coco:33005:15:928,coco,33005,15,bench,bench,True,1,0,0,0,0.0
+coco:33114:14:935,coco,33114,14,parking meter,parking meter,False,3,0,0,0,0.0
+coco:33368:1:941,coco,33368,1,person,person,False,1,0,0,0,0.0
+coco:33638:1:944,coco,33638,1,person,person,False,1,0,0,0,0.0
+coco:33707:25:947,coco,33707,25,giraffe,giraffe,False,2,0,0,0,0.0
+coco:34139:1:959,coco,34139,1,person,person,False,2,0,0,0,0.0
+coco:34205:56:962,coco,34205,56,broccoli,broccoli,False,12,0,0,0,0.0
+coco:34417:1:968,coco,34417,1,person,person,False,16,0,0,0,0.0
+coco:34452:1:971,coco,34452,1,person,person,False,1,0,0,0,0.0
+coco:34873:72:977,coco,34873,72,tv,tv,False,1,0,0,0,0.0
+coco:3501:51:111,coco,3501,51,bowl,bowl,False,1,0,0,0,0.0
+coco:35279:1:986,coco,35279,1,person,person,False,3,0,0,0,0.0
+coco:3553:1:114,coco,3553,1,person,person,False,2,0,0,0,0.0
+coco:35682:67:992,coco,35682,67,dining table,dining table,False,1,0,0,0,0.0
+coco:3661:47:117,coco,3661,47,cup,cup,False,2,0,0,0,0.0
+coco:36660:77:1007,coco,36660,77,cell phone,cell phone,False,4,0,0,0,0.0
+coco:36678:1:1011,coco,36678,1,person,person,True,4,0,0,0,0.0
+coco:36861:14:1016,coco,36861,14,parking meter,parking meter,False,4,0,0,0,0.0
+coco:36936:67:1021,coco,36936,67,dining table,dining table,True,1,0,0,0,0.0
+coco:36936:72:1019,coco,36936,72,tv,tv,False,1,0,0,0,0.0
+coco:37670:75:1022,coco,37670,75,remote,remote,False,1,0,0,0,0.0
+coco:37740:64:1028,coco,37740,64,potted plant,potted plant,False,1,0,0,0,0.0
+coco:37751:27:1031,coco,37751,27,backpack,backpack,False,2,0,0,0,0.0
+coco:37777:62:1034,coco,37777,62,chair,chair,False,3,0,0,0,0.0
+coco:38070:70:1043,coco,38070,70,toilet,toilet,False,1,0,0,0,0.0
+coco:3845:47:120,coco,3845,47,cup,cup,False,1,0,0,0,0.0
+coco:38678:47:1055,coco,38678,47,cup,cup,False,3,0,0,0,0.0
+coco:38829:1:1061,coco,38829,1,person,person,False,9,0,0,0,0.0
+coco:3934:46:123,coco,3934,46,wine glass,wine glass,False,2,0,0,0,0.0
+coco:39405:43:1064,coco,39405,43,tennis racket,tennis racket,False,3,0,0,0,0.0
+coco:39477:84:1067,coco,39477,84,book,book,False,1,0,0,0,0.0
+coco:39484:62:1073,coco,39484,62,chair,chair,False,3,0,0,0,0.0
+coco:39670:7:1079,coco,39670,7,train,train,False,1,0,0,0,0.0
+coco:39769:63:1082,coco,39769,63,couch,couch,False,1,0,0,0,0.0
+coco:39785:15:1085,coco,39785,15,bench,bench,False,1,0,0,0,0.0
+coco:39914:1:1088,coco,39914,1,person,person,False,13,0,0,0,0.0
+coco:39956:62:1094,coco,39956,62,chair,chair,False,2,0,0,0,0.0
+coco:40471:50:1103,coco,40471,50,spoon,spoon,False,4,0,0,0,0.0
+coco:41633:3:1111,coco,41633,3,car,car,False,4,0,0,0,0.0
+coco:41635:18:1116,coco,41635,18,dog,dog,True,4,0,0,0,0.0
+coco:41872:65:1117,coco,41872,65,bed,bed,False,1,0,0,0,0.0
+coco:41888:16:1120,coco,41888,16,bird,bird,False,3,0,0,0,0.0
+coco:41990:35:1123,coco,41990,35,skis,skis,False,5,0,0,0,0.0
+coco:42178:7:1132,coco,42178,7,train,train,False,3,0,0,0,0.0
+coco:42296:23:1138,coco,42296,23,bear,bear,False,1,0,0,0,0.0
+coco:42528:35:1142,coco,42528,35,skis,skis,True,1,0,0,0,0.0
+coco:42528:48:1143,coco,42528,48,fork,fork,True,1,0,0,0,0.0
+coco:42563:7:1144,coco,42563,7,train,train,False,1,0,0,0,0.0
+coco:42889:76:1152,coco,42889,76,keyboard,keyboard,False,1,0,0,0,0.0
+coco:43314:1:1155,coco,43314,1,person,person,False,1,0,0,0,0.0
+coco:43435:42:1158,coco,43435,42,surfboard,surfboard,False,1,0,0,0,0.0
+coco:43816:37:1167,coco,43816,37,sports ball,sports ball,False,1,0,0,0,0.0
+coco:44068:84:1171,coco,44068,84,book,book,True,2,0,0,0,0.0
+coco:44068:88:1170,coco,44068,88,teddy bear,teddy bear,False,1,0,0,0,0.0
+coco:44260:53:1176,coco,44260,53,apple,apple,False,7,0,0,0,0.0
+coco:44279:1:1179,coco,44279,1,person,person,False,2,0,0,0,0.0
+coco:44652:5:1185,coco,44652,5,airplane,airplane,False,1,0,0,0,0.0
+coco:44699:20:1188,coco,44699,20,sheep,sheep,False,5,0,0,0,0.0
+coco:44877:43:1191,coco,44877,43,tennis racket,tennis racket,False,2,0,0,0,0.0
+coco:4495:63:132,coco,4495,63,couch,couch,False,2,0,0,0,0.0
+coco:45070:19:1194,coco,45070,19,horse,horse,False,2,0,0,0,0.0
+coco:45229:84:1200,coco,45229,84,book,book,False,2,0,0,0,0.0
+coco:45472:55:1203,coco,45472,55,orange,orange,False,4,0,0,0,0.0
+coco:45550:54:1206,coco,45550,54,sandwich,sandwich,False,1,0,0,0,0.0
+coco:45596:3:1209,coco,45596,3,car,car,False,1,0,0,0,0.0
+coco:45728:48:1212,coco,45728,48,fork,fork,False,2,0,0,0,0.0
+coco:46031:73:1215,coco,46031,73,laptop,laptop,False,1,0,0,0,0.0
+coco:46048:65:1218,coco,46048,65,bed,bed,False,1,0,0,0,0.0
+coco:46252:40:1221,coco,46252,40,baseball glove,baseball glove,False,1,0,0,0,0.0
+coco:46378:17:1224,coco,46378,17,cat,cat,False,1,0,0,0,0.0
+coco:46463:54:1227,coco,46463,54,sandwich,sandwich,False,1,0,0,0,0.0
+coco:46804:20:1233,coco,46804,20,sheep,sheep,False,1,0,0,0,0.0
+coco:46872:77:1237,coco,46872,77,cell phone,cell phone,True,1,0,0,0,0.0
+coco:46872:8:1236,coco,46872,8,truck,truck,False,2,0,0,0,0.0
+coco:47121:17:1245,coco,47121,17,cat,cat,False,1,0,0,0,0.0
+coco:47571:1:1248,coco,47571,1,person,person,False,3,0,0,0,0.0
+coco:47585:32:1251,coco,47585,32,tie,tie,False,2,0,0,0,0.0
+coco:4765:42:135,coco,4765,42,surfboard,surfboard,False,2,0,0,0,0.0
+coco:47828:1:1266,coco,47828,1,person,person,False,14,0,0,0,0.0
+coco:4795:73:138,coco,4795,73,laptop,laptop,False,2,0,0,0,0.0
+coco:48153:1:1269,coco,48153,1,person,person,False,1,0,0,0,0.0
+coco:48396:1:1272,coco,48396,1,person,person,False,2,0,0,0,0.0
+coco:48504:1:1275,coco,48504,1,person,person,False,5,0,0,0,0.0
+coco:48564:77:1281,coco,48564,77,cell phone,cell phone,False,1,0,0,0,0.0
+coco:48924:4:1284,coco,48924,4,motorcycle,motorcycle,False,1,0,0,0,0.0
+coco:49259:1:1292,coco,49259,1,person,person,False,1,0,0,0,0.0
+coco:50165:7:1316,coco,50165,7,train,train,False,1,0,0,0,0.0
+coco:50326:62:1319,coco,50326,62,chair,chair,False,1,0,0,0,0.0
+coco:5037:1:144,coco,5037,1,person,person,False,10,0,0,0,0.0
+coco:50638:88:1328,coco,50638,88,teddy bear,teddy bear,False,3,0,0,0,0.0
+coco:50828:75:1337,coco,50828,75,remote,remote,False,1,0,0,0,0.0
+coco:50896:67:1343,coco,50896,67,dining table,dining table,False,1,0,0,0,0.0
+coco:50943:42:1346,coco,50943,42,surfboard,surfboard,False,1,0,0,0,0.0
+coco:51314:42:1355,coco,51314,42,surfboard,surfboard,False,3,0,0,0,0.0
+coco:51326:86:1358,coco,51326,86,vase,vase,False,4,0,0,0,0.0
+coco:51598:44:1361,coco,51598,44,bottle,bottle,False,1,0,0,0,0.0
+coco:51610:1:1364,coco,51610,1,person,person,False,1,0,0,0,0.0
+coco:51712:35:1367,coco,51712,35,skis,skis,False,1,0,0,0,0.0
+coco:51976:1:1379,coco,51976,1,person,person,False,1,0,0,0,0.0
+coco:52413:1:1391,coco,52413,1,person,person,False,7,0,0,0,0.0
+coco:53505:70:1412,coco,53505,70,toilet,toilet,False,1,0,0,0,0.0
+coco:53529:1:1415,coco,53529,1,person,person,False,4,0,0,0,0.0
+coco:53626:1:1421,coco,53626,1,person,person,False,4,0,0,0,0.0
+coco:53909:1:1424,coco,53909,1,person,person,False,3,0,0,0,0.0
+coco:53909:3:1425,coco,53909,3,car,car,True,1,0,0,0,0.0
+coco:54164:1:1433,coco,54164,1,person,person,False,1,0,0,0,0.0
+coco:54592:35:1436,coco,54592,35,skis,skis,False,2,0,0,0,0.0
+coco:54605:44:1443,coco,54605,44,bottle,bottle,True,1,0,0,0,0.0
+coco:54628:67:1445,coco,54628,67,dining table,dining table,False,4,0,0,0,0.0
+coco:54654:79:1448,coco,54654,79,oven,oven,False,1,0,0,0,0.0
+coco:5477:5:153,coco,5477,5,airplane,airplane,False,3,0,0,0,0.0
+coco:54967:3:1454,coco,54967,3,car,car,False,16,0,0,0,0.0
+coco:55002:1:1457,coco,55002,1,person,person,False,2,0,0,0,0.0
+coco:5503:70:156,coco,5503,70,toilet,toilet,False,2,0,0,0,0.0
+coco:55150:33:1466,coco,55150,33,suitcase,suitcase,False,5,0,0,0,0.0
+coco:55167:62:1471,coco,55167,62,chair,chair,True,1,0,0,0,0.0
+coco:55299:28:1472,coco,55299,28,umbrella,umbrella,False,2,0,0,0,0.0
+coco:5529:1:159,coco,5529,1,person,person,False,1,0,0,0,0.0
+coco:5586:43:162,coco,5586,43,tennis racket,tennis racket,False,1,0,0,0,0.0
+coco:5600:50:165,coco,5600,50,spoon,spoon,False,5,0,0,0,0.0
+coco:56288:72:1484,coco,56288,72,tv,tv,False,1,0,0,0,0.0
+coco:56344:1:1489,coco,56344,1,person,person,True,1,0,0,0,0.0
+coco:56344:74:1487,coco,56344,74,mouse,mouse,False,1,0,0,0,0.0
+coco:56350:1:1490,coco,56350,1,person,person,False,3,0,0,0,0.0
+coco:56545:16:1493,coco,56545,16,bird,bird,False,1,0,0,0,0.0
+coco:57027:22:1496,coco,57027,22,elephant,elephant,False,6,0,0,0,0.0
+coco:57150:1:1502,coco,57150,1,person,person,False,34,0,0,0,0.0
+coco:57232:86:1505,coco,57232,86,vase,vase,False,2,0,0,0,0.0
+coco:57244:7:1511,coco,57244,7,train,train,False,1,0,0,0,0.0
+coco:57597:27:1514,coco,57597,27,backpack,backpack,False,1,0,0,0,0.0
+coco:57725:85:1520,coco,57725,85,clock,clock,False,2,0,0,0,0.0
+coco:58111:55:1531,coco,58111,55,orange,orange,True,1,0,0,0,0.0
+coco:58111:84:1529,coco,58111,84,book,book,False,2,0,0,0,0.0
+coco:58393:1:1538,coco,58393,1,person,person,False,4,0,0,0,0.0
+coco:58655:64:1547,coco,58655,64,potted plant,potted plant,True,4,0,0,0,0.0
+coco:58705:32:1549,coco,58705,32,tie,tie,False,1,0,0,0,0.0
+coco:59598:84:1560,coco,59598,84,book,book,True,3,0,0,0,0.0
+coco:59920:70:1564,coco,59920,70,toilet,toilet,False,2,0,0,0,0.0
+coco:5992:20:168,coco,5992,20,sheep,sheep,False,7,0,0,0,0.0
+coco:60052:1:1567,coco,60052,1,person,person,False,1,0,0,0,0.0
+coco:60090:7:1570,coco,60090,7,train,train,False,1,0,0,0,0.0
+coco:6040:1:174,coco,6040,1,person,person,False,10,0,0,0,0.0
+coco:60449:62:1582,coco,60449,62,chair,chair,False,4,0,0,0,0.0
+coco:60770:24:1588,coco,60770,24,zebra,zebra,False,2,0,0,0,0.0
+coco:60855:53:1597,coco,60855,53,apple,apple,False,2,0,0,0,0.0
+coco:60886:40:1600,coco,60886,40,baseball glove,baseball glove,False,1,0,0,0,0.0
+coco:60899:65:1605,coco,60899,65,bed,bed,True,1,0,0,0,0.0
+coco:60932:32:1606,coco,60932,32,tie,tie,False,9,0,0,0,0.0
+coco:61584:19:1627,coco,61584,19,horse,horse,False,1,0,0,0,0.0
+coco:61658:51:1631,coco,61658,51,bowl,bowl,True,1,0,0,0,0.0
+coco:61658:56:1630,coco,61658,56,broccoli,broccoli,False,39,0,0,0,0.0
+coco:61747:35:1633,coco,61747,35,skis,skis,False,1,0,0,0,0.0
+coco:61960:65:1636,coco,61960,65,bed,bed,False,1,0,0,0,0.0
+coco:62353:24:1643,coco,62353,24,zebra,zebra,True,1,0,0,0,0.0
+coco:62355:1:1645,coco,62355,1,person,person,False,5,0,0,0,0.0
+coco:62554:51:1648,coco,62554,51,bowl,bowl,False,3,0,0,0,0.0
+coco:632:64:6,coco,632,64,potted plant,potted plant,False,2,0,0,0,0.0
+coco:63602:47:1666,coco,63602,47,cup,cup,False,1,0,0,0,0.0
+coco:64084:67:1675,coco,64084,67,dining table,dining table,False,1,0,0,0,0.0
+coco:64495:14:1684,coco,64495,14,parking meter,parking meter,False,1,0,0,0,0.0
+coco:64574:77:1694,coco,64574,77,cell phone,cell phone,True,2,0,0,0,0.0
+coco:6460:1:180,coco,6460,1,person,person,False,1,0,0,0,0.0
+coco:64868:44:1698,coco,64868,44,bottle,bottle,False,2,0,0,0,0.0
+coco:64898:42:1701,coco,64898,42,surfboard,surfboard,False,2,0,0,0,0.0
+coco:65288:16:1707,coco,65288,16,bird,bird,False,3,0,0,0,0.0
+coco:65455:25:1713,coco,65455,25,giraffe,giraffe,False,2,0,0,0,0.0
+coco:65485:18:1716,coco,65485,18,dog,dog,False,1,0,0,0,0.0
+coco:65798:15:1723,coco,65798,15,bench,bench,True,1,0,0,0,0.0
+coco:65798:40:1722,coco,65798,40,baseball glove,baseball glove,False,5,0,0,0,0.0
+coco:66038:28:1725,coco,66038,28,umbrella,umbrella,False,4,0,0,0,0.0
+coco:66135:7:1728,coco,66135,7,train,train,False,1,0,0,0,0.0
+coco:66231:52:1731,coco,66231,52,banana,banana,False,3,0,0,0,0.0
+coco:66561:20:1737,coco,66561,20,sheep,sheep,False,2,0,0,0,0.0
+coco:66771:47:1746,coco,66771,47,cup,cup,False,8,0,0,0,0.0
+coco:66841:80:1752,coco,66841,80,toaster,toaster,False,1,0,0,0,0.0
+coco:66926:60:1758,coco,66926,60,donut,donut,False,16,0,0,0,0.0
+coco:67180:1:1761,coco,67180,1,person,person,False,1,0,0,0,0.0
+coco:67213:3:1764,coco,67213,3,car,car,False,9,0,0,0,0.0
+coco:67213:6:1766,coco,67213,6,bus,bus,True,2,0,0,0,0.0
+coco:67315:32:1770,coco,67315,32,tie,tie,False,2,0,0,0,0.0
+coco:67534:1:1776,coco,67534,1,person,person,False,1,0,0,0,0.0
+coco:67616:1:1779,coco,67616,1,person,person,False,8,0,0,0,0.0
+coco:6771:77:195,coco,6771,77,cell phone,cell phone,False,1,0,0,0,0.0
+coco:6818:70:198,coco,6818,70,toilet,toilet,False,1,0,0,0,0.0
+coco:68387:40:1794,coco,68387,40,baseball glove,baseball glove,False,1,0,0,0,0.0
+coco:68409:32:1797,coco,68409,32,tie,tie,False,9,0,0,0,0.0
+coco:68765:74:1803,coco,68765,74,mouse,mouse,False,2,0,0,0,0.0
+coco:69106:24:1812,coco,69106,24,zebra,zebra,False,5,0,0,0,0.0
+coco:69138:8:1815,coco,69138,8,truck,truck,False,3,0,0,0,0.0
+coco:69224:44:1821,coco,69224,44,bottle,bottle,False,1,0,0,0,0.0
+coco:69356:1:1824,coco,69356,1,person,person,False,8,0,0,0,0.0
+coco:6954:34:204,coco,6954,34,frisbee,frisbee,False,2,0,0,0,0.0
+coco:69795:64:1827,coco,69795,64,potted plant,potted plant,False,1,0,0,0,0.0
+coco:70048:51:1830,coco,70048,51,bowl,bowl,False,3,0,0,0,0.0
+coco:70229:36:1838,coco,70229,36,snowboard,snowboard,True,1,0,0,0,0.0
+coco:70229:40:1837,coco,70229,40,baseball glove,baseball glove,True,1,0,0,0,0.0
+coco:70254:1:1839,coco,70254,1,person,person,False,9,0,0,0,0.0
+coco:70739:1:1842,coco,70739,1,person,person,False,4,0,0,0,0.0
+coco:71451:65:1851,coco,71451,65,bed,bed,False,1,0,0,0,0.0
+coco:71938:65:1863,coco,71938,65,bed,bed,False,1,0,0,0,0.0
+coco:72852:31:1875,coco,72852,31,handbag,handbag,False,4,0,0,0,0.0
+coco:73118:88:1878,coco,73118,88,teddy bear,teddy bear,False,2,0,0,0,0.0
+coco:73533:1:1887,coco,73533,1,person,person,False,2,0,0,0,0.0
+coco:73702:33:1891,coco,73702,33,suitcase,suitcase,True,2,0,0,0,0.0
+coco:74058:1:1896,coco,74058,1,person,person,False,11,0,0,0,0.0
+coco:74092:43:1899,coco,74092,43,tennis racket,tennis racket,False,1,0,0,0,0.0
+coco:74457:42:1911,coco,74457,42,surfboard,surfboard,False,1,0,0,0,0.0
+coco:74733:59:1917,coco,74733,59,pizza,pizza,False,2,0,0,0,0.0
+coco:74860:36:1920,coco,74860,36,snowboard,snowboard,False,1,0,0,0,0.0
+coco:7511:38:222,coco,7511,38,kite,kite,False,3,0,0,0,0.0
+coco:75393:48:1923,coco,75393,48,fork,fork,False,3,0,0,0,0.0
+coco:75456:59:1926,coco,75456,59,pizza,pizza,False,1,0,0,0,0.0
+coco:7574:78:225,coco,7574,78,microwave,microwave,False,1,0,0,0,0.0
+coco:76416:2:1938,coco,76416,2,bicycle,bicycle,False,2,0,0,0,0.0
+coco:76417:3:1941,coco,76417,3,car,car,False,2,0,0,0,0.0
+coco:76547:1:1947,coco,76547,1,person,person,False,1,0,0,0,0.0
+coco:76731:73:1953,coco,76731,73,laptop,laptop,False,1,0,0,0,0.0
+coco:77460:1:1959,coco,77460,1,person,person,False,36,0,0,0,0.0
+coco:776:65:12,coco,776,65,bed,bed,False,1,0,0,0,0.0
+coco:7784:38:228,coco,7784,38,kite,kite,False,1,0,0,0,0.0
+coco:7795:85:231,coco,7795,85,clock,clock,False,1,0,0,0,0.0
+coco:7816:4:234,coco,7816,4,motorcycle,motorcycle,False,1,0,0,0,0.0
+coco:7818:48:237,coco,7818,48,fork,fork,False,4,0,0,0,0.0
+coco:78426:47:1980,coco,78426,47,cup,cup,False,1,0,0,0,0.0
+coco:78565:9:1983,coco,78565,9,boat,boat,False,12,0,0,0,0.0
+coco:785:1:15,coco,785,1,person,person,False,1,0,0,0,0.0
+coco:78748:27:1986,coco,78748,27,backpack,backpack,False,6,0,0,0,0.0
+coco:78843:32:1992,coco,78843,32,tie,tie,False,1,0,0,0,0.0
+coco:7888:84:242,coco,7888,84,book,book,True,1,0,0,0,0.0
+coco:7888:85:240,coco,7888,85,clock,clock,False,3,0,0,0,0.0
+coco:78915:43:1995,coco,78915,43,tennis racket,tennis racket,False,1,0,0,0,0.0
+coco:79014:1:2001,coco,79014,1,person,person,False,1,0,0,0,0.0
+coco:79031:1:2004,coco,79031,1,person,person,False,1,0,0,0,0.0
+coco:79144:23:2010,coco,79144,23,bear,bear,False,2,0,0,0,0.0
+coco:79188:25:2013,coco,79188,25,giraffe,giraffe,False,2,0,0,0,0.0
+coco:79229:1:2016,coco,79229,1,person,person,False,2,0,0,0,0.0
+coco:79408:13:2019,coco,79408,13,stop sign,stop sign,False,1,0,0,0,0.0
+coco:79588:1:2025,coco,79588,1,person,person,False,4,0,0,0,0.0
+coco:7977:41:243,coco,7977,41,skateboard,skateboard,False,1,0,0,0,0.0
+coco:79837:9:2031,coco,79837,9,boat,boat,False,10,0,0,0,0.0
+coco:7991:49:246,coco,7991,49,knife,knife,False,3,0,0,0,0.0
+coco:80022:37:2037,coco,80022,37,sports ball,sports ball,False,1,0,0,0,0.0
+coco:80057:88:2040,coco,80057,88,teddy bear,teddy bear,False,1,0,0,0,0.0
+coco:80153:18:2043,coco,80153,18,dog,dog,False,1,0,0,0,0.0
+coco:8021:44:249,coco,8021,44,bottle,bottle,False,2,0,0,0,0.0
+coco:80274:22:2049,coco,80274,22,elephant,elephant,False,2,0,0,0,0.0
+coco:802:82:18,coco,802,82,refrigerator,refrigerator,False,1,0,0,0,0.0
+coco:80413:88:2055,coco,80413,88,teddy bear,teddy bear,False,1,0,0,0,0.0
+coco:80666:17:2061,coco,80666,17,cat,cat,False,1,0,0,0,0.0
+coco:80932:49:2069,coco,80932,49,knife,knife,True,2,0,0,0,0.0
+coco:80932:67:2067,coco,80932,67,dining table,dining table,False,5,0,0,0,0.0
+coco:80949:73:2070,coco,80949,73,laptop,laptop,False,1,0,0,0,0.0
+coco:81061:62:2073,coco,81061,62,chair,chair,False,2,0,0,0,0.0
+coco:81394:4:2076,coco,81394,4,motorcycle,motorcycle,False,4,0,0,0,0.0
+coco:81766:88:2087,coco,81766,88,teddy bear,teddy bear,True,1,0,0,0,0.0
+coco:81988:1:2088,coco,81988,1,person,person,False,5,0,0,0,0.0
+coco:8211:62:252,coco,8211,62,chair,chair,False,5,0,0,0,0.0
+coco:82180:62:2094,coco,82180,62,chair,chair,False,1,0,0,0,0.0
+coco:82715:1:2103,coco,82715,1,person,person,False,1,0,0,0,0.0
+coco:82765:65:2106,coco,82765,65,bed,bed,False,1,0,0,0,0.0
+coco:8277:48:255,coco,8277,48,fork,fork,False,3,0,0,0,0.0
+coco:82807:67:2109,coco,82807,67,dining table,dining table,False,1,0,0,0,0.0
+coco:82812:7:2112,coco,82812,7,train,train,False,1,0,0,0,0.0
+coco:82821:8:2115,coco,82821,8,truck,truck,False,2,0,0,0,0.0
+coco:83531:47:2130,coco,83531,47,cup,cup,False,2,0,0,0,0.0
+coco:83540:1:2133,coco,83540,1,person,person,False,2,0,0,0,0.0
+coco:84031:1:2136,coco,84031,1,person,person,False,101,0,0,0,0.0
+coco:84270:31:2145,coco,84270,31,handbag,handbag,False,10,0,0,0,0.0
+coco:84362:17:2148,coco,84362,17,cat,cat,False,1,0,0,0,0.0
+coco:84431:59:2151,coco,84431,59,pizza,pizza,False,1,0,0,0,0.0
+coco:84650:31:2160,coco,84650,31,handbag,handbag,False,3,0,0,0,0.0
+coco:84752:3:2169,coco,84752,3,car,car,False,11,0,0,0,0.0
+coco:85089:46:2172,coco,85089,46,wine glass,wine glass,False,8,0,0,0,0.0
+coco:85157:59:2175,coco,85157,59,pizza,pizza,False,2,0,0,0,0.0
+coco:85195:61:2178,coco,85195,61,cake,cake,False,2,0,0,0,0.0
+coco:8532:32:258,coco,8532,32,tie,tie,False,1,0,0,0,0.0
+coco:85376:4:2184,coco,85376,4,motorcycle,motorcycle,False,1,0,0,0,0.0
+coco:85478:23:2187,coco,85478,23,bear,bear,False,3,0,0,0,0.0
+coco:85682:1:2196,coco,85682,1,person,person,False,25,0,0,0,0.0
+coco:85772:37:2199,coco,85772,37,sports ball,sports ball,False,2,0,0,0,0.0
+coco:86483:1:2211,coco,86483,1,person,person,False,1,0,0,0,0.0
+coco:8690:1:264,coco,8690,1,person,person,False,11,0,0,0,0.0
+coco:87244:15:2229,coco,87244,15,bench,bench,False,2,0,0,0,0.0
+coco:87476:9:2236,coco,87476,9,boat,boat,True,2,0,0,0,0.0
+coco:87742:86:2238,coco,87742,86,vase,vase,False,1,0,0,0,0.0
+coco:88040:48:2244,coco,88040,48,fork,fork,False,4,0,0,0,0.0
+coco:88218:10:2247,coco,88218,10,traffic light,traffic light,False,3,0,0,0,0.0
+coco:88265:19:2253,coco,88265,19,horse,horse,False,1,0,0,0,0.0
+coco:88345:90:2260,coco,88345,90,toothbrush,toothbrush,True,1,0,0,0,0.0
+coco:88432:10:2262,coco,88432,10,traffic light,traffic light,False,5,0,0,0,0.0
+coco:885:1:24,coco,885,1,person,person,False,16,0,0,0,0.0
+coco:88848:31:2271,coco,88848,31,handbag,handbag,False,3,0,0,0,0.0
+coco:8899:2:273,coco,8899,2,bicycle,bicycle,False,2,0,0,0,0.0
+coco:89296:39:2289,coco,89296,39,baseball bat,baseball bat,False,1,0,0,0,0.0
+coco:89648:62:2295,coco,89648,62,chair,chair,False,45,0,0,0,0.0
+coco:90003:18:2310,coco,90003,18,dog,dog,False,2,0,0,0,0.0
+coco:90062:21:2313,coco,90062,21,cow,cow,False,1,0,0,0,0.0
+coco:90108:81:2316,coco,90108,81,sink,sink,False,2,0,0,0,0.0
+coco:90155:7:2319,coco,90155,7,train,train,False,1,0,0,0,0.0
+coco:90208:6:2322,coco,90208,6,bus,bus,False,4,0,0,0,0.0
+coco:90891:15:2333,coco,90891,15,bench,bench,True,2,0,0,0,0.0
+coco:90956:35:2334,coco,90956,35,skis,skis,False,2,0,0,0,0.0
+coco:91495:1:2340,coco,91495,1,person,person,False,3,0,0,0,0.0
+coco:92839:23:2379,coco,92839,23,bear,bear,False,1,0,0,0,0.0
+coco:93261:1:2388,coco,93261,1,person,person,False,4,0,0,0,0.0
+coco:9400:47:279,coco,9400,47,cup,cup,False,6,0,0,0,0.0
+coco:94326:15:2409,coco,94326,15,bench,bench,False,1,0,0,0,0.0
+coco:9448:28:282,coco,9448,28,umbrella,umbrella,False,3,0,0,0,0.0
+coco:94751:3:2418,coco,94751,3,car,car,False,1,0,0,0,0.0
+coco:9483:1:285,coco,9483,1,person,person,False,2,0,0,0,0.0
+coco:94852:52:2423,coco,94852,52,banana,banana,True,2,0,0,0,0.0
+coco:94871:1:2424,coco,94871,1,person,person,False,10,0,0,0,0.0
+coco:95862:1:2445,coco,95862,1,person,person,False,20,0,0,0,0.0
+coco:95899:13:2448,coco,95899,13,stop sign,stop sign,False,1,0,0,0,0.0
+coco:96001:86:2452,coco,96001,86,vase,vase,True,5,0,0,0,0.0
+coco:96427:43:2454,coco,96427,43,tennis racket,tennis racket,False,3,0,0,0,0.0
+coco:96493:62:2459,coco,96493,62,chair,chair,True,1,0,0,0,0.0
+coco:97230:22:2472,coco,97230,22,elephant,elephant,False,3,0,0,0,0.0
+coco:97337:67:2478,coco,97337,67,dining table,dining table,False,1,0,0,0,0.0
+coco:97679:3:2484,coco,97679,3,car,car,False,3,0,0,0,0.0
+coco:9769:11:291,coco,9769,11,fire hydrant,fire hydrant,False,1,0,0,0,0.0
+coco:9772:1:294,coco,9772,1,person,person,False,1,0,0,0,0.0
+coco:97924:19:2487,coco,97924,19,horse,horse,False,1,0,0,0,0.0
+coco:97988:15:2490,coco,97988,15,bench,bench,False,2,0,0,0,0.0
+coco:98520:5:2510,coco,98520,5,airplane,airplane,False,1,0,0,0,0.0
+coco:98853:62:2522,coco,98853,62,chair,chair,False,26,0,0,0,0.0
+coco:99053:67:2531,coco,99053,67,dining table,dining table,False,1,0,0,0,0.0
+coco:99810:60:2549,coco,99810,60,donut,donut,False,6,0,0,0,0.0

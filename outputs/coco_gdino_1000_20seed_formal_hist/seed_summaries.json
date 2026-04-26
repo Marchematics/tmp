@@ -1,0 +1,362 @@
+{
+  "0": {
+    "seed": 0,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18703,
+    "num_cal_candidates": 5723,
+    "num_test_candidates": 6366,
+    "num_cal_null": 5128,
+    "sum_phi_cal": 5447.559607554503,
+    "density_ratio": {
+      "num_fit_null": 16599,
+      "num_fit_tp": 2104,
+      "num_bins_realized": 80,
+      "max_phi": 299.79182509505705,
+      "fit_null_phi_mean": 0.9999999999999999
+    }
+  },
+  "1": {
+    "seed": 1,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 19266,
+    "num_cal_candidates": 5925,
+    "num_test_candidates": 5601,
+    "num_cal_null": 5218,
+    "sum_phi_cal": 4983.756032121619,
+    "density_ratio": {
+      "num_fit_null": 17219,
+      "num_fit_tp": 2047,
+      "num_bins_realized": 80,
+      "max_phi": 216.83808283124355,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "2": {
+    "seed": 2,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18945,
+    "num_cal_candidates": 5188,
+    "num_test_candidates": 6659,
+    "num_cal_null": 4569,
+    "sum_phi_cal": 4372.8376732727,
+    "density_ratio": {
+      "num_fit_null": 16822,
+      "num_fit_tp": 2123,
+      "num_bins_realized": 80,
+      "max_phi": 461.5551106924164,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "3": {
+    "seed": 3,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18743,
+    "num_cal_candidates": 6857,
+    "num_test_candidates": 5192,
+    "num_cal_null": 6073,
+    "sum_phi_cal": 6683.0194799518995,
+    "density_ratio": {
+      "num_fit_null": 16722,
+      "num_fit_tp": 2021,
+      "num_bins_realized": 80,
+      "max_phi": 315.7956457199406,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "4": {
+    "seed": 4,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18475,
+    "num_cal_candidates": 6346,
+    "num_test_candidates": 5971,
+    "num_cal_null": 5632,
+    "sum_phi_cal": 6652.029391665021,
+    "density_ratio": {
+      "num_fit_null": 16422,
+      "num_fit_tp": 2053,
+      "num_bins_realized": 80,
+      "max_phi": 361.55596687773993,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "5": {
+    "seed": 5,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18775,
+    "num_cal_candidates": 6174,
+    "num_test_candidates": 5843,
+    "num_cal_null": 5491,
+    "sum_phi_cal": 4800.607775490318,
+    "density_ratio": {
+      "num_fit_null": 16762,
+      "num_fit_tp": 2013,
+      "num_bins_realized": 80,
+      "max_phi": 271.2182243985523,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "6": {
+    "seed": 6,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18845,
+    "num_cal_candidates": 5909,
+    "num_test_candidates": 6038,
+    "num_cal_null": 5210,
+    "sum_phi_cal": 4533.371250013106,
+    "density_ratio": {
+      "num_fit_null": 16834,
+      "num_fit_tp": 2011,
+      "num_bins_realized": 80,
+      "max_phi": 386.7383391347588,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "7": {
+    "seed": 7,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18454,
+    "num_cal_candidates": 6647,
+    "num_test_candidates": 5691,
+    "num_cal_null": 5927,
+    "sum_phi_cal": 5807.51242235998,
+    "density_ratio": {
+      "num_fit_null": 16395,
+      "num_fit_tp": 2059,
+      "num_bins_realized": 80,
+      "max_phi": 298.5976202039825,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "8": {
+    "seed": 8,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18218,
+    "num_cal_candidates": 5618,
+    "num_test_candidates": 6956,
+    "num_cal_null": 4927,
+    "sum_phi_cal": 5623.464934637858,
+    "density_ratio": {
+      "num_fit_null": 16199,
+      "num_fit_tp": 2019,
+      "num_bins_realized": 80,
+      "max_phi": 357.83823675086677,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "9": {
+    "seed": 9,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18680,
+    "num_cal_candidates": 5306,
+    "num_test_candidates": 6806,
+    "num_cal_null": 4713,
+    "sum_phi_cal": 5107.081296339709,
+    "density_ratio": {
+      "num_fit_null": 16579,
+      "num_fit_tp": 2101,
+      "num_bins_realized": 80,
+      "max_phi": 299.85816277962874,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "10": {
+    "seed": 10,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18566,
+    "num_cal_candidates": 6347,
+    "num_test_candidates": 5879,
+    "num_cal_null": 5666,
+    "sum_phi_cal": 4994.787894831646,
+    "density_ratio": {
+      "num_fit_null": 16481,
+      "num_fit_tp": 2085,
+      "num_bins_realized": 80,
+      "max_phi": 360.4477697841727,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "11": {
+    "seed": 11,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18229,
+    "num_cal_candidates": 6636,
+    "num_test_candidates": 5927,
+    "num_cal_null": 5981,
+    "sum_phi_cal": 5116.518996033953,
+    "density_ratio": {
+      "num_fit_null": 16097,
+      "num_fit_tp": 2132,
+      "num_bins_realized": 80,
+      "max_phi": 279.35694183864916,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "12": {
+    "seed": 12,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18095,
+    "num_cal_candidates": 5813,
+    "num_test_candidates": 6884,
+    "num_cal_null": 5178,
+    "sum_phi_cal": 5938.082748735635,
+    "density_ratio": {
+      "num_fit_null": 16127,
+      "num_fit_tp": 1968,
+      "num_bins_realized": 80,
+      "max_phi": 456.84972052845524,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "13": {
+    "seed": 13,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18303,
+    "num_cal_candidates": 7100,
+    "num_test_candidates": 5389,
+    "num_cal_null": 6367,
+    "sum_phi_cal": 9468.642715821326,
+    "density_ratio": {
+      "num_fit_null": 16185,
+      "num_fit_tp": 2118,
+      "num_bins_realized": 80,
+      "max_phi": 284.0144003777148,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "14": {
+    "seed": 14,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 19528,
+    "num_cal_candidates": 5353,
+    "num_test_candidates": 5911,
+    "num_cal_null": 4703,
+    "sum_phi_cal": 5435.380004044244,
+    "density_ratio": {
+      "num_fit_null": 17465,
+      "num_fit_tp": 2063,
+      "num_bins_realized": 80,
+      "max_phi": 510.06604459524965,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "15": {
+    "seed": 15,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 19018,
+    "num_cal_candidates": 5570,
+    "num_test_candidates": 6204,
+    "num_cal_null": 4960,
+    "sum_phi_cal": 5874.1164116656255,
+    "density_ratio": {
+      "num_fit_null": 16916,
+      "num_fit_tp": 2102,
+      "num_bins_realized": 80,
+      "max_phi": 470.78306374881066,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "16": {
+    "seed": 16,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 19800,
+    "num_cal_candidates": 5088,
+    "num_test_candidates": 5904,
+    "num_cal_null": 4543,
+    "sum_phi_cal": 5164.901525015394,
+    "density_ratio": {
+      "num_fit_null": 17678,
+      "num_fit_tp": 2122,
+      "num_bins_realized": 80,
+      "max_phi": 508.1800188501414,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "17": {
+    "seed": 17,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18582,
+    "num_cal_candidates": 6659,
+    "num_test_candidates": 5551,
+    "num_cal_null": 5908,
+    "sum_phi_cal": 7654.459907278879,
+    "density_ratio": {
+      "num_fit_null": 16532,
+      "num_fit_tp": 2050,
+      "num_bins_realized": 80,
+      "max_phi": 461.68634146341464,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "18": {
+    "seed": 18,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18168,
+    "num_cal_candidates": 5314,
+    "num_test_candidates": 7310,
+    "num_cal_null": 4767,
+    "sum_phi_cal": 4069.709005407282,
+    "density_ratio": {
+      "num_fit_null": 16106,
+      "num_fit_tp": 2062,
+      "num_bins_realized": 80,
+      "max_phi": 348.364500484966,
+      "fit_null_phi_mean": 1.0
+    }
+  },
+  "19": {
+    "seed": 19,
+    "num_fit_families": 1612,
+    "num_cal_families": 537,
+    "num_test_families": 537,
+    "num_fit_candidates": 18255,
+    "num_cal_candidates": 5341,
+    "num_test_candidates": 7196,
+    "num_cal_null": 4813,
+    "sum_phi_cal": 3977.124669960797,
+    "density_ratio": {
+      "num_fit_null": 16213,
+      "num_fit_tp": 2042,
+      "num_bins_realized": 80,
+      "max_phi": 355.7014691478942,
+      "fit_null_phi_mean": 0.9999999999999999
+    }
+  }
+}

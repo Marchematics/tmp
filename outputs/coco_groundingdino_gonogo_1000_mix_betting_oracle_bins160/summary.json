@@ -1,0 +1,42 @@
+{
+  "candidate_table": "outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv",
+  "fit_fraction": 0.5,
+  "num_total_candidates": 30792,
+  "num_fit_candidates": 15097,
+  "num_test_candidates": 15695,
+  "num_total_families": 2686,
+  "num_fit_families": 1325,
+  "num_test_families": 1361,
+  "num_test_tp": 1750,
+  "num_test_null": 13945,
+  "density_ratio": {
+    "num_fit_null": 13433,
+    "num_fit_tp": 1664,
+    "num_bins_realized": 160,
+    "max_evalue": 233.50548245614033,
+    "fit_null_evalue_mean": 0.9999999999999999
+  },
+  "family_size": {
+    "num_families": 2686,
+    "mean": 11.463886820551005,
+    "std": 24.6863722690979,
+    "min": 1,
+    "p10": 1.0,
+    "p25": 2.0,
+    "median": 4.0,
+    "p75": 10.0,
+    "p90": 25.0,
+    "p95": 44.75,
+    "p99": 129.30000000000018,
+    "max": 300,
+    "num_gt_30": 214
+  },
+  "best_alpha_by_rejections_at_fdp_le_alpha": {
+    "alpha": 0.1,
+    "total_rejections": 314,
+    "fdp": 0.03821656050955414,
+    "recall": 0.17257142857142857,
+    "tp": 302,
+    "fp": 12
+  }
+}

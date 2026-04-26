@@ -1,0 +1,34 @@
+family_id,dataset,image_id,category_id,category_name,prompt,is_prompt_absent,num_candidates,num_rejected,fp,tp,fdp
+coco:1000:50:29,coco,1000,50,spoon,a photo of a spoon,True,79,0,0,0,0.0
+coco:1268:27:30,coco,1268,27,backpack,a photo of a backpack,False,26,0,0,0,0.0
+coco:1268:42:32,coco,1268,42,surfboard,a photo of a surfboard,True,33,0,0,0,0.0
+coco:1296:13:35,coco,1296,13,stop sign,a photo of a stop sign,True,10,0,0,0,0.0
+coco:1296:55:34,coco,1296,55,orange,a photo of a orange,True,17,0,0,0,0.0
+coco:1296:77:33,coco,1296,77,cell phone,a photo of a cell phone,False,10,0,0,0,0.0
+coco:1353:33:37,coco,1353,33,suitcase,a photo of a suitcase,True,14,0,0,0,0.0
+coco:139:37:1,coco,139,37,sports ball,a photo of a sports ball,True,18,0,0,0,0.0
+coco:139:84:0,coco,139,84,book,a photo of a book,False,45,0,0,0,0.0
+coco:1425:53:41,coco,1425,53,apple,a photo of a apple,True,16,0,0,0,0.0
+coco:1490:1:42,coco,1490,1,person,a photo of a person,False,12,0,0,0,0.0
+coco:1490:27:43,coco,1490,27,backpack,a photo of a backpack,True,16,0,0,0,0.0
+coco:1490:80:44,coco,1490,80,toaster,a photo of a toaster,True,11,0,0,0,0.0
+coco:1503:32:46,coco,1503,32,tie,a photo of a tie,True,51,0,0,0,0.0
+coco:1503:73:45,coco,1503,73,laptop,a photo of a laptop,False,17,0,0,0,0.0
+coco:1532:41:50,coco,1532,41,skateboard,a photo of a skateboard,True,59,0,0,0,0.0
+coco:1584:73:52,coco,1584,73,laptop,a photo of a laptop,True,11,0,0,0,0.0
+coco:1584:80:53,coco,1584,80,toaster,a photo of a toaster,True,15,0,0,0,0.0
+coco:1675:49:56,coco,1675,49,knife,a photo of a knife,True,28,0,0,0,0.0
+coco:1675:76:54,coco,1675,76,keyboard,a photo of a keyboard,False,17,0,0,0,0.0
+coco:1675:7:55,coco,1675,7,train,a photo of a train,True,8,0,0,0,0.0
+coco:1761:17:59,coco,1761,17,cat,a photo of a cat,True,13,0,0,0,0.0
+coco:285:18:4,coco,285,18,dog,a photo of a dog,True,5,0,0,0,0.0
+coco:632:64:6,coco,632,64,potted plant,a photo of a potted plant,False,22,0,0,0,0.0
+coco:724:28:11,coco,724,28,umbrella,a photo of a umbrella,True,27,0,0,0,0.0
+coco:724:8:9,coco,724,8,truck,a photo of a truck,False,20,0,0,0,0.0
+coco:776:89:13,coco,776,89,hair drier,a photo of a hair drier,True,13,0,0,0,0.0
+coco:785:61:16,coco,785,61,cake,a photo of a cake,True,7,0,0,0,0.0
+coco:802:67:19,coco,802,67,dining table,a photo of a dining table,True,6,0,0,0,0.0
+coco:802:82:18,coco,802,82,refrigerator,a photo of a refrigerator,False,10,0,0,0,0.0
+coco:872:64:22,coco,872,64,potted plant,a photo of a potted plant,True,8,0,0,0,0.0
+coco:885:1:24,coco,885,1,person,a photo of a person,False,18,0,0,0,0.0
+coco:885:59:25,coco,885,59,pizza,a photo of a pizza,True,17,0,0,0,0.0

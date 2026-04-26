@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "<PROJECT_ROOT>/outputs/coco_gdino_freeform_500/candidates.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 1496,
+  "num_candidates": 41871,
+  "num_absent_candidates": 31984,
+  "num_true_positive_candidates": 2093,
+  "num_null_candidates": 39778,
+  "top10pct_fdp": 0.8051575931232091,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 20296,
+    "num_test_candidates": 21575,
+    "num_cal_null_scores": 19293,
+    "cal_null_score_threshold_min": 0.05000096186995506,
+    "cal_null_score_threshold_max": 0.8882123827934265,
+    "test_null_evalue_mean": 0.9970050624683041,
+    "e_bh_num_families": 780,
+    "e_bh_total_rejections": 0,
+    "e_bh_total_fp": 0,
+    "e_bh_mean_family_fdp": 0.0
+  }
+}

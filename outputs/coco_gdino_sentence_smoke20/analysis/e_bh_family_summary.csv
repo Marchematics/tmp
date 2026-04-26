@@ -1,0 +1,38 @@
+family_id,dataset,image_id,category_id,category_name,prompt,is_prompt_absent,num_candidates,num_rejected,fp,tp,fdp
+coco:1000:43:27,coco,1000,43,tennis racket,a tennis racket,False,25,0,0,0,0.0
+coco:1268:56:32,coco,1268,56,broccoli,a broccoli,True,63,0,0,0,0.0
+coco:1296:72:34,coco,1296,72,tv,a tv,True,17,0,0,0,0.0
+coco:1296:85:33,coco,1296,85,clock,a clock,False,23,0,0,0,0.0
+coco:1296:90:35,coco,1296,90,toothbrush,a toothbrush,True,31,0,0,0,0.0
+coco:1353:10:38,coco,1353,10,traffic light,a traffic light,True,51,0,0,0,0.0
+coco:1353:1:36,coco,1353,1,person,a person,False,162,0,0,0,0.0
+coco:1353:35:37,coco,1353,35,skis,a skis,True,14,0,0,0,0.0
+coco:139:37:1,coco,139,37,sports ball,a sports ball,True,18,0,0,0,0.0
+coco:139:84:0,coco,139,84,book,a book,False,79,0,0,0,0.0
+coco:1425:51:39,coco,1425,51,bowl,a bowl,False,184,0,0,0,0.0
+coco:1425:85:40,coco,1425,85,clock,a clock,True,33,0,0,0,0.0
+coco:1490:1:42,coco,1490,1,person,a person,False,30,0,0,0,0.0
+coco:1490:61:43,coco,1490,61,cake,a cake,True,76,0,0,0,0.0
+coco:1503:28:47,coco,1503,28,umbrella,a umbrella,True,47,0,0,0,0.0
+coco:1503:76:45,coco,1503,76,keyboard,a keyboard,False,28,0,0,0,0.0
+coco:1532:3:48,coco,1532,3,car,a car,False,94,0,0,0,0.0
+coco:1584:76:52,coco,1584,76,keyboard,a keyboard,True,33,0,0,0,0.0
+coco:1584:9:53,coco,1584,9,boat,a boat,True,17,0,0,0,0.0
+coco:1675:17:54,coco,1675,17,cat,a cat,False,32,0,0,0,0.0
+coco:1675:85:55,coco,1675,85,clock,a clock,True,51,0,0,0,0.0
+coco:1761:47:59,coco,1761,47,cup,a cup,True,28,0,0,0,0.0
+coco:1761:5:57,coco,1761,5,airplane,a airplane,False,32,0,0,0,0.0
+coco:632:52:8,coco,632,52,banana,a banana,True,73,0,0,0,0.0
+coco:632:64:6,coco,632,64,potted plant,a potted plant,False,13,0,0,0,0.0
+coco:724:3:9,coco,724,3,car,a car,False,31,0,0,0,0.0
+coco:724:65:11,coco,724,65,bed,a bed,True,31,0,0,0,0.0
+coco:776:65:12,coco,776,65,bed,a bed,False,15,0,0,0,0.0
+coco:776:67:14,coco,776,67,dining table,a dining table,True,18,0,0,0,0.0
+coco:785:1:15,coco,785,1,person,a person,False,22,0,0,0,0.0
+coco:802:14:20,coco,802,14,parking meter,a parking meter,True,21,0,0,0,0.0
+coco:802:82:18,coco,802,82,refrigerator,a refrigerator,False,4,0,0,0,0.0
+coco:872:63:23,coco,872,63,couch,a couch,True,13,0,0,0,0.0
+coco:872:7:22,coco,872,7,train,a train,True,33,0,0,0,0.0
+coco:885:1:24,coco,885,1,person,a person,False,100,0,0,0,0.0
+coco:885:33:26,coco,885,33,suitcase,a suitcase,True,28,0,0,0,0.0
+coco:885:39:25,coco,885,39,baseball bat,a baseball bat,True,14,0,0,0,0.0

@@ -1,0 +1,25 @@
+config,template,phi_max_mean
+hist_40,a photo of a {cat},11.906892297897972
+hist_40,a visible {cat} in the scene,41.920105643240554
+hist_40,a {cat} object,38.619226586105455
+hist_40,the {cat},53.61534410354278
+hist_80,a photo of a {cat},13.499671134798003
+hist_80,a visible {cat} in the scene,41.88436147595338
+hist_80,a {cat} object,60.919579436627274
+hist_80,the {cat},33.84774731292763
+hist_160,a photo of a {cat},18.461668418461393
+hist_160,a visible {cat} in the scene,27.36196218319538
+hist_160,a {cat} object,47.494886067908
+hist_160,the {cat},17.977774386026063
+hist_80_sm01,a photo of a {cat},21.002481030817474
+hist_80_sm01,a visible {cat} in the scene,342.50737781189054
+hist_80_sm01,a {cat} object,352.928286292688
+hist_80_sm01,the {cat},369.0093808275912
+isotonic,a photo of a {cat},850003.2697511526
+isotonic,a visible {cat} in the scene,1000000.0
+isotonic,a {cat} object,1000000.0
+isotonic,the {cat},1000000.0
+logreg,a photo of a {cat},38.82893484112537
+logreg,a visible {cat} in the scene,50.83161973464773
+logreg,a {cat} object,131.13277328551948
+logreg,the {cat},56.87406344828471

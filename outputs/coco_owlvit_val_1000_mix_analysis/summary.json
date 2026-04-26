@@ -1,0 +1,26 @@
+{
+  "input_jsonl": "outputs/coco_owlvit_val_1000_mix.jsonl",
+  "alpha": 0.1,
+  "cal_fraction": 0.5,
+  "num_families": 2992,
+  "num_candidates": 12669,
+  "num_absent_candidates": 928,
+  "num_true_positive_candidates": 2716,
+  "num_null_candidates": 9953,
+  "top10pct_fdp": 0.21468034727703236,
+  "absent_top10pct_fdp": 1.0,
+  "evalue": {
+    "alpha": 0.1,
+    "cal_fraction": 0.5,
+    "num_cal_candidates": 6512,
+    "num_test_candidates": 6157,
+    "num_cal_null_scores": 5149,
+    "cal_null_score_threshold_min": 0.050051022320985794,
+    "cal_null_score_threshold_max": 0.8569479584693909,
+    "test_null_evalue_mean": 1.015820149875104,
+    "e_bh_num_families": 640,
+    "e_bh_total_rejections": 113,
+    "e_bh_total_fp": 13,
+    "e_bh_mean_family_fdp": 0.011197916666666665
+  }
+}

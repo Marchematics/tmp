@@ -1,0 +1,3 @@
+dataset,n_full_cats,n_clean_cats,n_union_cats,n_intersection_cats,spearman_union_rho,spearman_union_p,pearson_log_union_r,pearson_log_union_p,spearman_intersection_rho,spearman_intersection_p,pearson_intersection_r,pearson_intersection_p
+LVIS_GDino,647,327,647,327,-0.2472,1.82e-10,-0.4527,5.27e-34,0.8211,3.75e-81,0.8762,4.9e-105
+OI_GDino,590,207,590,207,0.4405,2.15e-29,0.4404,2.22e-29,0.7209,1.72e-34,0.9676,1.61e-124

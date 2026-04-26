@@ -1,0 +1,11 @@
+{
+  "cross_family_table": "<PROJECT_ROOT>/outputs/coco_groundingdino_gonogo_1000_mix_analysis/candidate_table.csv",
+  "cross_family_rows": 657750,
+  "cross_family_bonferroni_reject_rate_0p05": 0.0003451159255036108,
+  "loo_distribution_rows": 32222,
+  "loo_dataset_means": {
+    "coco": 1.4510971943861393,
+    "lvis": 1.4633577064364998,
+    "voc": 2.2135934421435186
+  }
+}

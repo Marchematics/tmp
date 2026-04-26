@@ -1,0 +1,5 @@
+method,alpha,total_rejections,fdp,recall,threshold
+score_oracle,0.05,1.0,0.0,0.0625,0.5128968358039856
+score_oracle,0.1,1.0,0.0,0.0625,0.5128968358039856
+score_oracle,0.15,1.0,0.0,0.0625,0.5128968358039856
+score_oracle,0.2,1.0,0.0,0.0625,0.5128968358039856

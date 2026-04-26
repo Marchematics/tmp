@@ -1,0 +1,2 @@
+seed,num_fit_families,num_cal_families,num_test_families,num_fit_candidates,num_cal_candidates,num_test_candidates,num_cal_null,sum_phi_cal,density_ratio
+4,542,181,181,18514,5624,5628,4316,4097.011115969579,"{'num_fit_null': 14057, 'num_fit_tp': 4457, 'num_bins_realized': 80, 'max_phi': 240.7488594719916, 'raw_max_phi': 240.7488594719916, 'regularized_raw_max_phi': 240.7488594719916, 'num_phi_clipped_bins': 0, 'phi_laplace_eps': 0.0, 'fit_null_phi_mean': 1.0}"

@@ -1,0 +1,36 @@
+{
+  "candidate_table": "outputs/lvis_aux_clean_analysis/candidate_table.csv",
+  "estimator": "hist",
+  "alphas": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "split_ratios": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "mondrian": "none",
+  "mondrian_min_null": 200,
+  "score_floor": 0.0,
+  "num_total_candidates": 16135,
+  "num_total_families": 927,
+  "per_seed_summary_path": "outputs/lvis_aux_clean_formal_hist/seed_summaries.json",
+  "seed_wall_seconds": {
+    "0": 1.9452777639962733,
+    "1": 2.2425481359823607,
+    "2": 2.367350230982993,
+    "3": 2.378007449035067,
+    "4": 2.1183380429865792
+  },
+  "total_wall_seconds": 11.736579157994129
+}
